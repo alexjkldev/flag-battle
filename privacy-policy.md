@@ -1,6 +1,6 @@
 # Privacy Policy
 
-*Last updated: August 10, 2026*
+*Last updated: September 14, 2026*
 
 Flag Battle ("the App") is developed by AlexJKL. This Privacy Policy describes how your information is collected, used, and shared when you use the App.
 
@@ -11,6 +11,9 @@ The App does not require an account and stores all your content (selected countr
 The following third-party services are used in the App and may collect certain data:
 
 - **Google AdMob** — Collects advertising ID, device information, ad interactions (clicks, impressions, which ads you have seen), and SDK diagnostics (crash and performance data) to serve and measure ads. On iOS, personalized ads require your consent via App Tracking Transparency. [Google Privacy Policy](https://policies.google.com/privacy)
+- **Meta Audience Network** — Serves ads (via AdMob mediation) and collects advertising ID, device information, ad interactions, and SDK diagnostics. [Meta Privacy Policy](https://www.facebook.com/privacy/explanation)
+- **Unity Ads** — Serves ads (via AdMob mediation) and collects advertising ID, device information, ad interactions, and SDK diagnostics. [Unity Privacy Policy](https://unity.com/legal/privacy-policy)
+- **Vungle (Liftoff Monetize)** — Serves ads (via AdMob mediation) and collects advertising ID, device information, ad interactions, and SDK diagnostics. [Vungle Privacy Policy](https://vungle.com/privacy/)
 - **RevenueCat** — Processes subscription purchases, stores your purchase history, and assigns an anonymous user ID. [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
 - **Firebase (Google)** — Crashlytics collects crash and error reports: stack traces, OS version, device model, and installation identifier. Firebase Analytics collects anonymous app usage events and device identifier. Firebase Remote Config delivers app configuration and may read an installation identifier to do so. [Google Privacy Policy](https://policies.google.com/privacy)
 
