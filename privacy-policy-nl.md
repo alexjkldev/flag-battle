@@ -1,6 +1,6 @@
 # Privacybeleid
 
-*Laatst bijgewerkt: 14 september 2026*
+*Laatst bijgewerkt: 12 oktober 2026*
 
 Flag Battle ("de App") wordt ontwikkeld door AlexJKL. Dit Privacybeleid beschrijft hoe uw informatie wordt verzameld, gebruikt en gedeeld wanneer u de App gebruikt.
 
@@ -11,9 +11,9 @@ De App vereist geen account en slaat al uw inhoud (geselecteerde landen, gevecht
 De volgende diensten van derden worden in de App gebruikt en kunnen bepaalde gegevens verzamelen:
 
 - **Google AdMob** — Verzamelt de advertentie-ID, apparaatinformatie, advertentie-interacties (klikken, vertoningen, welke advertenties u hebt gezien) en SDK-diagnostiek (crash- en prestatiegegevens) om advertenties weer te geven en te meten. Op iOS is voor gepersonaliseerde advertenties uw toestemming via App Tracking Transparency vereist. [Privacybeleid van Google](https://policies.google.com/privacy)
-- **Meta Audience Network** — Toont advertenties (via AdMob-mediation) en verzamelt de advertentie-ID, apparaatinformatie, advertentie-interacties en SDK-diagnostiek. [Privacybeleid van Meta](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — Toont advertenties (via AdMob-mediation) en verzamelt de advertentie-ID, apparaatinformatie, advertentie-interacties en SDK-diagnostiek. [Privacybeleid van Unity](https://unity.com/legal/privacy-policy)
 - **Vungle (Liftoff Monetize)** — Toont advertenties (via AdMob-mediation) en verzamelt de advertentie-ID, apparaatinformatie, advertentie-interacties en SDK-diagnostiek. [Privacybeleid van Vungle](https://vungle.com/privacy/)
+- **Pangle (ByteDance)** — Toont advertenties (via AdMob-mediation) en verzamelt de advertentie-ID, apparaatinformatie, advertentie-interacties en SDK-diagnostiek. [Privacybeleid van Pangle](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — Verwerkt abonnementsaankopen, slaat uw aankoopgeschiedenis op en kent een anoniem gebruikers-ID toe. [Privacybeleid van RevenueCat](https://www.revenuecat.com/privacy)
 - **Firebase (Google)** — Crashlytics verzamelt crash- en foutrapporten: stack traces, OS-versie, apparaatmodel en installatie-ID. Firebase Analytics verzamelt anonieme app-gebruiksgebeurtenissen en het apparaat-ID. Firebase Remote Config levert de app-configuratie en kan hiervoor een installatie-ID lezen. [Privacybeleid van Google](https://policies.google.com/privacy)
 

@@ -1,6 +1,6 @@
 # 개인정보처리방침
 
-*최종 업데이트: 2026년 9월 14일*
+*최종 업데이트: 2026년 10월 12일*
 
 Flag Battle("본 앱")은 AlexJKL이 개발했습니다. 본 개인정보처리방침은 귀하가 본 앱을 이용할 때 귀하의 정보가 어떻게 수집, 사용 및 공유되는지 설명합니다.
 
@@ -11,9 +11,9 @@ Flag Battle("본 앱")은 AlexJKL이 개발했습니다. 본 개인정보처리�
 본 앱에서는 다음의 제3자 서비스를 사용하며, 이들 서비스는 특정 데이터를 수집할 수 있습니다.
 
 - **Google AdMob** — 광고를 게재하고 측정하기 위해 광고 ID, 기기 정보, 광고 상호작용(클릭, 노출, 시청한 광고), SDK 진단 정보(충돌 및 성능 데이터)를 수집합니다. iOS에서는 맞춤형 광고 제공을 위해 App 추적 투명성(App Tracking Transparency)을 통한 동의가 필요합니다. [Google 개인정보처리방침](https://policies.google.com/privacy)
-- **Meta Audience Network** — (AdMob 중개를 통해) 광고를 게재하며, 광고 ID, 기기 정보, 광고 상호작용, SDK 진단 정보를 수집합니다. [Meta 개인정보처리방침](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — (AdMob 중개를 통해) 광고를 게재하며, 광고 ID, 기기 정보, 광고 상호작용, SDK 진단 정보를 수집합니다. [Unity 개인정보처리방침](https://unity.com/legal/privacy-policy)
 - **Vungle(Liftoff Monetize)** — (AdMob 중개를 통해) 광고를 게재하며, 광고 ID, 기기 정보, 광고 상호작용, SDK 진단 정보를 수집합니다. [Vungle 개인정보처리방침](https://vungle.com/privacy/)
+- **Pangle (ByteDance)** — (AdMob 중개를 통해) 광고를 게재하며, 광고 ID, 기기 정보, 광고 상호작용, SDK 진단 정보를 수집합니다. [Pangle 개인정보처리방침](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — 구독 결제를 처리하고, 귀하의 구매 내역을 저장하며, 익명의 사용자 ID를 부여합니다. [RevenueCat 개인정보처리방침](https://www.revenuecat.com/privacy)
 - **Firebase(Google)** — Crashlytics는 충돌 및 오류 보고서(스택 트레이스, OS 버전, 기기 모델, 설치 식별자)를 수집합니다. Firebase Analytics는 익명의 앱 사용 이벤트와 기기 식별자를 수집합니다. Firebase Remote Config는 앱 구성을 제공하며, 이를 위해 설치 식별자를 읽을 수 있습니다. [Google 개인정보처리방침](https://policies.google.com/privacy)
 

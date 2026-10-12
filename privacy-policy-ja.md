@@ -1,6 +1,6 @@
 # プライバシーポリシー
 
-*最終更新日：2026年9月14日*
+*最終更新日：2026年10月12日*
 
 Flag Battle（以下「本アプリ」）は AlexJKL が開発しています。本プライバシーポリシーは、本アプリのご利用に際して、お客様の情報がどのように収集、使用、共有されるかを説明するものです。
 
@@ -11,9 +11,9 @@ Flag Battle（以下「本アプリ」）は AlexJKL が開発しています。
 本アプリでは以下のサードパーティサービスを利用しており、これらが特定のデータを収集する場合があります。
 
 - **Google AdMob** — 広告の配信と効果測定のため、広告ID、デバイス情報、広告とのインタラクション（クリック、インプレッション、閲覧した広告）、およびSDK診断情報（クラッシュおよびパフォーマンスデータ）を収集します。iOSでは、パーソナライズ広告の表示にはApp Tracking Transparencyによる同意が必要です。[Googleのプライバシーポリシー](https://policies.google.com/privacy)
-- **Meta Audience Network** — （AdMobのメディエーションを介して）広告を配信し、広告ID、デバイス情報、広告とのインタラクション、およびSDK診断情報を収集します。[Metaのプライバシーポリシー](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — （AdMobのメディエーションを介して）広告を配信し、広告ID、デバイス情報、広告とのインタラクション、およびSDK診断情報を収集します。[Unityのプライバシーポリシー](https://unity.com/legal/privacy-policy)
 - **Vungle（Liftoff Monetize）** — （AdMobのメディエーションを介して）広告を配信し、広告ID、デバイス情報、広告とのインタラクション、およびSDK診断情報を収集します。[Vungleのプライバシーポリシー](https://vungle.com/privacy/)
+- **Pangle (ByteDance)** — （AdMobのメディエーションを介して）広告を配信し、広告ID、デバイス情報、広告とのインタラクション、およびSDK診断情報を収集します。[Pangleのプライバシーポリシー](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — サブスクリプションの購入処理を行い、購入履歴を保存し、匿名のユーザーIDを割り当てます。[RevenueCatのプライバシーポリシー](https://www.revenuecat.com/privacy)
 - **Firebase（Google）** — Crashlyticsはクラッシュおよびエラーレポート（スタックトレース、OSバージョン、デバイスモデル、インストールID）を収集します。Firebase Analyticsは匿名のアプリ利用イベントおよびデバイスIDを収集します。Firebase Remote Configはアプリの設定を配信するため、その目的でインストールIDを読み取る場合があります。[Googleのプライバシーポリシー](https://policies.google.com/privacy)
 

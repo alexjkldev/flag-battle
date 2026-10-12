@@ -1,6 +1,6 @@
 # 隐私政策
 
-*最后更新：2026年9月14日*
+*最后更新：2026年10月12日*
 
 Flag Battle（"本应用"）由 AlexJKL 开发。本隐私政策描述了您在使用本应用时，您的信息如何被收集、使用和共享。
 
@@ -11,9 +11,9 @@ Flag Battle（"本应用"）由 AlexJKL 开发。本隐私政策描述了您在�
 本应用使用以下第三方服务，这些服务可能会收集某些数据：
 
 - **Google AdMob** — 收集广告标识符、设备信息、广告互动（点击、展示、您看过的广告）以及 SDK 诊断信息（崩溃和性能数据），用于投放和衡量广告效果。在 iOS 上，个性化广告需要您通过 App 跟踪透明度（App Tracking Transparency）授权同意。[Google 隐私政策](https://policies.google.com/privacy)
-- **Meta Audience Network** — 通过 AdMob 中介投放广告，并收集广告标识符、设备信息、广告互动以及 SDK 诊断信息。[Meta 隐私政策](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — 通过 AdMob 中介投放广告，并收集广告标识符、设备信息、广告互动以及 SDK 诊断信息。[Unity 隐私政策](https://unity.com/legal/privacy-policy)
 - **Vungle（Liftoff Monetize）** — 通过 AdMob 中介投放广告，并收集广告标识符、设备信息、广告互动以及 SDK 诊断信息。[Vungle 隐私政策](https://vungle.com/privacy/)
+- **Pangle (ByteDance)** — 通过 AdMob 中介投放广告，并收集广告标识符、设备信息、广告互动以及 SDK 诊断信息。[Pangle 隐私政策](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — 处理订阅购买，存储您的购买记录，并分配匿名用户 ID。[RevenueCat 隐私政策](https://www.revenuecat.com/privacy)
 - **Firebase（Google）** — Crashlytics 收集崩溃和错误报告：堆栈跟踪、操作系统版本、设备型号和安装标识符。Firebase Analytics 收集匿名的应用使用事件和设备标识符。Firebase Remote Config 用于下发应用配置，为此可能会读取安装标识符。[Google 隐私政策](https://policies.google.com/privacy)
 

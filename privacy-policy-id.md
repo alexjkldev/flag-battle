@@ -1,6 +1,6 @@
 # Kebijakan Privasi
 
-*Terakhir diperbarui: 14 September 2026*
+*Terakhir diperbarui: 12 Oktober 2026*
 
 Flag Battle ("Aplikasi") dikembangkan oleh AlexJKL. Kebijakan Privasi ini menjelaskan bagaimana informasi Anda dikumpulkan, digunakan, dan dibagikan saat Anda menggunakan Aplikasi.
 
@@ -11,9 +11,9 @@ Aplikasi tidak memerlukan akun dan menyimpan semua konten Anda (negara yang dipi
 Layanan pihak ketiga berikut digunakan dalam Aplikasi dan dapat mengumpulkan data tertentu:
 
 - **Google AdMob** — Mengumpulkan ID iklan, informasi perangkat, interaksi iklan (klik, tayangan, iklan mana yang telah Anda lihat), dan diagnostik SDK (data crash dan performa) untuk menayangkan dan mengukur iklan. Di iOS, iklan yang dipersonalisasi memerlukan persetujuan Anda melalui App Tracking Transparency. [Kebijakan Privasi Google](https://policies.google.com/privacy)
-- **Meta Audience Network** — Menayangkan iklan (melalui mediasi AdMob) dan mengumpulkan ID iklan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Meta](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — Menayangkan iklan (melalui mediasi AdMob) dan mengumpulkan ID iklan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Unity](https://unity.com/legal/privacy-policy)
 - **Vungle (Liftoff Monetize)** — Menayangkan iklan (melalui mediasi AdMob) dan mengumpulkan ID iklan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Vungle](https://vungle.com/privacy/)
+- **Pangle (ByteDance)** — Menayangkan iklan (melalui mediasi AdMob) dan mengumpulkan ID iklan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Pangle](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — Memproses pembelian langganan, menyimpan riwayat pembelian Anda, dan memberikan ID pengguna anonim. [Kebijakan Privasi RevenueCat](https://www.revenuecat.com/privacy)
 - **Firebase (Google)** — Crashlytics mengumpulkan laporan crash dan error: stack trace, versi OS, model perangkat, dan pengenal instalasi. Firebase Analytics mengumpulkan peristiwa penggunaan aplikasi secara anonim dan pengenal perangkat. Firebase Remote Config mengirimkan konfigurasi aplikasi dan untuk itu dapat membaca pengenal instalasi. [Kebijakan Privasi Google](https://policies.google.com/privacy)
 

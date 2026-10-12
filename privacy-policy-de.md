@@ -1,6 +1,6 @@
 # Datenschutzrichtlinie
 
-*14. September 2026*
+*Zuletzt aktualisiert: 12. Oktober 2026*
 
 Flag Battle („die App“) wird von AlexJKL entwickelt. Diese Datenschutzrichtlinie beschreibt, wie Informationen bei der Nutzung der App erhoben, verwendet und weitergegeben werden.
 
@@ -11,9 +11,9 @@ Die App erfordert kein Konto und speichert alle Ihre Inhalte (ausgewählte Länd
 Die folgenden Drittanbieterdienste werden in der App verwendet und können bestimmte Daten erfassen:
 
 - **Google AdMob** — Erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen (Klicks, Impressionen, welche Anzeigen Sie gesehen haben) sowie SDK-Diagnosedaten (Absturz- und Leistungsdaten), um Werbung bereitzustellen und zu messen. Unter iOS erfordern personalisierte Anzeigen Ihre Zustimmung über App Tracking Transparency. [Google-Datenschutzerklärung](https://policies.google.com/privacy)
-- **Meta Audience Network** — Zeigt Werbung an (über AdMob-Mediation) und erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen sowie SDK-Diagnosedaten. [Meta-Datenschutzerklärung](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — Zeigt Werbung an (über AdMob-Mediation) und erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen sowie SDK-Diagnosedaten. [Unity Datenschutzerklärung](https://unity.com/legal/privacy-policy)
 - **Vungle (Liftoff Monetize)** — Zeigt Werbung an (über AdMob-Mediation) und erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen sowie SDK-Diagnosedaten. [Vungle-Datenschutzerklärung](https://vungle.com/privacy/)
+- **Pangle (ByteDance)** — Zeigt Werbung an (über AdMob-Mediation) und erfasst Werbe-ID, Geräteinformationen, Anzeigeninteraktionen sowie SDK-Diagnosedaten. [Pangle Datenschutzerklärung](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — Verarbeitet Abonnementkäufe, speichert Ihren Kaufverlauf und weist eine anonyme Benutzer-ID zu. [RevenueCat-Datenschutzerklärung](https://www.revenuecat.com/privacy)
 - **Firebase (Google)** — Crashlytics erfasst Absturz- und Fehlerberichte: Stack-Traces, OS-Version, Gerätemodell und Installations-ID. Firebase Analytics erfasst anonyme App-Nutzungsereignisse und Geräte-ID. Firebase Remote Config liefert die App-Konfiguration und kann dafür eine Installations-ID lesen. [Google-Datenschutzerklärung](https://policies.google.com/privacy)
 

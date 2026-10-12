@@ -1,6 +1,6 @@
 # Política de privacidad
 
-*Última actualización: 14 de septiembre de 2026*
+*Última actualización: 12 de octubre de 2026*
 
 Flag Battle ("la App") está desarrollada por AlexJKL. Esta Política de privacidad describe cómo se recopila, usa y comparte tu información cuando usas la App.
 
@@ -11,9 +11,9 @@ La App no requiere una cuenta y almacena todo tu contenido (países seleccionado
 En la App se utilizan los siguientes servicios de terceros, que pueden recopilar ciertos datos:
 
 - **Google AdMob** — Recopila el identificador publicitario, información del dispositivo, interacciones con anuncios (clics, impresiones, qué anuncios has visto) y diagnósticos del SDK (datos de fallos y rendimiento) para mostrar y medir anuncios. En iOS, los anuncios personalizados requieren tu consentimiento a través de App Tracking Transparency. [Política de privacidad de Google](https://policies.google.com/privacy)
-- **Meta Audience Network** — Muestra anuncios (mediante la mediación de AdMob) y recopila el identificador publicitario, información del dispositivo, interacciones con anuncios y diagnósticos del SDK. [Política de privacidad de Meta](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — Muestra anuncios (mediante la mediación de AdMob) y recopila el identificador publicitario, información del dispositivo, interacciones con anuncios y diagnósticos del SDK. [Política de privacidad de Unity](https://unity.com/legal/privacy-policy)
 - **Vungle (Liftoff Monetize)** — Muestra anuncios (mediante la mediación de AdMob) y recopila el identificador publicitario, información del dispositivo, interacciones con anuncios y diagnósticos del SDK. [Política de privacidad de Vungle](https://vungle.com/privacy/)
+- **Pangle (ByteDance)** — Muestra anuncios (mediante la mediación de AdMob) y recopila el identificador publicitario, información del dispositivo, interacciones con anuncios y diagnósticos del SDK. [Política de privacidad de Pangle](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — Procesa las compras de suscripciones, almacena tu historial de compras y asigna un identificador de usuario anónimo. [Política de privacidad de RevenueCat](https://www.revenuecat.com/privacy)
 - **Firebase (Google)** — Crashlytics recopila informes de fallos y errores: seguimientos de pila, versión del sistema operativo, modelo del dispositivo e identificador de instalación. Firebase Analytics recopila eventos anónimos de uso de la app y el identificador del dispositivo. Firebase Remote Config entrega la configuración de la app y para ello puede leer un identificador de instalación. [Política de privacidad de Google](https://policies.google.com/privacy)
 

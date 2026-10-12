@@ -1,6 +1,6 @@
 # Personvernerklæring
 
-*Sist oppdatert: 14. september 2026*
+*Sist oppdatert: 12. oktober 2026*
 
 Flag Battle («Appen») er utviklet av AlexJKL. Denne personvernerklæringen beskriver hvordan informasjonen din samles inn, brukes og deles når du bruker Appen.
 
@@ -11,9 +11,9 @@ Appen krever ingen konto og lagrer alt innholdet ditt (valgte land, kampnavn, in
 Følgende tredjepartstjenester brukes i Appen og kan samle inn visse data:
 
 - **Google AdMob** — Samler inn annonse-ID, enhetsinformasjon, annonseinteraksjoner (klikk, visninger, hvilke annonser du har sett) og SDK-diagnostikk (krasj- og ytelsesdata) for å vise og måle annonser. På iOS krever personaliserte annonser ditt samtykke via App Tracking Transparency. [Googles personvernerklæring](https://policies.google.com/privacy)
-- **Meta Audience Network** — Viser annonser (via AdMob-mediering) og samler inn annonse-ID, enhetsinformasjon, annonseinteraksjoner og SDK-diagnostikk. [Metas personvernerklæring](https://www.facebook.com/privacy/explanation)
 - **Unity Ads** — Viser annonser (via AdMob-mediering) og samler inn annonse-ID, enhetsinformasjon, annonseinteraksjoner og SDK-diagnostikk. [Unitys personvernerklæring](https://unity.com/legal/privacy-policy)
 - **Vungle (Liftoff Monetize)** — Viser annonser (via AdMob-mediering) og samler inn annonse-ID, enhetsinformasjon, annonseinteraksjoner og SDK-diagnostikk. [Vungles personvernerklæring](https://vungle.com/privacy/)
+- **Pangle (ByteDance)** — Viser annonser (via AdMob-mediering) og samler inn annonse-ID, enhetsinformasjon, annonseinteraksjoner og SDK-diagnostikk. [Pangles personvernerklæring](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — Behandler abonnementskjøp, lagrer kjøpshistorikken din og tildeler en anonym bruker-ID. [RevenueCats personvernerklæring](https://www.revenuecat.com/privacy)
 - **Firebase (Google)** — Crashlytics samler inn krasj- og feilrapporter: stack traces, OS-versjon, enhetsmodell og installasjons-ID. Firebase Analytics samler inn anonyme apphendelser og enhets-ID. Firebase Remote Config leverer appkonfigurasjonen og kan i den forbindelse lese en installasjons-ID. [Googles personvernerklæring](https://policies.google.com/privacy)
 
