@@ -1,34 +1,92 @@
 # 隐私政策
 
-*最后更新：2026年10月12日*
+*2026年10月14日*
 
-Flag Battle（"本应用"）由 AlexJKL 开发。本隐私政策描述了您在使用本应用时，您的信息如何被收集、使用和共享。
+本隐私政策说明在您使用移动应用 Flag Battle（以下简称"本应用"）时，个人数据是如何被处理的。
 
-## 我们收集的信息
+## 数据控制者
+
+负责处理您个人数据的控制者为：
+
+**AlexJKL Oy**（芬兰）
+电子邮件：[support@alexjkl.fi](mailto:support@alexjkl.fi)
+
+## 存储在您设备上的数据
 
 本应用不需要账户，并将您的所有内容（已选国家、对战名称、设置）本地保存在您的设备上。
 
-本应用使用以下第三方服务，这些服务可能会收集某些数据：
+## 第三方服务处理的数据
 
-- **Google AdMob** — 收集广告标识符、设备信息、广告互动（点击、展示、您看过的广告）以及 SDK 诊断信息（崩溃和性能数据），用于投放和衡量广告效果。在 iOS 上，个性化广告需要您通过 App 跟踪透明度（App Tracking Transparency）授权同意。[Google 隐私政策](https://policies.google.com/privacy)
-- **Unity Ads** — 通过 AdMob 中介投放广告，并收集广告标识符、设备信息、广告互动以及 SDK 诊断信息。[Unity 隐私政策](https://unity.com/legal/privacy-policy)
-- **Vungle（Liftoff Monetize）** — 通过 AdMob 中介投放广告，并收集广告标识符、设备信息、广告互动以及 SDK 诊断信息。[Vungle 隐私政策](https://vungle.com/privacy/)
-- **Pangle (ByteDance)** — 通过 AdMob 中介投放广告，并收集广告标识符、设备信息、广告互动以及 SDK 诊断信息。[Pangle 隐私政策](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — 处理订阅购买，存储您的购买记录，并分配匿名用户 ID。[RevenueCat 隐私政策](https://www.revenuecat.com/privacy)
-- **Firebase（Google）** — Crashlytics 收集崩溃和错误报告：堆栈跟踪、操作系统版本、设备型号和安装标识符。Firebase Analytics 收集匿名的应用使用事件和设备标识符。Firebase Remote Config 用于下发应用配置，为此可能会读取安装标识符。[Google 隐私政策](https://policies.google.com/privacy)
+本应用使用以下服务，这些服务会处理设备标识符（广告 ID、安装 ID）、IP 地址、设备和操作系统信息以及与应用和广告的互动等数据：
 
-## 数据存储
+- **Google AdMob** — 投放并衡量广告。收集广告 ID、设备信息、广告互动（点击、展示、您看过哪些广告）以及 SDK 诊断信息。[Google 隐私政策](https://policies.google.com/privacy)
+- **Unity Ads** — 通过 AdMob 中介投放广告。收集广告 ID、设备信息、广告互动以及 SDK 诊断信息。[Unity 隐私政策](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — 通过 AdMob 中介投放广告。收集广告 ID、设备信息、广告互动以及 SDK 诊断信息。[Liftoff 隐私政策](https://liftoff.io/privacy-policy/)
+- **Pangle**（Bytedance Pte. Ltd.，新加坡）— 通过 AdMob 中介投放广告。收集广告 ID、IP 地址及据此推断的大致位置、设备信息、广告互动以及 SDK 诊断信息。[Pangle 隐私政策](https://www.pangleglobal.com/privacy/enduser-en)
+- **RevenueCat** — 处理订阅购买，保存您的购买记录，并分配匿名的应用用户 ID。[RevenueCat 隐私政策](https://www.revenuecat.com/privacy)
+- **Firebase（Google）**：
+  - *Crashlytics* — 崩溃和错误报告：堆栈跟踪、操作系统版本、设备型号、安装 ID。
+  - *Analytics* — 与应用实例标识符关联的应用使用事件。
+  - *Remote Config* — 从 Google 服务器获取应用配置。
 
-所有应用数据（已选国家、对战名称、设置）均本地保存在您的设备上。本应用没有用户账户，也没有云端备份——卸载本应用将删除所有本地保存的数据。
+  [Google 隐私政策](https://policies.google.com/privacy)
+
+广告网络对其收集的数据作为独立控制者行事，或在其条款有此规定时作为与我们共同的控制者行事（例如 Pangle 根据 GDPR 第 26 条对某些处理活动）。其处理的详细信息见上方链接的隐私政策。
+
+## 处理目的和法律依据
+
+| 目的 | 法律依据（GDPR） |
+|---|---|
+| 个性化广告 | 您的同意（第 6(1)(a) 条） |
+| 非个性化广告和广告效果衡量 | 您的同意，或我们为本应用免费版本提供资金的正当利益（第 6(1)(a) 或 (f) 条），以同意表单中的说明为准 |
+| Premium 订阅 | 履行与您的合同（第 6(1)(b) 条） |
+| 崩溃报告和应用配置 | 我们保持本应用稳定、正常运行的正当利益（第 6(1)(f) 条） |
+| 使用情况分析 | 我们了解和改进本应用的正当利益（第 6(1)(f) 条） |
+| 回复您的消息 | 我们回复您的正当利益（第 6(1)(f) 条） |
+
+## 您的同意选择
+
+在欧洲经济区、英国和瑞士，本应用会在展示个性化广告之前通过 Google 的同意表单征求您的同意。您可以随时在本应用的 **设置 → 广告隐私选项** 中更改或撤回同意。撤回同意不影响撤回前已进行的处理。
+
+在 iOS 上，个性化广告还需要您通过 App Tracking Transparency 授予许可，您可以在 iOS 的"设置"应用中更改。
+
+## 跨境传输
+
+上述部分服务在欧洲经济区以外处理数据，特别是在美国（Google、Unity、Liftoff、RevenueCat）以及新加坡和美国（Pangle），其集团公司和服务提供商可能从其他国家访问数据。如接收方已获认证，此类传输依据欧美数据隐私框架（EU–US Data Privacy Framework）进行，否则依据欧盟委员会的标准合同条款进行。
+
+## 保存期限
+
+- **崩溃报告（Crashlytics）** — 由 Google 保存 90 天。
+- **分析数据** — 按照 Google 对 Firebase Analytics 的保存设置保存。
+- **广告网络和 RevenueCat 收集的数据** — 按照其各自的隐私政策保存。
+- **您发给我们的消息** — 在处理您的请求所需的期间内保存，之后删除。
+
+## 您的权利
+
+根据 GDPR，您有权：
+
+- 访问您的个人数据并获取副本
+- 更正不准确的数据
+- 删除您的数据
+- 限制处理
+- 数据可携带
+- 反对基于正当利益的处理
+- 随时撤回您的同意
+
+如需行使您的权利，请通过 [support@alexjkl.fi](mailto:support@alexjkl.fi) 联系我们。由于大部分数据由上述服务以我们无法与您关联的设备标识符进行处理，我们可能需要将部分请求转交给这些服务。您也可以通过其隐私政策直接联系它们。
+
+您还有权向监管机构投诉，特别是向您居住或工作所在的欧盟国家的监管机构投诉。在芬兰，该机构为[数据保护监察员办公室](https://tietosuoja.fi/en)。
 
 ## 儿童隐私
 
-本应用不会故意收集儿童的个人信息。上述第三方服务可能有各自的年龄限制。
+本应用并非面向儿童。我们不会故意收集未达到其所在国家数字同意年龄（欧盟为 13 至 16 岁）的儿童的个人数据。如果您认为有儿童向我们提供了个人数据，请联系我们，我们会将其删除。
 
 ## 本政策的变更
 
-我们可能会不时更新本隐私政策。变更内容将在应用内或本页面发布。
+我们可能会不时更新本隐私政策。最新版本始终可在本页面查看，顶部日期表示最近一次修改的时间。
 
-## 联系方式
+## 联系我们
 
-如果您对本隐私政策有任何疑问，或希望联系开发者，可以通过应用内渠道，或通过 App Store 或 Google Play 商店页面联系我们。当您通过电子邮件联系我们时，我们会收到您的电子邮件地址、消息内容以及任何附件。这些信息仅用于回复您的咨询和改进本应用，我们不会将其分享给第三方。
+AlexJKL Oy — [support@alexjkl.fi](mailto:support@alexjkl.fi)
+
+您也可以通过本应用或 App Store、Google Play 上的本应用页面联系我们。当您联系我们时，我们会收到您的电子邮件地址、消息内容和任何附件。我们仅将这些信息用于回复您和改进本应用，不会与第三方共享。

@@ -1,34 +1,92 @@
-# 隱私權政策
+# 隱私政策
 
-*最後更新：2026年10月12日*
+*2026年10月14日*
 
-Flag Battle（「本應用程式」）由 AlexJKL 開發。本隱私權政策說明您在使用本應用程式時，您的資訊如何被收集、使用及分享。
+本隱私政策說明您使用行動應用程式 Flag Battle（以下簡稱「本應用程式」）時，個人資料如何被處理。
 
-## 我們收集的資訊
+## 資料控管者
+
+負責處理您個人資料的控管者為：
+
+**AlexJKL Oy**（芬蘭）
+電子郵件：[support@alexjkl.fi](mailto:support@alexjkl.fi)
+
+## 儲存在您裝置上的資料
 
 本應用程式不需要帳號，並將您的所有內容（已選國家、對戰名稱、設定）本機儲存在您的裝置上。
 
-本應用程式使用下列第三方服務，這些服務可能會收集特定資料：
+## 第三方服務處理的資料
 
-- **Google AdMob** — 收集廣告識別碼、裝置資訊、廣告互動（點擊、曝光、您看過的廣告）以及 SDK 診斷資訊（當機與效能資料），用於投放及評估廣告成效。在 iOS 上，個人化廣告需透過 App 追蹤透明度（App Tracking Transparency）取得您的同意。[Google 隱私權政策](https://policies.google.com/privacy)
-- **Unity Ads** — 透過 AdMob 中介服務投放廣告，並收集廣告識別碼、裝置資訊、廣告互動以及 SDK 診斷資訊。[Unity 隱私權政策](https://unity.com/legal/privacy-policy)
-- **Vungle（Liftoff Monetize）** — 透過 AdMob 中介服務投放廣告，並收集廣告識別碼、裝置資訊、廣告互動以及 SDK 診斷資訊。[Vungle 隱私權政策](https://vungle.com/privacy/)
-- **Pangle (ByteDance)** — 透過 AdMob 中介服務投放廣告，並收集廣告識別碼、裝置資訊、廣告互動以及 SDK 診斷資訊。[Pangle 隱私權政策](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — 處理訂閱購買、儲存您的購買紀錄，並指派匿名使用者 ID。[RevenueCat 隱私權政策](https://www.revenuecat.com/privacy)
-- **Firebase（Google）** — Crashlytics 收集當機與錯誤報告：堆疊追蹤、作業系統版本、裝置型號及安裝識別碼。Firebase Analytics 收集匿名的應用程式使用事件及裝置識別碼。Firebase Remote Config 用於提供應用程式設定，為此可能會讀取安裝識別碼。[Google 隱私權政策](https://policies.google.com/privacy)
+本應用程式使用下列服務，這些服務會處理裝置識別碼（廣告 ID、安裝 ID）、IP 位址、裝置和作業系統資訊，以及與應用程式和廣告的互動等資料：
 
-## 資料儲存
+- **Google AdMob** — 放送並衡量廣告。收集廣告 ID、裝置資訊、廣告互動（點擊、曝光、您看過哪些廣告）以及 SDK 診斷資訊。[Google 隱私權政策](https://policies.google.com/privacy)
+- **Unity Ads** — 透過 AdMob 中介放送廣告。收集廣告 ID、裝置資訊、廣告互動以及 SDK 診斷資訊。[Unity 隱私權政策](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — 透過 AdMob 中介放送廣告。收集廣告 ID、裝置資訊、廣告互動以及 SDK 診斷資訊。[Liftoff 隱私權政策](https://liftoff.io/privacy-policy/)
+- **Pangle**（Bytedance Pte. Ltd.，新加坡）— 透過 AdMob 中介放送廣告。收集廣告 ID、IP 位址及據此推斷的大致位置、裝置資訊、廣告互動以及 SDK 診斷資訊。[Pangle 隱私權政策](https://www.pangleglobal.com/privacy/enduser-en)
+- **RevenueCat** — 處理訂閱購買，保存您的購買紀錄，並指派匿名的應用程式使用者 ID。[RevenueCat 隱私權政策](https://www.revenuecat.com/privacy)
+- **Firebase（Google）**：
+  - *Crashlytics* — 當機與錯誤報告：堆疊追蹤、作業系統版本、裝置型號、安裝 ID。
+  - *Analytics* — 與應用程式執行個體識別碼關聯的應用程式使用事件。
+  - *Remote Config* — 從 Google 伺服器取得應用程式設定。
 
-所有應用程式資料（已選國家、對戰名稱、設定）皆本機儲存在您的裝置上。本應用程式沒有使用者帳號，也沒有雲端備份——解除安裝本應用程式將移除所有本機儲存的資料。
+  [Google 隱私權政策](https://policies.google.com/privacy)
+
+廣告聯播網對其收集的資料以獨立控管者身分行事，或在其條款有此規定時，以與我們共同控管者的身分行事（例如 Pangle 依 GDPR 第 26 條就特定處理活動）。其處理的詳細資訊請見上方連結的隱私權政策。
+
+## 處理目的與法律依據
+
+| 目的 | 法律依據（GDPR） |
+|---|---|
+| 個人化廣告 | 您的同意（第 6(1)(a) 條） |
+| 非個人化廣告與廣告成效衡量 | 您的同意，或我們為本應用程式免費版本提供資金的正當利益（第 6(1)(a) 或 (f) 條），以同意表單中的說明為準 |
+| Premium 訂閱 | 履行與您的契約（第 6(1)(b) 條） |
+| 當機報告與應用程式設定 | 我們維持本應用程式穩定、正常運作的正當利益（第 6(1)(f) 條） |
+| 使用情況分析 | 我們了解並改善本應用程式的正當利益（第 6(1)(f) 條） |
+| 回覆您的訊息 | 我們回覆您的正當利益（第 6(1)(f) 條） |
+
+## 您的同意選擇
+
+在歐洲經濟區、英國和瑞士，本應用程式會在顯示個人化廣告之前，透過 Google 的同意表單徵求您的同意。您可以隨時在本應用程式的 **設定 → 廣告隱私選項** 中變更或撤回同意。撤回同意不影響撤回前已進行的處理。
+
+在 iOS 上，個人化廣告還需要您透過 App Tracking Transparency 授予許可，您可以在 iOS 的「設定」App 中變更。
+
+## 跨境傳輸
+
+上述部分服務在歐洲經濟區以外處理資料，特別是在美國（Google、Unity、Liftoff、RevenueCat）以及新加坡和美國（Pangle），其集團公司和服務供應商可能從其他國家存取資料。若接收方已獲認證，此類傳輸依據歐美資料隱私框架（EU–US Data Privacy Framework）進行，否則依據歐盟執委會的標準契約條款進行。
+
+## 保存期限
+
+- **當機報告（Crashlytics）** — 由 Google 保存 90 天。
+- **分析資料** — 依照 Google 對 Firebase Analytics 的保存設定保存。
+- **廣告聯播網和 RevenueCat 收集的資料** — 依照其各自的隱私權政策保存。
+- **您傳給我們的訊息** — 在處理您的請求所需期間內保存，之後刪除。
+
+## 您的權利
+
+依據 GDPR，您有權：
+
+- 存取您的個人資料並取得副本
+- 更正不正確的資料
+- 刪除您的資料
+- 限制處理
+- 資料可攜
+- 反對基於正當利益的處理
+- 隨時撤回您的同意
+
+如需行使您的權利，請透過 [support@alexjkl.fi](mailto:support@alexjkl.fi) 與我們聯絡。由於大部分資料是由上述服務以我們無法與您連結的裝置識別碼處理，我們可能需要將部分請求轉交給這些服務。您也可以透過其隱私權政策直接聯絡它們。
+
+您也有權向監管機關提出申訴，特別是向您居住或工作所在的歐盟國家的監管機關提出。在芬蘭，該機關為[資料保護監察使辦公室](https://tietosuoja.fi/en)。
 
 ## 兒童隱私
 
-本應用程式不會故意收集兒童的個人資訊。上述第三方服務可能各自有其年齡限制。
+本應用程式並非以兒童為對象。我們不會故意收集未達其所在國家數位同意年齡（歐盟為 13 至 16 歲）的兒童之個人資料。若您認為有兒童向我們提供了個人資料，請與我們聯絡，我們將予以刪除。
 
 ## 本政策的變更
 
-我們可能會不時更新本隱私權政策。變更內容將於應用程式內或本頁面公布。
+我們可能會不時更新本隱私政策。最新版本隨時可在本頁面查看，頂部日期表示最近一次修改的時間。
 
-## 聯絡方式
+## 聯絡我們
 
-如果您對本隱私權政策有任何疑問，或想聯絡開發者，可以透過應用程式內管道，或透過 App Store 或 Google Play 商店頁面與我們聯絡。當您以電子郵件與我們聯絡時，我們會收到您的電子郵件地址、訊息內容及任何附件。這些資訊僅用於回覆您的詢問及改善本應用程式，我們不會將其分享給第三方。
+AlexJKL Oy — [support@alexjkl.fi](mailto:support@alexjkl.fi)
+
+您也可以透過本應用程式或 App Store、Google Play 上的本應用程式頁面與我們聯絡。當您與我們聯絡時，我們會收到您的電子郵件地址、訊息內容和任何附件。我們僅將這些資訊用於回覆您和改善本應用程式，不會與第三方分享。

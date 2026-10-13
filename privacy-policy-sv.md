@@ -1,34 +1,92 @@
 # Integritetspolicy
 
-*Senast uppdaterad: 12 oktober 2026*
+*14 oktober 2026*
 
-Flag Battle ("Appen") utvecklas av AlexJKL. Denna integritetspolicy beskriver hur din information samlas in, används och delas när du använder Appen.
+Denna integritetspolicy förklarar hur personuppgifter behandlas när du använder mobilappen Flag Battle ("Appen").
 
-## Information vi samlar in
+## Personuppgiftsansvarig
+
+Personuppgiftsansvarig för behandlingen av dina personuppgifter är:
+
+**AlexJKL Oy** (Finland)
+E-post: [support@alexjkl.fi](mailto:support@alexjkl.fi)
+
+## Uppgifter som lagras på din enhet
 
 Appen kräver inget konto och sparar allt ditt innehåll (valda länder, stridsnamn, inställningar) lokalt på din enhet.
 
-Följande tredjepartstjänster används i Appen och kan samla in viss data:
+## Uppgifter som behandlas av tredjepartstjänster
 
-- **Google AdMob** — Samlar in annons-ID, enhetsinformation, annonsinteraktioner (klick, visningar, vilka annonser du har sett) och SDK-diagnostik (kraschdata och prestandadata) för att visa och mäta annonser. På iOS kräver personanpassade annonser ditt samtycke via App Tracking Transparency. [Googles integritetspolicy](https://policies.google.com/privacy)
-- **Unity Ads** — Visar annonser (via AdMob-mediering) och samlar in annons-ID, enhetsinformation, annonsinteraktioner samt SDK-diagnostik. [Unitys integritetspolicy](https://unity.com/legal/privacy-policy)
-- **Vungle (Liftoff Monetize)** — Visar annonser (via AdMob-mediering) och samlar in annons-ID, enhetsinformation, annonsinteraktioner samt SDK-diagnostik. [Vungles integritetspolicy](https://vungle.com/privacy/)
-- **Pangle (ByteDance)** — Visar annonser (via AdMob-mediering) och samlar in annons-ID, enhetsinformation, annonsinteraktioner samt SDK-diagnostik. [Pangles integritetspolicy](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — Hanterar prenumerationsköp, sparar din köphistorik och tilldelar ett anonymt användar-ID. [RevenueCats integritetspolicy](https://www.revenuecat.com/privacy)
-- **Firebase (Google)** — Crashlytics samlar in krasch- och felrapporter: stackspårningar, OS-version, enhetsmodell och installations-ID. Firebase Analytics samlar in anonyma app-användningshändelser och enhets-ID. Firebase Remote Config levererar appkonfigurationen och kan i samband med detta läsa av ett installations-ID. [Googles integritetspolicy](https://policies.google.com/privacy)
+Appen använder följande tjänster, som behandlar uppgifter som enhetsidentifierare (annons-ID, installations-ID), IP-adress, information om enhet och operativsystem samt interaktioner med appen och annonser:
 
-## Datalagring
+- **Google AdMob** — visar och mäter annonser. Samlar in annons-ID, enhetsinformation, annonsinteraktioner (klick, visningar, vilka annonser du har sett) och SDK-diagnostik. [Googles integritetspolicy](https://policies.google.com/privacy)
+- **Unity Ads** — visar annonser via AdMob-medling. Samlar in annons-ID, enhetsinformation, annonsinteraktioner och SDK-diagnostik. [Unitys integritetspolicy](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — visar annonser via AdMob-medling. Samlar in annons-ID, enhetsinformation, annonsinteraktioner och SDK-diagnostik. [Liftoffs integritetspolicy](https://liftoff.io/privacy-policy/)
+- **Pangle** (Bytedance Pte. Ltd., Singapore) — visar annonser via AdMob-medling. Samlar in annons-ID, IP-adress och den ungefärliga plats som härleds från den, enhetsinformation, annonsinteraktioner och SDK-diagnostik. [Pangles integritetspolicy](https://www.pangleglobal.com/privacy/enduser-en)
+- **RevenueCat** — hanterar prenumerationsköp, lagrar din köphistorik och tilldelar ett anonymt app-användar-ID. [RevenueCats integritetspolicy](https://www.revenuecat.com/privacy)
+- **Firebase (Google)**:
+  - *Crashlytics* — krasch- och felrapporter: stackspår, operativsystemversion, enhetsmodell, installations-ID.
+  - *Analytics* — användningshändelser i appen, kopplade till ett ID för appinstansen.
+  - *Remote Config* — hämtar appens konfiguration från Googles servrar.
 
-All appdata (valda länder, stridsnamn, inställningar) lagras lokalt på din enhet. Appen har inga användarkonton och ingen molnsäkerhetskopiering — om du avinstallerar Appen tas all lokalt lagrad data bort.
+  [Googles integritetspolicy](https://policies.google.com/privacy)
+
+Annonsnätverk agerar som självständigt personuppgiftsansvariga för de uppgifter de samlar in eller, där deras villkor föreskriver det, som gemensamt personuppgiftsansvariga med oss (till exempel Pangle för viss behandling enligt artikel 26 i GDPR). Deras integritetspolicyer, länkade ovan, beskriver deras behandling i detalj.
+
+## Ändamål och rättslig grund
+
+| Ändamål | Rättslig grund (GDPR) |
+|---|---|
+| Personanpassade annonser | Ditt samtycke (art. 6.1 a) |
+| Icke-personanpassade annonser och annonsmätning | Ditt samtycke eller vårt berättigade intresse av att finansiera den kostnadsfria versionen av Appen (art. 6.1 a eller f), enligt samtyckesformuläret |
+| Premiumprenumeration | Fullgörande av ett avtal med dig (art. 6.1 b) |
+| Kraschrapportering och appkonfiguration | Vårt berättigade intresse av en stabil och väl fungerande App (art. 6.1 f) |
+| Användningsanalys | Vårt berättigade intresse av att förstå och förbättra Appen (art. 6.1 f) |
+| Svar på dina meddelanden | Vårt berättigade intresse av att svara dig (art. 6.1 f) |
+
+## Dina samtyckesval
+
+I Europeiska ekonomiska samarbetsområdet, Storbritannien och Schweiz ber Appen om ditt samtycke via Googles samtyckesformulär innan personanpassade annonser visas. Du kan när som helst ändra eller återkalla ditt samtycke i Appen under **Inställningar → Sekretessalternativ för annonser**. Återkallelsen påverkar inte behandling som skett före återkallelsen.
+
+På iOS kräver personanpassade annonser även ditt tillstånd via App Tracking Transparency, som du kan ändra i iOS-appen Inställningar.
+
+## Överföringar till tredjeland
+
+Vissa av tjänsterna ovan behandlar uppgifter utanför Europeiska ekonomiska samarbetsområdet, särskilt i USA (Google, Unity, Liftoff, RevenueCat) samt i Singapore och USA (Pangle), och deras koncernbolag och tjänsteleverantörer kan komma åt uppgifter från andra länder. Sådana överföringar grundar sig på EU–US Data Privacy Framework när mottagaren är certifierad enligt det, eller på Europeiska kommissionens standardavtalsklausuler.
+
+## Lagringstid
+
+- **Kraschrapporter (Crashlytics)** — sparas av Google i 90 dagar.
+- **Analysdata** — sparas enligt Googles lagringsinställningar för Firebase Analytics.
+- **Uppgifter som samlas in av annonsnätverk och RevenueCat** — sparas enligt deras egna integritetspolicyer.
+- **Dina meddelanden till oss** — sparas så länge det behövs för att hantera ditt ärende och raderas därefter.
+
+## Dina rättigheter
+
+Enligt GDPR har du rätt att:
+
+- få tillgång till dina personuppgifter och få en kopia av dem
+- få felaktiga uppgifter rättade
+- få dina uppgifter raderade
+- begränsa behandlingen
+- dataportabilitet
+- invända mot behandling som grundar sig på berättigat intresse
+- när som helst återkalla ditt samtycke
+
+Kontakta oss på [support@alexjkl.fi](mailto:support@alexjkl.fi) för att utöva dina rättigheter. Eftersom de flesta uppgifter behandlas av tjänsterna ovan under enhetsidentifierare som vi inte kan koppla till dig, kan vi behöva hänvisa vissa förfrågningar till dessa tjänster. Du kan också kontakta dem direkt via deras integritetspolicyer.
+
+Du har också rätt att lämna in ett klagomål till en tillsynsmyndighet, särskilt i det EU-land där du bor eller arbetar. I Finland är det [Dataombudsmannens byrå](https://tietosuoja.fi/en).
 
 ## Barns integritet
 
-Appen samlar inte medvetet in personlig information från barn. Tredjepartstjänsterna ovan kan ha sina egna åldersgränser.
+Appen riktar sig inte till barn. Vi samlar inte medvetet in personuppgifter från barn som inte har uppnått åldern för digitalt samtycke i sitt land (13–16 år i EU). Om du tror att ett barn har lämnat personuppgifter till oss, kontakta oss så raderar vi dem.
 
 ## Ändringar av denna policy
 
-Vi kan uppdatera denna integritetspolicy då och då. Ändringar publiceras i Appen eller på denna sida.
+Vi kan uppdatera denna integritetspolicy då och då. Den aktuella versionen finns alltid på denna sida, och datumet överst visar när den senast ändrades.
 
 ## Kontakt
 
-Om du har frågor om denna integritetspolicy eller vill kontakta utvecklaren kan du göra det via Appen eller via sidan i App Store eller Google Play Store. När du kontaktar oss via e-post tar vi emot din e-postadress, innehållet i ditt meddelande och eventuella bilagor. Denna information används enbart för att besvara din förfrågan och förbättra Appen. Vi delar den inte med tredje part.
+AlexJKL Oy — [support@alexjkl.fi](mailto:support@alexjkl.fi)
+
+Du kan också kontakta oss via Appen eller via Appens sida i App Store eller Google Play. När du kontaktar oss får vi din e-postadress, innehållet i ditt meddelande och eventuella bilagor. Vi använder denna information endast för att svara dig och förbättra Appen, och vi delar den inte med tredje part.
