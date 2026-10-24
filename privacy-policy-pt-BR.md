@@ -1,6 +1,6 @@
 # Política de Privacidade
 
-*14 de outubro de 2026*
+*24 de outubro de 2026*
 
 Esta Política de Privacidade explica como os dados pessoais são tratados quando você usa o aplicativo móvel Flag Battle ("o App").
 
@@ -23,7 +23,7 @@ O App utiliza os seguintes serviços, que tratam dados como identificadores do d
 - **Unity Ads** — exibe anúncios por meio da mediação do AdMob. Coleta o ID de publicidade, informações do dispositivo, interações com anúncios e diagnósticos do SDK. [Política de Privacidade da Unity](https://unity.com/legal/privacy-policy)
 - **Liftoff Monetize (Vungle)** — exibe anúncios por meio da mediação do AdMob. Coleta o ID de publicidade, informações do dispositivo, interações com anúncios e diagnósticos do SDK. [Política de Privacidade da Liftoff](https://liftoff.io/privacy-policy/)
 - **Pangle** (Bytedance Pte. Ltd., Singapura) — exibe anúncios por meio da mediação do AdMob. Coleta o ID de publicidade, o endereço IP e a localização aproximada derivada dele, informações do dispositivo, interações com anúncios e diagnósticos do SDK. [Política de Privacidade da Pangle](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — processa compras de assinaturas, armazena seu histórico de compras e atribui um ID de usuário anônimo. [Política de Privacidade da RevenueCat](https://www.revenuecat.com/privacy)
+- **RevenueCat** — processa compras de assinaturas, armazena seu histórico de compras e atribui um ID de usuário anônimo. No iOS, ela também recebe a atribuição de anúncios da Apple (se o App foi instalado a partir de uma campanha do Apple Ads, e de qual campanha e palavra-chave) para que possamos medir nossa própria publicidade. [Política de Privacidade da RevenueCat](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — relatórios de falhas e erros: rastreamentos de pilha, versão do sistema operacional, modelo do dispositivo, ID de instalação.
   - *Analytics* — eventos de uso do app vinculados a um identificador da instância do app.
@@ -42,6 +42,7 @@ As redes de anúncios atuam como controladoras independentes dos dados que colet
 | Assinatura Premium | Execução de um contrato com você (art. 6(1)(b)) |
 | Relatórios de falhas e configuração do app | Nosso interesse legítimo em manter o App estável e funcionando corretamente (art. 6(1)(f)) |
 | Análise de uso | Nosso interesse legítimo em entender e melhorar o App (art. 6(1)(f)) |
+| Medição das nossas próprias campanhas de anúncios (atribuição do Apple Ads) | Nosso interesse legítimo em saber quais dos nossos anúncios trazem usuários para o App (art. 6(1)(f)) |
 | Responder às suas mensagens | Nosso interesse legítimo em responder a você (art. 6(1)(f)) |
 
 ## Suas opções de consentimento

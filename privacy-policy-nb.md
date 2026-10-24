@@ -1,6 +1,6 @@
 # Personvernerklæring
 
-*14. oktober 2026*
+*24. oktober 2026*
 
 Denne personvernerklæringen forklarer hvordan personopplysninger behandles når du bruker mobilappen Flag Battle ("Appen").
 
@@ -23,7 +23,7 @@ Appen bruker følgende tjenester, som behandler data som enhetsidentifikatorer (
 - **Unity Ads** — viser annonser via AdMob-mediering. Samler inn annonse-ID, enhetsinformasjon, annonseinteraksjoner og SDK-diagnostikk. [Unitys personvernregler](https://unity.com/legal/privacy-policy)
 - **Liftoff Monetize (Vungle)** — viser annonser via AdMob-mediering. Samler inn annonse-ID, enhetsinformasjon, annonseinteraksjoner og SDK-diagnostikk. [Liftoffs personvernregler](https://liftoff.io/privacy-policy/)
 - **Pangle** (Bytedance Pte. Ltd., Singapore) — viser annonser via AdMob-mediering. Samler inn annonse-ID, IP-adresse og omtrentlig posisjon utledet fra den, enhetsinformasjon, annonseinteraksjoner og SDK-diagnostikk. [Pangles personvernregler](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — behandler abonnementskjøp, lagrer kjøpshistorikken din og tildeler en anonym app-bruker-ID. [RevenueCats personvernerklæring](https://www.revenuecat.com/privacy)
+- **RevenueCat** — behandler abonnementskjøp, lagrer kjøpshistorikken din og tildeler en anonym app-bruker-ID. På iOS mottar den også Apples annonseattribusjon (om Appen ble installert fra en Apple Ads-kampanje, og fra hvilken kampanje og hvilket søkeord), slik at vi kan måle vår egen annonsering. [RevenueCats personvernerklæring](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — krasj- og feilrapporter: stakkspor, operativsystemversjon, enhetsmodell, installasjons-ID.
   - *Analytics* — brukshendelser i appen, knyttet til en ID for appforekomsten.
@@ -42,6 +42,7 @@ Annonsenettverk opptrer som selvstendige behandlingsansvarlige for dataene de sa
 | Premium-abonnement | Oppfyllelse av en avtale med deg (art. 6 nr. 1 bokstav b) |
 | Krasjrapportering og appkonfigurasjon | Vår berettigede interesse i en stabil og velfungerende App (art. 6 nr. 1 bokstav f) |
 | Bruksanalyse | Vår berettigede interesse i å forstå og forbedre Appen (art. 6 nr. 1 bokstav f) |
+| Måling av våre egne annonsekampanjer (Apple Ads-attribusjon) | Vår berettigede interesse i å vite hvilke av annonsene våre som bringer brukere til Appen (art. 6 nr. 1 bokstav f) |
 | Svar på meldingene dine | Vår berettigede interesse i å svare deg (art. 6 nr. 1 bokstav f) |
 
 ## Dine samtykkevalg

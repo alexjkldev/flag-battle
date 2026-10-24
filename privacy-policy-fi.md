@@ -1,6 +1,6 @@
 # Tietosuojakäytäntö
 
-*14. lokakuuta 2026*
+*24. lokakuuta 2026*
 
 Tämä tietosuojakäytäntö kertoo, miten henkilötietoja käsitellään, kun käytät Flag Battle -mobiilisovellusta ("Sovellus").
 
@@ -23,7 +23,7 @@ Sovellus käyttää seuraavia palveluja, jotka käsittelevät esimerkiksi laitet
 - **Unity Ads** — näyttää mainoksia AdMob-välityksen kautta. Kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista sekä SDK-diagnostiikkaa. [Unityn tietosuojakäytäntö](https://unity.com/legal/privacy-policy)
 - **Liftoff Monetize (Vungle)** — näyttää mainoksia AdMob-välityksen kautta. Kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista sekä SDK-diagnostiikkaa. [Liftoffin tietosuojakäytäntö](https://liftoff.io/privacy-policy/)
 - **Pangle** (Bytedance Pte. Ltd., Singapore) — näyttää mainoksia AdMob-välityksen kautta. Kerää mainostunnisteen, IP-osoitteen ja siitä päätellyn likimääräisen sijainnin, laitetietoja, tietoa mainosvuorovaikutuksista sekä SDK-diagnostiikkaa. [Panglen tietosuojakäytäntö](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — käsittelee tilausostot, tallentaa ostohistoriasi ja antaa anonyymin sovelluskäyttäjätunnisteen. [RevenueCatin tietosuojakäytäntö](https://www.revenuecat.com/privacy)
+- **RevenueCat** — käsittelee tilausostot, tallentaa ostohistoriasi ja antaa anonyymin sovelluskäyttäjätunnisteen. iOS:ssä se saa lisäksi Applen mainosattribuution (onko Sovellus asennettu Apple Ads -kampanjasta sekä mistä kampanjasta ja hakusanasta), jotta voimme mitata omaa mainontaamme. [RevenueCatin tietosuojakäytäntö](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — kaatumis- ja virheraportit: pinojäljet, käyttöjärjestelmän versio, laitemalli, asennustunniste.
   - *Analytics* — sovelluksen käyttötapahtumat, jotka on liitetty sovellusinstanssin tunnisteeseen.
@@ -42,6 +42,7 @@ Mainosverkostot toimivat keräämiensä tietojen itsenäisinä rekisterinpitäji
 | Premium-tilaus | Kanssasi tehdyn sopimuksen täytäntöönpano (6 artiklan 1 kohdan b alakohta) |
 | Kaatumisraportit ja sovelluksen asetukset | Oikeutettu etumme pitää Sovellus vakaana ja toimivana (6 artiklan 1 kohdan f alakohta) |
 | Käyttöanalytiikka | Oikeutettu etumme ymmärtää ja kehittää Sovellusta (6 artiklan 1 kohdan f alakohta) |
+| Omien mainoskampanjoidemme mittaaminen (Apple Ads -attribuutio) | Oikeutettu etumme tietää, mitkä mainoksistamme tuovat käyttäjiä Sovellukseen (6 artiklan 1 kohdan f alakohta) |
 | Viesteihisi vastaaminen | Oikeutettu etumme vastata sinulle (6 artiklan 1 kohdan f alakohta) |
 
 ## Suostumusvalintasi

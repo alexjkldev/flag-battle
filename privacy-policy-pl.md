@@ -1,6 +1,6 @@
 # Polityka prywatności
 
-*14 października 2026 r.*
+*24 października 2026 r.*
 
 Niniejsza Polityka prywatności wyjaśnia, w jaki sposób przetwarzane są dane osobowe podczas korzystania z aplikacji mobilnej Flag Battle („Aplikacja").
 
@@ -23,7 +23,7 @@ Aplikacja korzysta z następujących usług, które przetwarzają dane takie jak
 - **Unity Ads** — wyświetla reklamy za pośrednictwem mediacji AdMob. Zbiera identyfikator reklamowy, informacje o urządzeniu, interakcje z reklamami i dane diagnostyczne SDK. [Polityka prywatności Unity](https://unity.com/legal/privacy-policy)
 - **Liftoff Monetize (Vungle)** — wyświetla reklamy za pośrednictwem mediacji AdMob. Zbiera identyfikator reklamowy, informacje o urządzeniu, interakcje z reklamami i dane diagnostyczne SDK. [Polityka prywatności Liftoff](https://liftoff.io/privacy-policy/)
 - **Pangle** (Bytedance Pte. Ltd., Singapur) — wyświetla reklamy za pośrednictwem mediacji AdMob. Zbiera identyfikator reklamowy, adres IP i ustaloną na jego podstawie przybliżoną lokalizację, informacje o urządzeniu, interakcje z reklamami i dane diagnostyczne SDK. [Polityka prywatności Pangle](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — obsługuje zakupy subskrypcji, przechowuje historię Twoich zakupów i przypisuje anonimowy identyfikator użytkownika aplikacji. [Polityka prywatności RevenueCat](https://www.revenuecat.com/privacy)
+- **RevenueCat** — obsługuje zakupy subskrypcji, przechowuje historię Twoich zakupów i przypisuje anonimowy identyfikator użytkownika aplikacji. W systemie iOS otrzymuje również dane atrybucji reklam od Apple (czy Aplikacja została zainstalowana z kampanii Apple Ads oraz z jakiej kampanii i słowa kluczowego), abyśmy mogli mierzyć skuteczność naszych własnych reklam. [Polityka prywatności RevenueCat](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — raporty o awariach i błędach: ślady stosu, wersja systemu, model urządzenia, identyfikator instalacji.
   - *Analytics* — zdarzenia korzystania z aplikacji powiązane z identyfikatorem instancji aplikacji.
@@ -42,6 +42,7 @@ Sieci reklamowe działają jako niezależni administratorzy zbieranych przez sie
 | Subskrypcja Premium | Wykonanie umowy z Tobą (art. 6 ust. 1 lit. b) |
 | Raportowanie awarii i konfiguracja aplikacji | Nasz prawnie uzasadniony interes w stabilnym i prawidłowym działaniu Aplikacji (art. 6 ust. 1 lit. f) |
 | Analityka korzystania | Nasz prawnie uzasadniony interes w zrozumieniu i ulepszaniu Aplikacji (art. 6 ust. 1 lit. f) |
+| Pomiar naszych własnych kampanii reklamowych (atrybucja Apple Ads) | Nasz prawnie uzasadniony interes w wiedzy, które nasze reklamy przyciągają użytkowników do Aplikacji (art. 6 ust. 1 lit. f) |
 | Odpowiadanie na Twoje wiadomości | Nasz prawnie uzasadniony interes w udzieleniu Ci odpowiedzi (art. 6 ust. 1 lit. f) |
 
 ## Twoje wybory dotyczące zgody

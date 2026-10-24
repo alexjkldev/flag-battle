@@ -1,6 +1,6 @@
 # Kebijakan Privasi
 
-*14 Oktober 2026*
+*24 Oktober 2026*
 
 Kebijakan Privasi ini menjelaskan bagaimana data pribadi diproses saat Anda menggunakan aplikasi seluler Flag Battle ("Aplikasi").
 
@@ -23,7 +23,7 @@ Aplikasi menggunakan layanan berikut, yang memproses data seperti pengenal peran
 - **Unity Ads** — menayangkan iklan melalui mediasi AdMob. Mengumpulkan ID iklan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Unity](https://unity.com/legal/privacy-policy)
 - **Liftoff Monetize (Vungle)** — menayangkan iklan melalui mediasi AdMob. Mengumpulkan ID iklan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Liftoff](https://liftoff.io/privacy-policy/)
 - **Pangle** (Bytedance Pte. Ltd., Singapura) — menayangkan iklan melalui mediasi AdMob. Mengumpulkan ID iklan, alamat IP dan perkiraan lokasi yang diturunkan darinya, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Pangle](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — memproses pembelian langganan, menyimpan riwayat pembelian Anda, dan menetapkan ID pengguna aplikasi anonim. [Kebijakan Privasi RevenueCat](https://www.revenuecat.com/privacy)
+- **RevenueCat** — memproses pembelian langganan, menyimpan riwayat pembelian Anda, dan menetapkan ID pengguna aplikasi anonim. Di iOS, RevenueCat juga menerima atribusi iklan dari Apple (apakah Aplikasi diinstal dari kampanye Apple Ads, serta dari kampanye dan kata kunci mana) agar kami dapat mengukur iklan kami sendiri. [Kebijakan Privasi RevenueCat](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — laporan crash dan error: stack trace, versi sistem operasi, model perangkat, ID instalasi.
   - *Analytics* — peristiwa penggunaan aplikasi yang ditautkan ke pengenal instans aplikasi.
@@ -42,6 +42,7 @@ Jaringan iklan bertindak sebagai pengendali independen atas data yang mereka kum
 | Langganan Premium | Pelaksanaan kontrak dengan Anda (Pasal 6(1)(b)) |
 | Pelaporan crash dan konfigurasi aplikasi | Kepentingan sah kami untuk menjaga Aplikasi tetap stabil dan berfungsi dengan baik (Pasal 6(1)(f)) |
 | Analitik penggunaan | Kepentingan sah kami untuk memahami dan meningkatkan Aplikasi (Pasal 6(1)(f)) |
+| Mengukur kampanye iklan kami sendiri (atribusi Apple Ads) | Kepentingan sah kami untuk mengetahui iklan mana yang membawa pengguna ke Aplikasi (Pasal 6(1)(f)) |
 | Membalas pesan Anda | Kepentingan sah kami untuk menanggapi Anda (Pasal 6(1)(f)) |
 
 ## Pilihan Persetujuan Anda

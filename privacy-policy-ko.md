@@ -1,6 +1,6 @@
 # 개인정보 처리방침
 
-*2026년 10월 14일*
+*2026년 10월 24일*
 
 본 개인정보 처리방침은 모바일 앱 Flag Battle(이하 "앱")를 사용할 때 개인정보가 어떻게 처리되는지 설명합니다.
 
@@ -23,7 +23,7 @@
 - **Unity Ads** — AdMob 미디에이션을 통해 광고를 게재합니다. 광고 ID, 기기 정보, 광고 상호작용 및 SDK 진단 정보를 수집합니다. [Unity 개인정보처리방침](https://unity.com/legal/privacy-policy)
 - **Liftoff Monetize (Vungle)** — AdMob 미디에이션을 통해 광고를 게재합니다. 광고 ID, 기기 정보, 광고 상호작용 및 SDK 진단 정보를 수집합니다. [Liftoff 개인정보처리방침](https://liftoff.io/privacy-policy/)
 - **Pangle** (Bytedance Pte. Ltd., 싱가포르) — AdMob 미디에이션을 통해 광고를 게재합니다. 광고 ID, IP 주소 및 이를 통해 추정한 대략적인 위치, 기기 정보, 광고 상호작용 및 SDK 진단 정보를 수집합니다. [Pangle 개인정보처리방침](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — 구독 구매를 처리하고 구매 내역을 저장하며 익명의 앱 사용자 ID를 부여합니다. [RevenueCat 개인정보처리방침](https://www.revenuecat.com/privacy)
+- **RevenueCat** — 구독 구매를 처리하고 구매 내역을 저장하며 익명의 앱 사용자 ID를 부여합니다. iOS에서는 당사 자체 광고의 성과를 측정할 수 있도록 Apple의 광고 기여 정보(앱이 Apple Ads 캠페인을 통해 설치되었는지, 그리고 어떤 캠페인과 키워드를 통해서인지)도 받습니다. [RevenueCat 개인정보처리방침](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — 비정상 종료 및 오류 보고서: 스택 추적, OS 버전, 기기 모델, 설치 ID.
   - *Analytics* — 앱 인스턴스 식별자에 연결된 앱 사용 이벤트.
@@ -42,6 +42,7 @@
 | Premium 구독 | 귀하와의 계약 이행(제6조 제1항 (b)) |
 | 비정상 종료 보고 및 앱 구성 | 앱을 안정적이고 정상적으로 작동하도록 유지하려는 당사의 정당한 이익(제6조 제1항 (f)) |
 | 사용 분석 | 앱을 이해하고 개선하려는 당사의 정당한 이익(제6조 제1항 (f)) |
+| 당사 자체 광고 캠페인의 성과 측정(Apple Ads 기여 분석) | 어떤 광고가 앱으로 사용자를 유입시키는지 파악하려는 당사의 정당한 이익(제6조 제1항 (f)) |
 | 문의에 대한 답변 | 귀하에게 답변하려는 당사의 정당한 이익(제6조 제1항 (f)) |
 
 ## 동의 선택

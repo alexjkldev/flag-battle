@@ -1,6 +1,6 @@
 # Privacybeleid
 
-*14 oktober 2026*
+*24 oktober 2026*
 
 Dit Privacybeleid legt uit hoe persoonsgegevens worden verwerkt wanneer u de mobiele app Flag Battle ("de App") gebruikt.
 
@@ -23,7 +23,7 @@ De App maakt gebruik van de volgende diensten, die gegevens verwerken zoals appa
 - **Unity Ads** — toont advertenties via AdMob-mediatie. Verzamelt advertentie-ID, apparaatgegevens, advertentie-interacties en SDK-diagnostiek. [Unity Privacybeleid](https://unity.com/legal/privacy-policy)
 - **Liftoff Monetize (Vungle)** — toont advertenties via AdMob-mediatie. Verzamelt advertentie-ID, apparaatgegevens, advertentie-interacties en SDK-diagnostiek. [Liftoff Privacybeleid](https://liftoff.io/privacy-policy/)
 - **Pangle** (Bytedance Pte. Ltd., Singapore) — toont advertenties via AdMob-mediatie. Verzamelt advertentie-ID, IP-adres en de daaruit afgeleide bij benadering bepaalde locatie, apparaatgegevens, advertentie-interacties en SDK-diagnostiek. [Pangle Privacybeleid](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — verwerkt abonnementsaankopen, bewaart uw aankoopgeschiedenis en kent een anonieme app-gebruikers-ID toe. [RevenueCat Privacybeleid](https://www.revenuecat.com/privacy)
+- **RevenueCat** — verwerkt abonnementsaankopen, bewaart uw aankoopgeschiedenis en kent een anonieme app-gebruikers-ID toe. Op iOS ontvangt het ook de advertentie-attributie van Apple (of de App is geïnstalleerd via een Apple Ads-campagne, en via welke campagne en welk zoekwoord), zodat we onze eigen advertenties kunnen meten. [RevenueCat Privacybeleid](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — crash- en foutrapporten: stacktraces, versie van het besturingssysteem, apparaatmodel, installatie-ID.
   - *Analytics* — gebruiksgebeurtenissen van de app, gekoppeld aan een app-instance-ID.
@@ -42,6 +42,7 @@ Advertentienetwerken treden op als zelfstandige verwerkingsverantwoordelijken vo
 | Premium-abonnement | Uitvoering van een overeenkomst met u (art. 6, lid 1, onder b) |
 | Crashrapportage en app-configuratie | Ons gerechtvaardigd belang bij een stabiele en goed werkende App (art. 6, lid 1, onder f) |
 | Gebruiksanalyse | Ons gerechtvaardigd belang bij het begrijpen en verbeteren van de App (art. 6, lid 1, onder f) |
+| Meten van onze eigen advertentiecampagnes (Apple Ads-attributie) | Ons gerechtvaardigd belang om te weten welke van onze advertenties gebruikers naar de App brengen (art. 6, lid 1, onder f) |
 | Beantwoorden van uw berichten | Ons gerechtvaardigd belang om u te antwoorden (art. 6, lid 1, onder f) |
 
 ## Uw toestemmingskeuzes

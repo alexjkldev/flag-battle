@@ -1,6 +1,6 @@
 # 隱私政策
 
-*2026年10月14日*
+*2026年10月24日*
 
 本隱私政策說明您使用行動應用程式 Flag Battle（以下簡稱「本應用程式」）時，個人資料如何被處理。
 
@@ -23,7 +23,7 @@
 - **Unity Ads** — 透過 AdMob 中介放送廣告。收集廣告 ID、裝置資訊、廣告互動以及 SDK 診斷資訊。[Unity 隱私權政策](https://unity.com/legal/privacy-policy)
 - **Liftoff Monetize (Vungle)** — 透過 AdMob 中介放送廣告。收集廣告 ID、裝置資訊、廣告互動以及 SDK 診斷資訊。[Liftoff 隱私權政策](https://liftoff.io/privacy-policy/)
 - **Pangle**（Bytedance Pte. Ltd.，新加坡）— 透過 AdMob 中介放送廣告。收集廣告 ID、IP 位址及據此推斷的大致位置、裝置資訊、廣告互動以及 SDK 診斷資訊。[Pangle 隱私權政策](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — 處理訂閱購買，保存您的購買紀錄，並指派匿名的應用程式使用者 ID。[RevenueCat 隱私權政策](https://www.revenuecat.com/privacy)
+- **RevenueCat** — 處理訂閱購買，保存您的購買紀錄，並指派匿名的應用程式使用者 ID。在 iOS 上，它也會接收 Apple 的廣告歸因資訊（本應用程式是否透過 Apple Ads 廣告活動安裝，以及來自哪個廣告活動和關鍵字），以便我們衡量自己的廣告成效。[RevenueCat 隱私權政策](https://www.revenuecat.com/privacy)
 - **Firebase（Google）**：
   - *Crashlytics* — 當機與錯誤報告：堆疊追蹤、作業系統版本、裝置型號、安裝 ID。
   - *Analytics* — 與應用程式執行個體識別碼關聯的應用程式使用事件。
@@ -42,6 +42,7 @@
 | Premium 訂閱 | 履行與您的契約（第 6(1)(b) 條） |
 | 當機報告與應用程式設定 | 我們維持本應用程式穩定、正常運作的正當利益（第 6(1)(f) 條） |
 | 使用情況分析 | 我們了解並改善本應用程式的正當利益（第 6(1)(f) 條） |
+| 衡量我們自己的廣告活動（Apple Ads 歸因） | 我們了解哪些廣告為本應用程式帶來使用者的正當利益（第 6(1)(f) 條） |
 | 回覆您的訊息 | 我們回覆您的正當利益（第 6(1)(f) 條） |
 
 ## 您的同意選擇

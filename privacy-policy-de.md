@@ -1,6 +1,6 @@
 # Datenschutzrichtlinie
 
-*14. Oktober 2026*
+*24. Oktober 2026*
 
 Diese Datenschutzrichtlinie erläutert, wie personenbezogene Daten verarbeitet werden, wenn Sie die mobile App Flag Battle („die App") nutzen.
 
@@ -23,7 +23,7 @@ Die App verwendet die folgenden Dienste, die Daten wie Gerätekennungen (Werbe-I
 - **Unity Ads** — liefert Werbung über die AdMob-Mediation. Erfasst Werbe-ID, Geräteinformationen, Werbeinteraktionen und SDK-Diagnosedaten. [Unity Datenschutzerklärung](https://unity.com/legal/privacy-policy)
 - **Liftoff Monetize (Vungle)** — liefert Werbung über die AdMob-Mediation. Erfasst Werbe-ID, Geräteinformationen, Werbeinteraktionen und SDK-Diagnosedaten. [Liftoff Datenschutzerklärung](https://liftoff.io/privacy-policy/)
 - **Pangle** (Bytedance Pte. Ltd., Singapur) — liefert Werbung über die AdMob-Mediation. Erfasst Werbe-ID, IP-Adresse und den daraus abgeleiteten ungefähren Standort, Geräteinformationen, Werbeinteraktionen und SDK-Diagnosedaten. [Pangle Datenschutzerklärung](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — wickelt Abonnementkäufe ab, speichert Ihren Kaufverlauf und vergibt eine anonyme App-Nutzer-ID. [RevenueCat Datenschutzerklärung](https://www.revenuecat.com/privacy)
+- **RevenueCat** — wickelt Abonnementkäufe ab, speichert Ihren Kaufverlauf und vergibt eine anonyme App-Nutzer-ID. Unter iOS erhält es außerdem Apples Werbezuordnung (ob die App über eine Apple-Ads-Kampagne installiert wurde und über welche Kampagne und welches Suchwort), damit wir unsere eigene Werbung messen können. [RevenueCat Datenschutzerklärung](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — Absturz- und Fehlerberichte: Stacktraces, Betriebssystemversion, Gerätemodell, Installations-ID.
   - *Analytics* — Nutzungsereignisse der App, verknüpft mit einer App-Instanz-ID.
@@ -42,6 +42,7 @@ Werbenetzwerke handeln als eigenständige Verantwortliche für die von ihnen erh
 | Premium-Abonnement | Erfüllung eines Vertrags mit Ihnen (Art. 6 Abs. 1 lit. b) |
 | Absturzberichte und App-Konfiguration | Unser berechtigtes Interesse an einer stabilen und funktionsfähigen App (Art. 6 Abs. 1 lit. f) |
 | Nutzungsanalyse | Unser berechtigtes Interesse, die App zu verstehen und zu verbessern (Art. 6 Abs. 1 lit. f) |
+| Messung unserer eigenen Werbekampagnen (Apple-Ads-Zuordnung) | Unser berechtigtes Interesse, zu erfahren, welche unserer Anzeigen Nutzer zur App bringen (Art. 6 Abs. 1 lit. f) |
 | Beantwortung Ihrer Nachrichten | Unser berechtigtes Interesse, Ihnen zu antworten (Art. 6 Abs. 1 lit. f) |
 
 ## Ihre Einwilligungsoptionen

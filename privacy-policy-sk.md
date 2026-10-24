@@ -1,6 +1,6 @@
 # Zásady ochrany osobných údajov
 
-*14. októbra 2026*
+*24. októbra 2026*
 
 Tieto Zásady ochrany osobných údajov vysvetľujú, ako sa spracúvajú osobné údaje pri používaní mobilnej aplikácie Flag Battle („Aplikácia").
 
@@ -23,7 +23,7 @@ Aplikácia využíva nasledujúce služby, ktoré spracúvajú údaje, ako sú i
 - **Unity Ads** — zobrazuje reklamy prostredníctvom mediácie AdMob. Zbiera reklamný identifikátor, informácie o zariadení, interakcie s reklamami a diagnostiku SDK. [Zásady ochrany osobných údajov Unity](https://unity.com/legal/privacy-policy)
 - **Liftoff Monetize (Vungle)** — zobrazuje reklamy prostredníctvom mediácie AdMob. Zbiera reklamný identifikátor, informácie o zariadení, interakcie s reklamami a diagnostiku SDK. [Zásady ochrany osobných údajov Liftoff](https://liftoff.io/privacy-policy/)
 - **Pangle** (Bytedance Pte. Ltd., Singapur) — zobrazuje reklamy prostredníctvom mediácie AdMob. Zbiera reklamný identifikátor, IP adresu a z nej odvodenú približnú polohu, informácie o zariadení, interakcie s reklamami a diagnostiku SDK. [Zásady ochrany osobných údajov Pangle](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — spracúva nákupy predplatného, uchováva históriu vašich nákupov a prideľuje anonymný identifikátor používateľa aplikácie. [Zásady ochrany osobných údajov RevenueCat](https://www.revenuecat.com/privacy)
+- **RevenueCat** — spracúva nákupy predplatného, uchováva históriu vašich nákupov a prideľuje anonymný identifikátor používateľa aplikácie. V systéme iOS dostáva aj reklamnú atribúciu od spoločnosti Apple (či bola Aplikácia nainštalovaná z kampane Apple Ads a z ktorej kampane a kľúčového slova), aby sme mohli merať našu vlastnú reklamu. [Zásady ochrany osobných údajov RevenueCat](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — správy o pádoch a chybách: výpisy zásobníka, verzia operačného systému, model zariadenia, identifikátor inštalácie.
   - *Analytics* — udalosti používania aplikácie prepojené s identifikátorom inštancie aplikácie.
@@ -42,6 +42,7 @@ Reklamné siete vystupujú ako samostatní prevádzkovatelia údajov, ktoré zbi
 | Predplatné Premium | Plnenie zmluvy s vami (čl. 6 ods. 1 písm. b)) |
 | Hlásenie pádov a konfigurácia aplikácie | Náš oprávnený záujem na stabilnej a správne fungujúcej Aplikácii (čl. 6 ods. 1 písm. f)) |
 | Analýza používania | Náš oprávnený záujem porozumieť Aplikácii a zlepšovať ju (čl. 6 ods. 1 písm. f)) |
+| Meranie našich vlastných reklamných kampaní (atribúcia Apple Ads) | Náš oprávnený záujem vedieť, ktoré naše reklamy privádzajú používateľov do Aplikácie (čl. 6 ods. 1 písm. f)) |
 | Odpovede na vaše správy | Náš oprávnený záujem odpovedať vám (čl. 6 ods. 1 písm. f)) |
 
 ## Vaše možnosti súhlasu

@@ -1,6 +1,6 @@
 # Informativa sulla privacy
 
-*14 ottobre 2026*
+*24 ottobre 2026*
 
 La presente Informativa sulla privacy spiega come vengono trattati i dati personali quando utilizzi l'app mobile Flag Battle ("l'App").
 
@@ -23,7 +23,7 @@ L'App utilizza i seguenti servizi, che trattano dati come identificatori del dis
 - **Unity Ads** — mostra annunci tramite la mediazione di AdMob. Raccoglie l'ID pubblicità, informazioni sul dispositivo, interazioni con gli annunci e dati diagnostici dell'SDK. [Informativa sulla privacy di Unity](https://unity.com/legal/privacy-policy)
 - **Liftoff Monetize (Vungle)** — mostra annunci tramite la mediazione di AdMob. Raccoglie l'ID pubblicità, informazioni sul dispositivo, interazioni con gli annunci e dati diagnostici dell'SDK. [Informativa sulla privacy di Liftoff](https://liftoff.io/privacy-policy/)
 - **Pangle** (Bytedance Pte. Ltd., Singapore) — mostra annunci tramite la mediazione di AdMob. Raccoglie l'ID pubblicità, l'indirizzo IP e la posizione approssimativa ricavata da esso, informazioni sul dispositivo, interazioni con gli annunci e dati diagnostici dell'SDK. [Informativa sulla privacy di Pangle](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — elabora gli acquisti degli abbonamenti, conserva la cronologia degli acquisti e assegna un ID utente anonimo. [Informativa sulla privacy di RevenueCat](https://www.revenuecat.com/privacy)
+- **RevenueCat** — elabora gli acquisti degli abbonamenti, conserva la cronologia degli acquisti e assegna un ID utente anonimo. Su iOS riceve inoltre l'attribuzione pubblicitaria di Apple (se l'App è stata installata da una campagna Apple Ads, e da quale campagna e parola chiave) per consentirci di misurare la nostra pubblicità. [Informativa sulla privacy di RevenueCat](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — report di arresti anomali ed errori: stack trace, versione del sistema operativo, modello del dispositivo, ID di installazione.
   - *Analytics* — eventi di utilizzo dell'app collegati a un identificatore dell'istanza dell'app.
@@ -42,6 +42,7 @@ Le reti pubblicitarie agiscono come titolari autonomi dei dati che raccolgono op
 | Abbonamento Premium | Esecuzione di un contratto con te (art. 6, par. 1, lett. b) |
 | Report sugli arresti anomali e configurazione dell'app | Il nostro legittimo interesse a mantenere l'App stabile e funzionante (art. 6, par. 1, lett. f) |
 | Analisi dell'utilizzo | Il nostro legittimo interesse a comprendere e migliorare l'App (art. 6, par. 1, lett. f) |
+| Misurazione delle nostre campagne pubblicitarie (attribuzione Apple Ads) | Il nostro legittimo interesse a sapere quali nostri annunci portano utenti all'App (art. 6, par. 1, lett. f) |
 | Risposta ai tuoi messaggi | Il nostro legittimo interesse a risponderti (art. 6, par. 1, lett. f) |
 
 ## Le tue scelte sul consenso

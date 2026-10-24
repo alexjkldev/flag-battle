@@ -1,6 +1,6 @@
 # Integritetspolicy
 
-*14 oktober 2026*
+*24 oktober 2026*
 
 Denna integritetspolicy förklarar hur personuppgifter behandlas när du använder mobilappen Flag Battle ("Appen").
 
@@ -23,7 +23,7 @@ Appen använder följande tjänster, som behandlar uppgifter som enhetsidentifie
 - **Unity Ads** — visar annonser via AdMob-medling. Samlar in annons-ID, enhetsinformation, annonsinteraktioner och SDK-diagnostik. [Unitys integritetspolicy](https://unity.com/legal/privacy-policy)
 - **Liftoff Monetize (Vungle)** — visar annonser via AdMob-medling. Samlar in annons-ID, enhetsinformation, annonsinteraktioner och SDK-diagnostik. [Liftoffs integritetspolicy](https://liftoff.io/privacy-policy/)
 - **Pangle** (Bytedance Pte. Ltd., Singapore) — visar annonser via AdMob-medling. Samlar in annons-ID, IP-adress och den ungefärliga plats som härleds från den, enhetsinformation, annonsinteraktioner och SDK-diagnostik. [Pangles integritetspolicy](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — hanterar prenumerationsköp, lagrar din köphistorik och tilldelar ett anonymt app-användar-ID. [RevenueCats integritetspolicy](https://www.revenuecat.com/privacy)
+- **RevenueCat** — hanterar prenumerationsköp, lagrar din köphistorik och tilldelar ett anonymt app-användar-ID. På iOS tar den även emot Apples annonsattribution (om Appen installerades från en Apple Ads-kampanj, och från vilken kampanj och vilket sökord) så att vi kan mäta vår egen annonsering. [RevenueCats integritetspolicy](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — krasch- och felrapporter: stackspår, operativsystemversion, enhetsmodell, installations-ID.
   - *Analytics* — användningshändelser i appen, kopplade till ett ID för appinstansen.
@@ -42,6 +42,7 @@ Annonsnätverk agerar som självständigt personuppgiftsansvariga för de uppgif
 | Premiumprenumeration | Fullgörande av ett avtal med dig (art. 6.1 b) |
 | Kraschrapportering och appkonfiguration | Vårt berättigade intresse av en stabil och väl fungerande App (art. 6.1 f) |
 | Användningsanalys | Vårt berättigade intresse av att förstå och förbättra Appen (art. 6.1 f) |
+| Mätning av våra egna annonskampanjer (Apple Ads-attribution) | Vårt berättigade intresse av att veta vilka av våra annonser som ger Appen nya användare (art. 6.1 f) |
 | Svar på dina meddelanden | Vårt berättigade intresse av att svara dig (art. 6.1 f) |
 
 ## Dina samtyckesval

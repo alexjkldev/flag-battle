@@ -1,6 +1,6 @@
 # Privacy Policy
 
-*Last updated: October 14, 2026*
+*Last updated: October 24, 2026*
 
 This Privacy Policy explains how personal data is processed when you use the Flag Battle mobile app ("the App").
 
@@ -23,7 +23,7 @@ The App uses the following services, which process data such as device identifie
 - **Unity Ads** — serves ads through AdMob mediation. Collects advertising ID, device information, ad interactions and SDK diagnostics. [Unity Privacy Policy](https://unity.com/legal/privacy-policy)
 - **Liftoff Monetize (Vungle)** — serves ads through AdMob mediation. Collects advertising ID, device information, ad interactions and SDK diagnostics. [Liftoff Privacy Policy](https://liftoff.io/privacy-policy/)
 - **Pangle** (Bytedance Pte. Ltd., Singapore) — serves ads through AdMob mediation. Collects advertising ID, IP address and approximate location derived from it, device information, ad interactions and SDK diagnostics. [Pangle Privacy Policy](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — processes subscription purchases, stores your purchase history and assigns an anonymous app user ID. [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
+- **RevenueCat** — processes subscription purchases, stores your purchase history and assigns an anonymous app user ID. On iOS it also receives Apple's ad attribution (whether the App was installed from an Apple Ads campaign, and which campaign and keyword) so we can measure our own advertising. [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — crash and error reports: stack traces, OS version, device model, installation identifier.
   - *Analytics* — app usage events linked to an app instance identifier.
@@ -42,6 +42,7 @@ Ad networks act as independent controllers for the data they collect, or, where 
 | Premium subscription | Performance of a contract with you (Art. 6(1)(b)) |
 | Crash reporting and app configuration | Our legitimate interest in keeping the App stable and working correctly (Art. 6(1)(f)) |
 | Usage analytics | Our legitimate interest in understanding and improving the App (Art. 6(1)(f)) |
+| Measuring our own advertising campaigns (Apple Ads attribution) | Our legitimate interest in knowing which of our ads bring users to the App (Art. 6(1)(f)) |
 | Answering your messages | Our legitimate interest in responding to you (Art. 6(1)(f)) |
 
 ## Your Consent Choices

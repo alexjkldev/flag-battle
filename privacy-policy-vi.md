@@ -1,6 +1,6 @@
 # Chính Sách Quyền Riêng Tư
 
-*Ngày 14 tháng 10 năm 2026*
+*Ngày 24 tháng 10 năm 2026*
 
 Chính sách quyền riêng tư này giải thích cách dữ liệu cá nhân được xử lý khi bạn sử dụng ứng dụng di động Flag Battle ("Ứng dụng").
 
@@ -23,7 +23,7 @@ Email: [support@alexjkl.fi](mailto:support@alexjkl.fi)
 - **Unity Ads** — hiển thị quảng cáo thông qua dàn xếp AdMob. Thu thập ID quảng cáo, thông tin thiết bị, tương tác quảng cáo và dữ liệu chẩn đoán SDK. [Chính Sách Quyền Riêng Tư của Unity](https://unity.com/legal/privacy-policy)
 - **Liftoff Monetize (Vungle)** — hiển thị quảng cáo thông qua dàn xếp AdMob. Thu thập ID quảng cáo, thông tin thiết bị, tương tác quảng cáo và dữ liệu chẩn đoán SDK. [Chính Sách Quyền Riêng Tư của Liftoff](https://liftoff.io/privacy-policy/)
 - **Pangle** (Bytedance Pte. Ltd., Singapore) — hiển thị quảng cáo thông qua dàn xếp AdMob. Thu thập ID quảng cáo, địa chỉ IP và vị trí gần đúng suy ra từ đó, thông tin thiết bị, tương tác quảng cáo và dữ liệu chẩn đoán SDK. [Chính Sách Quyền Riêng Tư của Pangle](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — xử lý giao dịch mua gói đăng ký, lưu lịch sử mua hàng của bạn và gán một ID người dùng ứng dụng ẩn danh. [Chính sách quyền riêng tư của RevenueCat](https://www.revenuecat.com/privacy)
+- **RevenueCat** — xử lý giao dịch mua gói đăng ký, lưu lịch sử mua hàng của bạn và gán một ID người dùng ứng dụng ẩn danh. Trên iOS, RevenueCat cũng nhận dữ liệu phân bổ quảng cáo của Apple (Ứng dụng có được cài đặt từ chiến dịch Apple Ads hay không, và từ chiến dịch, từ khóa nào) để chúng tôi có thể đo lường quảng cáo của chính mình. [Chính sách quyền riêng tư của RevenueCat](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — báo cáo sự cố và lỗi: dấu vết ngăn xếp, phiên bản hệ điều hành, kiểu thiết bị, ID cài đặt.
   - *Analytics* — các sự kiện sử dụng ứng dụng được liên kết với mã định danh phiên bản ứng dụng.
@@ -42,6 +42,7 @@ Các mạng quảng cáo đóng vai trò là bên kiểm soát độc lập đ�
 | Gói đăng ký Premium | Thực hiện hợp đồng với bạn (Điều 6(1)(b)) |
 | Báo cáo sự cố và cấu hình ứng dụng | Lợi ích hợp pháp của chúng tôi trong việc giữ cho Ứng dụng ổn định và hoạt động đúng (Điều 6(1)(f)) |
 | Phân tích việc sử dụng | Lợi ích hợp pháp của chúng tôi trong việc hiểu và cải thiện Ứng dụng (Điều 6(1)(f)) |
+| Đo lường các chiến dịch quảng cáo của chính chúng tôi (phân bổ Apple Ads) | Lợi ích hợp pháp của chúng tôi trong việc biết quảng cáo nào mang người dùng đến với Ứng dụng (Điều 6(1)(f)) |
 | Trả lời tin nhắn của bạn | Lợi ích hợp pháp của chúng tôi trong việc phản hồi bạn (Điều 6(1)(f)) |
 
 ## Lựa chọn đồng ý của bạn

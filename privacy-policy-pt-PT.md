@@ -1,6 +1,6 @@
 # Política de Privacidade
 
-*14 de outubro de 2026*
+*24 de outubro de 2026*
 
 Esta Política de Privacidade explica como os dados pessoais são tratados quando utiliza a aplicação móvel Flag Battle ("a App").
 
@@ -23,7 +23,7 @@ A App utiliza os seguintes serviços, que tratam dados como identificadores do d
 - **Unity Ads** — apresenta anúncios através da mediação do AdMob. Recolhe o ID de publicidade, informações do dispositivo, interações com anúncios e diagnósticos do SDK. [Política de Privacidade da Unity](https://unity.com/legal/privacy-policy)
 - **Liftoff Monetize (Vungle)** — apresenta anúncios através da mediação do AdMob. Recolhe o ID de publicidade, informações do dispositivo, interações com anúncios e diagnósticos do SDK. [Política de Privacidade da Liftoff](https://liftoff.io/privacy-policy/)
 - **Pangle** (Bytedance Pte. Ltd., Singapura) — apresenta anúncios através da mediação do AdMob. Recolhe o ID de publicidade, o endereço IP e a localização aproximada dele derivada, informações do dispositivo, interações com anúncios e diagnósticos do SDK. [Política de Privacidade da Pangle](https://www.pangleglobal.com/privacy/enduser-en)
-- **RevenueCat** — processa compras de subscrições, guarda o seu histórico de compras e atribui um ID de utilizador anónimo. [Política de Privacidade da RevenueCat](https://www.revenuecat.com/privacy)
+- **RevenueCat** — processa compras de subscrições, guarda o seu histórico de compras e atribui um ID de utilizador anónimo. No iOS, recebe também a atribuição de anúncios da Apple (se a App foi instalada a partir de uma campanha do Apple Ads, e de que campanha e palavra-chave) para que possamos medir a nossa própria publicidade. [Política de Privacidade da RevenueCat](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — relatórios de falhas e erros: rastreios de pilha, versão do sistema operativo, modelo do dispositivo, ID de instalação.
   - *Analytics* — eventos de utilização da aplicação associados a um identificador da instância da aplicação.
@@ -42,6 +42,7 @@ As redes de anúncios atuam como responsáveis pelo tratamento independentes dos
 | Subscrição Premium | Execução de um contrato consigo (art. 6.º, n.º 1, alínea b)) |
 | Relatórios de falhas e configuração da aplicação | O nosso interesse legítimo em manter a App estável e a funcionar corretamente (art. 6.º, n.º 1, alínea f)) |
 | Análise de utilização | O nosso interesse legítimo em compreender e melhorar a App (art. 6.º, n.º 1, alínea f)) |
+| Medição das nossas próprias campanhas publicitárias (atribuição do Apple Ads) | O nosso interesse legítimo em saber quais dos nossos anúncios trazem utilizadores para a App (art. 6.º, n.º 1, alínea f)) |
 | Resposta às suas mensagens | O nosso interesse legítimo em responder-lhe (art. 6.º, n.º 1, alínea f)) |
 
 ## As suas opções de consentimento
