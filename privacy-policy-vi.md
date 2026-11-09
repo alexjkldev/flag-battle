@@ -1,6 +1,6 @@
 # Chính Sách Quyền Riêng Tư
 
-*Ngày 24 tháng 10 năm 2026*
+*Ngày 9 tháng 11 năm 2026*
 
 Chính sách quyền riêng tư này giải thích cách dữ liệu cá nhân được xử lý khi bạn sử dụng ứng dụng di động Flag Battle ("Ứng dụng").
 
@@ -19,10 +19,11 @@ Email: [support@alexjkl.fi](mailto:support@alexjkl.fi)
 
 Ứng dụng sử dụng các dịch vụ sau, xử lý các dữ liệu như mã định danh thiết bị (ID quảng cáo, ID cài đặt), địa chỉ IP, thông tin thiết bị và hệ điều hành, cũng như tương tác với ứng dụng và quảng cáo:
 
+- **Unity LevelPlay** (Unity Technologies) — dàn xếp quảng cáo: chọn mạng quảng cáo hiển thị từng quảng cáo và đo lường quảng cáo. Thu thập ID quảng cáo, thông tin thiết bị, tương tác quảng cáo và dữ liệu chẩn đoán SDK. [Chính Sách Quyền Riêng Tư của Unity](https://unity.com/legal/privacy-policy)
 - **Google AdMob** — hiển thị và đo lường quảng cáo. Thu thập ID quảng cáo, thông tin thiết bị, tương tác quảng cáo (lượt nhấp, lượt hiển thị, quảng cáo bạn đã xem) và dữ liệu chẩn đoán SDK. [Chính sách quyền riêng tư của Google](https://policies.google.com/privacy)
-- **Unity Ads** — hiển thị quảng cáo thông qua dàn xếp AdMob. Thu thập ID quảng cáo, thông tin thiết bị, tương tác quảng cáo và dữ liệu chẩn đoán SDK. [Chính Sách Quyền Riêng Tư của Unity](https://unity.com/legal/privacy-policy)
-- **Liftoff Monetize (Vungle)** — hiển thị quảng cáo thông qua dàn xếp AdMob. Thu thập ID quảng cáo, thông tin thiết bị, tương tác quảng cáo và dữ liệu chẩn đoán SDK. [Chính Sách Quyền Riêng Tư của Liftoff](https://liftoff.io/privacy-policy/)
-- **Pangle** (Bytedance Pte. Ltd., Singapore) — hiển thị quảng cáo thông qua dàn xếp AdMob. Thu thập ID quảng cáo, địa chỉ IP và vị trí gần đúng suy ra từ đó, thông tin thiết bị, tương tác quảng cáo và dữ liệu chẩn đoán SDK. [Chính Sách Quyền Riêng Tư của Pangle](https://www.pangleglobal.com/privacy/enduser-en)
+- **Unity Ads** — hiển thị quảng cáo thông qua dàn xếp Unity LevelPlay hoặc AdMob. Thu thập ID quảng cáo, thông tin thiết bị, tương tác quảng cáo và dữ liệu chẩn đoán SDK. [Chính Sách Quyền Riêng Tư của Unity](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — hiển thị quảng cáo thông qua dàn xếp Unity LevelPlay hoặc AdMob. Thu thập ID quảng cáo, thông tin thiết bị, tương tác quảng cáo và dữ liệu chẩn đoán SDK. [Chính Sách Quyền Riêng Tư của Liftoff](https://liftoff.io/privacy-policy/)
+- **Pangle** (Bytedance Pte. Ltd., Singapore) — hiển thị quảng cáo thông qua dàn xếp Unity LevelPlay hoặc AdMob. Thu thập ID quảng cáo, địa chỉ IP và vị trí gần đúng suy ra từ đó, thông tin thiết bị, tương tác quảng cáo và dữ liệu chẩn đoán SDK. [Chính Sách Quyền Riêng Tư của Pangle](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — xử lý giao dịch mua gói đăng ký, lưu lịch sử mua hàng của bạn và gán một ID người dùng ứng dụng ẩn danh. Trên iOS, RevenueCat cũng nhận dữ liệu phân bổ quảng cáo của Apple (Ứng dụng có được cài đặt từ chiến dịch Apple Ads hay không, và từ chiến dịch, từ khóa nào) để chúng tôi có thể đo lường quảng cáo của chính mình. [Chính sách quyền riêng tư của RevenueCat](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — báo cáo sự cố và lỗi: dấu vết ngăn xếp, phiên bản hệ điều hành, kiểu thiết bị, ID cài đặt.

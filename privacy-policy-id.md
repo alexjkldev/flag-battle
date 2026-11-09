@@ -1,6 +1,6 @@
 # Kebijakan Privasi
 
-*24 Oktober 2026*
+*9 November 2026*
 
 Kebijakan Privasi ini menjelaskan bagaimana data pribadi diproses saat Anda menggunakan aplikasi seluler Flag Battle ("Aplikasi").
 
@@ -19,10 +19,11 @@ Aplikasi tidak memerlukan akun dan menyimpan semua konten Anda (negara yang dipi
 
 Aplikasi menggunakan layanan berikut, yang memproses data seperti pengenal perangkat (ID iklan, ID instalasi), alamat IP, informasi perangkat dan sistem operasi, serta interaksi dengan aplikasi dan iklan:
 
+- **Unity LevelPlay** (Unity Technologies) — mediasi iklan: memilih jaringan iklan yang menayangkan setiap iklan dan mengukur iklan. Mengumpulkan ID iklan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Unity](https://unity.com/legal/privacy-policy)
 - **Google AdMob** — menayangkan dan mengukur iklan. Mengumpulkan ID iklan, informasi perangkat, interaksi iklan (klik, tayangan, iklan apa yang telah Anda lihat), dan diagnostik SDK. [Kebijakan Privasi Google](https://policies.google.com/privacy)
-- **Unity Ads** — menayangkan iklan melalui mediasi AdMob. Mengumpulkan ID iklan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Unity](https://unity.com/legal/privacy-policy)
-- **Liftoff Monetize (Vungle)** — menayangkan iklan melalui mediasi AdMob. Mengumpulkan ID iklan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Liftoff](https://liftoff.io/privacy-policy/)
-- **Pangle** (Bytedance Pte. Ltd., Singapura) — menayangkan iklan melalui mediasi AdMob. Mengumpulkan ID iklan, alamat IP dan perkiraan lokasi yang diturunkan darinya, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Pangle](https://www.pangleglobal.com/privacy/enduser-en)
+- **Unity Ads** — menayangkan iklan melalui mediasi Unity LevelPlay atau AdMob. Mengumpulkan ID iklan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Unity](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — menayangkan iklan melalui mediasi Unity LevelPlay atau AdMob. Mengumpulkan ID iklan, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Liftoff](https://liftoff.io/privacy-policy/)
+- **Pangle** (Bytedance Pte. Ltd., Singapura) — menayangkan iklan melalui mediasi Unity LevelPlay atau AdMob. Mengumpulkan ID iklan, alamat IP dan perkiraan lokasi yang diturunkan darinya, informasi perangkat, interaksi iklan, dan diagnostik SDK. [Kebijakan Privasi Pangle](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — memproses pembelian langganan, menyimpan riwayat pembelian Anda, dan menetapkan ID pengguna aplikasi anonim. Di iOS, RevenueCat juga menerima atribusi iklan dari Apple (apakah Aplikasi diinstal dari kampanye Apple Ads, serta dari kampanye dan kata kunci mana) agar kami dapat mengukur iklan kami sendiri. [Kebijakan Privasi RevenueCat](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — laporan crash dan error: stack trace, versi sistem operasi, model perangkat, ID instalasi.

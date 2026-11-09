@@ -1,6 +1,6 @@
 # Tietosuojakäytäntö
 
-*24. lokakuuta 2026*
+*9. marraskuuta 2026*
 
 Tämä tietosuojakäytäntö kertoo, miten henkilötietoja käsitellään, kun käytät Flag Battle -mobiilisovellusta ("Sovellus").
 
@@ -19,10 +19,11 @@ Sovellus ei vaadi tiliä ja tallentaa kaiken sisältösi (valitut maat, taistelu
 
 Sovellus käyttää seuraavia palveluja, jotka käsittelevät esimerkiksi laitetunnisteita (mainostunniste, asennustunniste), IP-osoitetta, laite- ja käyttöjärjestelmätietoja sekä sovellus- ja mainosvuorovaikutuksia:
 
+- **Unity LevelPlay** (Unity Technologies) — mainosvälitys: valitsee, mikä mainosverkosto näyttää kunkin mainoksen, ja mittaa mainoksia. Kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista sekä SDK-diagnostiikkaa. [Unityn tietosuojakäytäntö](https://unity.com/legal/privacy-policy)
 - **Google AdMob** — näyttää ja mittaa mainoksia. Kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista (klikkaukset, näyttökerrat, mitä mainoksia olet nähnyt) sekä SDK-diagnostiikkaa. [Googlen tietosuojakäytäntö](https://policies.google.com/privacy)
-- **Unity Ads** — näyttää mainoksia AdMob-välityksen kautta. Kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista sekä SDK-diagnostiikkaa. [Unityn tietosuojakäytäntö](https://unity.com/legal/privacy-policy)
-- **Liftoff Monetize (Vungle)** — näyttää mainoksia AdMob-välityksen kautta. Kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista sekä SDK-diagnostiikkaa. [Liftoffin tietosuojakäytäntö](https://liftoff.io/privacy-policy/)
-- **Pangle** (Bytedance Pte. Ltd., Singapore) — näyttää mainoksia AdMob-välityksen kautta. Kerää mainostunnisteen, IP-osoitteen ja siitä päätellyn likimääräisen sijainnin, laitetietoja, tietoa mainosvuorovaikutuksista sekä SDK-diagnostiikkaa. [Panglen tietosuojakäytäntö](https://www.pangleglobal.com/privacy/enduser-en)
+- **Unity Ads** — näyttää mainoksia Unity LevelPlay- tai AdMob-välityksen kautta. Kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista sekä SDK-diagnostiikkaa. [Unityn tietosuojakäytäntö](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — näyttää mainoksia Unity LevelPlay- tai AdMob-välityksen kautta. Kerää mainostunnisteen, laitetietoja, tietoa mainosvuorovaikutuksista sekä SDK-diagnostiikkaa. [Liftoffin tietosuojakäytäntö](https://liftoff.io/privacy-policy/)
+- **Pangle** (Bytedance Pte. Ltd., Singapore) — näyttää mainoksia Unity LevelPlay- tai AdMob-välityksen kautta. Kerää mainostunnisteen, IP-osoitteen ja siitä päätellyn likimääräisen sijainnin, laitetietoja, tietoa mainosvuorovaikutuksista sekä SDK-diagnostiikkaa. [Panglen tietosuojakäytäntö](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — käsittelee tilausostot, tallentaa ostohistoriasi ja antaa anonyymin sovelluskäyttäjätunnisteen. iOS:ssä se saa lisäksi Applen mainosattribuution (onko Sovellus asennettu Apple Ads -kampanjasta sekä mistä kampanjasta ja hakusanasta), jotta voimme mitata omaa mainontaamme. [RevenueCatin tietosuojakäytäntö](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — kaatumis- ja virheraportit: pinojäljet, käyttöjärjestelmän versio, laitemalli, asennustunniste.

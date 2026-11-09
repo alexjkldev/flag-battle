@@ -1,6 +1,6 @@
 # Política de privacidad
 
-*24 de octubre de 2026*
+*9 de noviembre de 2026*
 
 Esta Política de privacidad explica cómo se tratan los datos personales cuando usas la aplicación móvil Flag Battle ("la App").
 
@@ -19,10 +19,11 @@ La App no requiere una cuenta y almacena todo tu contenido (países seleccionado
 
 La App utiliza los siguientes servicios, que tratan datos como identificadores del dispositivo (ID de publicidad, ID de instalación), la dirección IP, información del dispositivo y del sistema operativo, e interacciones con la app y con los anuncios:
 
+- **Unity LevelPlay** (Unity Technologies) — mediación publicitaria: elige qué red publicitaria muestra cada anuncio y mide los anuncios. Recopila el ID de publicidad, información del dispositivo, interacciones con anuncios y diagnósticos del SDK. [Política de privacidad de Unity](https://unity.com/legal/privacy-policy)
 - **Google AdMob** — muestra y mide anuncios. Recopila el ID de publicidad, información del dispositivo, interacciones con anuncios (clics, impresiones, qué anuncios has visto) y diagnósticos del SDK. [Política de privacidad de Google](https://policies.google.com/privacy)
-- **Unity Ads** — muestra anuncios a través de la mediación de AdMob. Recopila el ID de publicidad, información del dispositivo, interacciones con anuncios y diagnósticos del SDK. [Política de privacidad de Unity](https://unity.com/legal/privacy-policy)
-- **Liftoff Monetize (Vungle)** — muestra anuncios a través de la mediación de AdMob. Recopila el ID de publicidad, información del dispositivo, interacciones con anuncios y diagnósticos del SDK. [Política de privacidad de Liftoff](https://liftoff.io/privacy-policy/)
-- **Pangle** (Bytedance Pte. Ltd., Singapur) — muestra anuncios a través de la mediación de AdMob. Recopila el ID de publicidad, la dirección IP y la ubicación aproximada derivada de ella, información del dispositivo, interacciones con anuncios y diagnósticos del SDK. [Política de privacidad de Pangle](https://www.pangleglobal.com/privacy/enduser-en)
+- **Unity Ads** — muestra anuncios a través de la mediación de Unity LevelPlay o AdMob. Recopila el ID de publicidad, información del dispositivo, interacciones con anuncios y diagnósticos del SDK. [Política de privacidad de Unity](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — muestra anuncios a través de la mediación de Unity LevelPlay o AdMob. Recopila el ID de publicidad, información del dispositivo, interacciones con anuncios y diagnósticos del SDK. [Política de privacidad de Liftoff](https://liftoff.io/privacy-policy/)
+- **Pangle** (Bytedance Pte. Ltd., Singapur) — muestra anuncios a través de la mediación de Unity LevelPlay o AdMob. Recopila el ID de publicidad, la dirección IP y la ubicación aproximada derivada de ella, información del dispositivo, interacciones con anuncios y diagnósticos del SDK. [Política de privacidad de Pangle](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — procesa las compras de suscripciones, guarda tu historial de compras y asigna un ID de usuario anónimo. En iOS también recibe la atribución publicitaria de Apple (si la App se instaló desde una campaña de Apple Ads, y desde qué campaña y palabra clave) para que podamos medir nuestra propia publicidad. [Política de privacidad de RevenueCat](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — informes de fallos y errores: trazas de pila, versión del sistema operativo, modelo del dispositivo, ID de instalación.

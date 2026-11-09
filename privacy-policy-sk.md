@@ -1,6 +1,6 @@
 # Zásady ochrany osobných údajov
 
-*24. októbra 2026*
+*9. novembra 2026*
 
 Tieto Zásady ochrany osobných údajov vysvetľujú, ako sa spracúvajú osobné údaje pri používaní mobilnej aplikácie Flag Battle („Aplikácia").
 
@@ -19,10 +19,11 @@ Aplikácia nevyžaduje účet a všetok váš obsah (vybrané krajiny, názvy bi
 
 Aplikácia využíva nasledujúce služby, ktoré spracúvajú údaje, ako sú identifikátory zariadenia (reklamný identifikátor, identifikátor inštalácie), IP adresa, informácie o zariadení a operačnom systéme a interakcie s aplikáciou a reklamami:
 
+- **Unity LevelPlay** (Unity Technologies) — mediácia reklám: vyberá, ktorá reklamná sieť zobrazí danú reklamu, a meria reklamy. Zbiera reklamný identifikátor, informácie o zariadení, interakcie s reklamami a diagnostiku SDK. [Zásady ochrany osobných údajov Unity](https://unity.com/legal/privacy-policy)
 - **Google AdMob** — zobrazuje a meria reklamy. Zbiera reklamný identifikátor, informácie o zariadení, interakcie s reklamami (kliknutia, zobrazenia, ktoré reklamy ste videli) a diagnostiku SDK. [Zásady ochrany osobných údajov Google](https://policies.google.com/privacy)
-- **Unity Ads** — zobrazuje reklamy prostredníctvom mediácie AdMob. Zbiera reklamný identifikátor, informácie o zariadení, interakcie s reklamami a diagnostiku SDK. [Zásady ochrany osobných údajov Unity](https://unity.com/legal/privacy-policy)
-- **Liftoff Monetize (Vungle)** — zobrazuje reklamy prostredníctvom mediácie AdMob. Zbiera reklamný identifikátor, informácie o zariadení, interakcie s reklamami a diagnostiku SDK. [Zásady ochrany osobných údajov Liftoff](https://liftoff.io/privacy-policy/)
-- **Pangle** (Bytedance Pte. Ltd., Singapur) — zobrazuje reklamy prostredníctvom mediácie AdMob. Zbiera reklamný identifikátor, IP adresu a z nej odvodenú približnú polohu, informácie o zariadení, interakcie s reklamami a diagnostiku SDK. [Zásady ochrany osobných údajov Pangle](https://www.pangleglobal.com/privacy/enduser-en)
+- **Unity Ads** — zobrazuje reklamy prostredníctvom mediácie Unity LevelPlay alebo AdMob. Zbiera reklamný identifikátor, informácie o zariadení, interakcie s reklamami a diagnostiku SDK. [Zásady ochrany osobných údajov Unity](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — zobrazuje reklamy prostredníctvom mediácie Unity LevelPlay alebo AdMob. Zbiera reklamný identifikátor, informácie o zariadení, interakcie s reklamami a diagnostiku SDK. [Zásady ochrany osobných údajov Liftoff](https://liftoff.io/privacy-policy/)
+- **Pangle** (Bytedance Pte. Ltd., Singapur) — zobrazuje reklamy prostredníctvom mediácie Unity LevelPlay alebo AdMob. Zbiera reklamný identifikátor, IP adresu a z nej odvodenú približnú polohu, informácie o zariadení, interakcie s reklamami a diagnostiku SDK. [Zásady ochrany osobných údajov Pangle](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — spracúva nákupy predplatného, uchováva históriu vašich nákupov a prideľuje anonymný identifikátor používateľa aplikácie. V systéme iOS dostáva aj reklamnú atribúciu od spoločnosti Apple (či bola Aplikácia nainštalovaná z kampane Apple Ads a z ktorej kampane a kľúčového slova), aby sme mohli merať našu vlastnú reklamu. [Zásady ochrany osobných údajov RevenueCat](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — správy o pádoch a chybách: výpisy zásobníka, verzia operačného systému, model zariadenia, identifikátor inštalácie.

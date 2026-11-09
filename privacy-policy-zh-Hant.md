@@ -1,6 +1,6 @@
 # 隱私政策
 
-*2026年10月24日*
+*2026年11月9日*
 
 本隱私政策說明您使用行動應用程式 Flag Battle（以下簡稱「本應用程式」）時，個人資料如何被處理。
 
@@ -19,10 +19,11 @@
 
 本應用程式使用下列服務，這些服務會處理裝置識別碼（廣告 ID、安裝 ID）、IP 位址、裝置和作業系統資訊，以及與應用程式和廣告的互動等資料：
 
+- **Unity LevelPlay** (Unity Technologies) — 廣告中介：選擇由哪個廣告聯播網放送每則廣告，並衡量廣告成效。收集廣告 ID、裝置資訊、廣告互動以及 SDK 診斷資訊。[Unity 隱私權政策](https://unity.com/legal/privacy-policy)
 - **Google AdMob** — 放送並衡量廣告。收集廣告 ID、裝置資訊、廣告互動（點擊、曝光、您看過哪些廣告）以及 SDK 診斷資訊。[Google 隱私權政策](https://policies.google.com/privacy)
-- **Unity Ads** — 透過 AdMob 中介放送廣告。收集廣告 ID、裝置資訊、廣告互動以及 SDK 診斷資訊。[Unity 隱私權政策](https://unity.com/legal/privacy-policy)
-- **Liftoff Monetize (Vungle)** — 透過 AdMob 中介放送廣告。收集廣告 ID、裝置資訊、廣告互動以及 SDK 診斷資訊。[Liftoff 隱私權政策](https://liftoff.io/privacy-policy/)
-- **Pangle**（Bytedance Pte. Ltd.，新加坡）— 透過 AdMob 中介放送廣告。收集廣告 ID、IP 位址及據此推斷的大致位置、裝置資訊、廣告互動以及 SDK 診斷資訊。[Pangle 隱私權政策](https://www.pangleglobal.com/privacy/enduser-en)
+- **Unity Ads** — 透過 Unity LevelPlay 或 AdMob 中介放送廣告。收集廣告 ID、裝置資訊、廣告互動以及 SDK 診斷資訊。[Unity 隱私權政策](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — 透過 Unity LevelPlay 或 AdMob 中介放送廣告。收集廣告 ID、裝置資訊、廣告互動以及 SDK 診斷資訊。[Liftoff 隱私權政策](https://liftoff.io/privacy-policy/)
+- **Pangle**（Bytedance Pte. Ltd.，新加坡）— 透過 Unity LevelPlay 或 AdMob 中介放送廣告。收集廣告 ID、IP 位址及據此推斷的大致位置、裝置資訊、廣告互動以及 SDK 診斷資訊。[Pangle 隱私權政策](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — 處理訂閱購買，保存您的購買紀錄，並指派匿名的應用程式使用者 ID。在 iOS 上，它也會接收 Apple 的廣告歸因資訊（本應用程式是否透過 Apple Ads 廣告活動安裝，以及來自哪個廣告活動和關鍵字），以便我們衡量自己的廣告成效。[RevenueCat 隱私權政策](https://www.revenuecat.com/privacy)
 - **Firebase（Google）**：
   - *Crashlytics* — 當機與錯誤報告：堆疊追蹤、作業系統版本、裝置型號、安裝 ID。

@@ -1,6 +1,6 @@
 # Privacy Policy
 
-*Last updated: October 24, 2026*
+*Last updated: November 9, 2026*
 
 This Privacy Policy explains how personal data is processed when you use the Flag Battle mobile app ("the App").
 
@@ -19,10 +19,11 @@ The App does not require an account and stores all your content (selected countr
 
 The App uses the following services, which process data such as device identifiers (advertising ID, installation ID), IP address, device and OS information, and app or ad interactions:
 
+- **Unity LevelPlay** (Unity Technologies) — ad mediation: selects which ad network serves each ad and measures ads. Collects advertising ID, device information, ad interactions and SDK diagnostics. [Unity Privacy Policy](https://unity.com/legal/privacy-policy)
 - **Google AdMob** — serves and measures ads. Collects advertising ID, device information, ad interactions (clicks, impressions, which ads you have seen) and SDK diagnostics. [Google Privacy Policy](https://policies.google.com/privacy)
-- **Unity Ads** — serves ads through AdMob mediation. Collects advertising ID, device information, ad interactions and SDK diagnostics. [Unity Privacy Policy](https://unity.com/legal/privacy-policy)
-- **Liftoff Monetize (Vungle)** — serves ads through AdMob mediation. Collects advertising ID, device information, ad interactions and SDK diagnostics. [Liftoff Privacy Policy](https://liftoff.io/privacy-policy/)
-- **Pangle** (Bytedance Pte. Ltd., Singapore) — serves ads through AdMob mediation. Collects advertising ID, IP address and approximate location derived from it, device information, ad interactions and SDK diagnostics. [Pangle Privacy Policy](https://www.pangleglobal.com/privacy/enduser-en)
+- **Unity Ads** — serves ads through Unity LevelPlay or AdMob mediation. Collects advertising ID, device information, ad interactions and SDK diagnostics. [Unity Privacy Policy](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — serves ads through Unity LevelPlay or AdMob mediation. Collects advertising ID, device information, ad interactions and SDK diagnostics. [Liftoff Privacy Policy](https://liftoff.io/privacy-policy/)
+- **Pangle** (Bytedance Pte. Ltd., Singapore) — serves ads through Unity LevelPlay or AdMob mediation. Collects advertising ID, IP address and approximate location derived from it, device information, ad interactions and SDK diagnostics. [Pangle Privacy Policy](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — processes subscription purchases, stores your purchase history and assigns an anonymous app user ID. On iOS it also receives Apple's ad attribution (whether the App was installed from an Apple Ads campaign, and which campaign and keyword) so we can measure our own advertising. [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — crash and error reports: stack traces, OS version, device model, installation identifier.

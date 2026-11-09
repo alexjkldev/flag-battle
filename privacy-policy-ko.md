@@ -1,6 +1,6 @@
 # 개인정보 처리방침
 
-*2026년 10월 24일*
+*2026년 11월 9일*
 
 본 개인정보 처리방침은 모바일 앱 Flag Battle(이하 "앱")를 사용할 때 개인정보가 어떻게 처리되는지 설명합니다.
 
@@ -19,10 +19,11 @@
 
 앱은 다음 서비스를 사용하며, 이 서비스들은 기기 식별자(광고 ID, 설치 ID), IP 주소, 기기 및 OS 정보, 앱 및 광고와의 상호작용과 같은 데이터를 처리합니다.
 
+- **Unity LevelPlay** (Unity Technologies) — 광고 미디에이션: 각 광고를 게재할 광고 네트워크를 선택하고 광고를 측정합니다. 광고 ID, 기기 정보, 광고 상호작용 및 SDK 진단 정보를 수집합니다. [Unity 개인정보처리방침](https://unity.com/legal/privacy-policy)
 - **Google AdMob** — 광고를 게재하고 측정합니다. 광고 ID, 기기 정보, 광고 상호작용(클릭, 노출, 본 광고) 및 SDK 진단 정보를 수집합니다. [Google 개인정보처리방침](https://policies.google.com/privacy)
-- **Unity Ads** — AdMob 미디에이션을 통해 광고를 게재합니다. 광고 ID, 기기 정보, 광고 상호작용 및 SDK 진단 정보를 수집합니다. [Unity 개인정보처리방침](https://unity.com/legal/privacy-policy)
-- **Liftoff Monetize (Vungle)** — AdMob 미디에이션을 통해 광고를 게재합니다. 광고 ID, 기기 정보, 광고 상호작용 및 SDK 진단 정보를 수집합니다. [Liftoff 개인정보처리방침](https://liftoff.io/privacy-policy/)
-- **Pangle** (Bytedance Pte. Ltd., 싱가포르) — AdMob 미디에이션을 통해 광고를 게재합니다. 광고 ID, IP 주소 및 이를 통해 추정한 대략적인 위치, 기기 정보, 광고 상호작용 및 SDK 진단 정보를 수집합니다. [Pangle 개인정보처리방침](https://www.pangleglobal.com/privacy/enduser-en)
+- **Unity Ads** — Unity LevelPlay 또는 AdMob 미디에이션을 통해 광고를 게재합니다. 광고 ID, 기기 정보, 광고 상호작용 및 SDK 진단 정보를 수집합니다. [Unity 개인정보처리방침](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — Unity LevelPlay 또는 AdMob 미디에이션을 통해 광고를 게재합니다. 광고 ID, 기기 정보, 광고 상호작용 및 SDK 진단 정보를 수집합니다. [Liftoff 개인정보처리방침](https://liftoff.io/privacy-policy/)
+- **Pangle** (Bytedance Pte. Ltd., 싱가포르) — Unity LevelPlay 또는 AdMob 미디에이션을 통해 광고를 게재합니다. 광고 ID, IP 주소 및 이를 통해 추정한 대략적인 위치, 기기 정보, 광고 상호작용 및 SDK 진단 정보를 수집합니다. [Pangle 개인정보처리방침](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — 구독 구매를 처리하고 구매 내역을 저장하며 익명의 앱 사용자 ID를 부여합니다. iOS에서는 당사 자체 광고의 성과를 측정할 수 있도록 Apple의 광고 기여 정보(앱이 Apple Ads 캠페인을 통해 설치되었는지, 그리고 어떤 캠페인과 키워드를 통해서인지)도 받습니다. [RevenueCat 개인정보처리방침](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — 비정상 종료 및 오류 보고서: 스택 추적, OS 버전, 기기 모델, 설치 ID.

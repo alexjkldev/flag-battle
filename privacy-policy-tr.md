@@ -1,6 +1,6 @@
 # Gizlilik Politikası
 
-*24 Ekim 2026*
+*9 Kasım 2026*
 
 Bu Gizlilik Politikası, Flag Battle mobil uygulamasını ("Uygulama") kullandığınızda kişisel verilerin nasıl işlendiğini açıklar.
 
@@ -19,10 +19,11 @@ Uygulama hesap gerektirmez ve tüm içeriğinizi (seçilen ülkeler, savaş adla
 
 Uygulama, cihaz tanımlayıcıları (reklam kimliği, kurulum kimliği), IP adresi, cihaz ve işletim sistemi bilgileri ile uygulama ve reklam etkileşimleri gibi verileri işleyen şu hizmetleri kullanır:
 
+- **Unity LevelPlay** (Unity Technologies) — reklam uyumlulaştırması: her reklamı hangi reklam ağının göstereceğini seçer ve reklamları ölçer. Reklam kimliği, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Unity Gizlilik Politikası](https://unity.com/legal/privacy-policy)
 - **Google AdMob** — reklam gösterir ve ölçer. Reklam kimliği, cihaz bilgileri, reklam etkileşimleri (tıklamalar, gösterimler, hangi reklamları gördüğünüz) ve SDK tanılama verilerini toplar. [Google Gizlilik Politikası](https://policies.google.com/privacy)
-- **Unity Ads** — AdMob uyumlulaştırması aracılığıyla reklam gösterir. Reklam kimliği, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Unity Gizlilik Politikası](https://unity.com/legal/privacy-policy)
-- **Liftoff Monetize (Vungle)** — AdMob uyumlulaştırması aracılığıyla reklam gösterir. Reklam kimliği, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Liftoff Gizlilik Politikası](https://liftoff.io/privacy-policy/)
-- **Pangle** (Bytedance Pte. Ltd., Singapur) — AdMob uyumlulaştırması aracılığıyla reklam gösterir. Reklam kimliği, IP adresi ve buradan çıkarılan yaklaşık konum, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Pangle Gizlilik Politikası](https://www.pangleglobal.com/privacy/enduser-en)
+- **Unity Ads** — Unity LevelPlay veya AdMob uyumlulaştırması aracılığıyla reklam gösterir. Reklam kimliği, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Unity Gizlilik Politikası](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — Unity LevelPlay veya AdMob uyumlulaştırması aracılığıyla reklam gösterir. Reklam kimliği, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Liftoff Gizlilik Politikası](https://liftoff.io/privacy-policy/)
+- **Pangle** (Bytedance Pte. Ltd., Singapur) — Unity LevelPlay veya AdMob uyumlulaştırması aracılığıyla reklam gösterir. Reklam kimliği, IP adresi ve buradan çıkarılan yaklaşık konum, cihaz bilgileri, reklam etkileşimleri ve SDK tanılama verilerini toplar. [Pangle Gizlilik Politikası](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — abonelik satın alımlarını işler, satın alma geçmişinizi saklar ve anonim bir uygulama kullanıcı kimliği atar. iOS'ta, kendi reklamlarımızı ölçebilmemiz için Apple'ın reklam ilişkilendirme verilerini de alır (Uygulamanın bir Apple Ads kampanyasından yüklenip yüklenmediği ve hangi kampanya ve anahtar kelimeden geldiği). [RevenueCat Gizlilik Politikası](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — çökme ve hata raporları: yığın izleri, işletim sistemi sürümü, cihaz modeli, kurulum kimliği.

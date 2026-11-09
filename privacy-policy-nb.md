@@ -1,6 +1,6 @@
 # Personvernerklæring
 
-*24. oktober 2026*
+*9. november 2026*
 
 Denne personvernerklæringen forklarer hvordan personopplysninger behandles når du bruker mobilappen Flag Battle ("Appen").
 
@@ -19,10 +19,11 @@ Appen krever ingen konto og lagrer alt innholdet ditt (valgte land, kampnavn, in
 
 Appen bruker følgende tjenester, som behandler data som enhetsidentifikatorer (annonse-ID, installasjons-ID), IP-adresse, informasjon om enhet og operativsystem samt interaksjoner med appen og annonser:
 
+- **Unity LevelPlay** (Unity Technologies) — annonsemediering: velger hvilket annonsenettverk som viser hver annonse, og måler annonser. Samler inn annonse-ID, enhetsinformasjon, annonseinteraksjoner og SDK-diagnostikk. [Unitys personvernregler](https://unity.com/legal/privacy-policy)
 - **Google AdMob** — viser og måler annonser. Samler inn annonse-ID, enhetsinformasjon, annonseinteraksjoner (klikk, visninger, hvilke annonser du har sett) og SDK-diagnostikk. [Googles personvernerklæring](https://policies.google.com/privacy)
-- **Unity Ads** — viser annonser via AdMob-mediering. Samler inn annonse-ID, enhetsinformasjon, annonseinteraksjoner og SDK-diagnostikk. [Unitys personvernregler](https://unity.com/legal/privacy-policy)
-- **Liftoff Monetize (Vungle)** — viser annonser via AdMob-mediering. Samler inn annonse-ID, enhetsinformasjon, annonseinteraksjoner og SDK-diagnostikk. [Liftoffs personvernregler](https://liftoff.io/privacy-policy/)
-- **Pangle** (Bytedance Pte. Ltd., Singapore) — viser annonser via AdMob-mediering. Samler inn annonse-ID, IP-adresse og omtrentlig posisjon utledet fra den, enhetsinformasjon, annonseinteraksjoner og SDK-diagnostikk. [Pangles personvernregler](https://www.pangleglobal.com/privacy/enduser-en)
+- **Unity Ads** — viser annonser via Unity LevelPlay- eller AdMob-mediering. Samler inn annonse-ID, enhetsinformasjon, annonseinteraksjoner og SDK-diagnostikk. [Unitys personvernregler](https://unity.com/legal/privacy-policy)
+- **Liftoff Monetize (Vungle)** — viser annonser via Unity LevelPlay- eller AdMob-mediering. Samler inn annonse-ID, enhetsinformasjon, annonseinteraksjoner og SDK-diagnostikk. [Liftoffs personvernregler](https://liftoff.io/privacy-policy/)
+- **Pangle** (Bytedance Pte. Ltd., Singapore) — viser annonser via Unity LevelPlay- eller AdMob-mediering. Samler inn annonse-ID, IP-adresse og omtrentlig posisjon utledet fra den, enhetsinformasjon, annonseinteraksjoner og SDK-diagnostikk. [Pangles personvernregler](https://www.pangleglobal.com/privacy/enduser-en)
 - **RevenueCat** — behandler abonnementskjøp, lagrer kjøpshistorikken din og tildeler en anonym app-bruker-ID. På iOS mottar den også Apples annonseattribusjon (om Appen ble installert fra en Apple Ads-kampanje, og fra hvilken kampanje og hvilket søkeord), slik at vi kan måle vår egen annonsering. [RevenueCats personvernerklæring](https://www.revenuecat.com/privacy)
 - **Firebase (Google)**:
   - *Crashlytics* — krasj- og feilrapporter: stakkspor, operativsystemversjon, enhetsmodell, installasjons-ID.
