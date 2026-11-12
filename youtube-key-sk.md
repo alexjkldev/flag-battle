@@ -25,7 +25,7 @@ Kliknite na **Save** a skopírujte kľúč (**Show key** → kopírovať).
 
 ## 5. Vložte ho do aplikácie
 
-Vo Flag Battle otvorte **Nastavenia → Duel → Režim streamera** a ťuknite na tlačidlo vloženia vedľa poľa kľúča YouTube API. Kľúč sa ukladá iba vo vašom telefóne, v zabezpečenom úložisku, a nikdy sa nezobrazuje na obrazovke.
+Vo Flag Battle otvorte **Nastavenia → Súboj → Režim streamera** a ťuknite na tlačidlo vloženia vedľa poľa kľúča YouTube API. Kľúč sa ukladá iba vo vašom telefóne, v zabezpečenom úložisku, a nikdy sa nezobrazuje na obrazovke.
 
 ## Dobré vedieť
 

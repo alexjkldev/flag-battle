@@ -25,7 +25,7 @@ Cliquez sur **Save**, puis copiez la clé (**Show key** → copier).
 
 ## 5. Collez-la dans l'app
 
-Dans Flag Battle, ouvrez **Réglages → Duel → Mode streamer** et touchez le bouton Coller à côté du champ de la clé API YouTube. La clé est stockée uniquement sur votre téléphone, dans son stockage sécurisé, et n'est jamais affichée à l'écran.
+Dans Flag Battle, ouvrez **Paramètres → Duel → Mode streamer** et touchez le bouton Coller à côté du champ de la clé API YouTube. La clé est stockée uniquement sur votre téléphone, dans son stockage sécurisé, et n'est jamais affichée à l'écran.
 
 ## Bon à savoir
 
