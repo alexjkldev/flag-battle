@@ -1,6 +1,6 @@
 # Chính Sách Quyền Riêng Tư
 
-*Ngày 9 tháng 11 năm 2026*
+*Ngày 12 tháng 11 năm 2026*
 
 Chính sách quyền riêng tư này giải thích cách dữ liệu cá nhân được xử lý khi bạn sử dụng ứng dụng di động Flag Battle ("Ứng dụng").
 
@@ -34,6 +34,14 @@ Email: [support@alexjkl.fi](mailto:support@alexjkl.fi)
 
 Các mạng quảng cáo đóng vai trò là bên kiểm soát độc lập đối với dữ liệu họ thu thập hoặc, khi điều khoản của họ quy định, là bên đồng kiểm soát cùng chúng tôi (ví dụ: Pangle đối với một số hoạt động xử lý theo Điều 26 GDPR). Chính sách quyền riêng tư của họ, được liên kết ở trên, mô tả chi tiết việc xử lý này.
 
+## Chế độ streamer (YouTube)
+
+Chế độ streamer (Đấu tay đôi, Premium) sử dụng **Dịch vụ API của YouTube**. Khi bạn bật chế độ này và nhập đường liên kết đến buổi phát trực tiếp trên YouTube của mình, Ứng dụng đọc cuộc trò chuyện trực tiếp công khai của buổi phát đó trực tiếp từ YouTube: tên hiển thị của người xem, ID kênh, tin nhắn và số tiền Super Chat / Super Sticker. Dữ liệu này được hiển thị trên màn hình trong buổi phát (lượt bình chọn, hàng chờ, người hâm mộ, tin nhắn Super Chat) và chỉ được giữ trong bộ nhớ thiết bị khi chế độ streamer đang chạy. Dữ liệu không được lưu, không được gửi cho chúng tôi, không được chia sẻ với bất kỳ ai và bị loại bỏ khi bạn rời chế độ streamer hoặc đóng Ứng dụng.
+
+Các yêu cầu được gửi trực tiếp từ thiết bị của bạn đến máy chủ của Google, vì vậy Google nhận được địa chỉ IP của bạn và chính các yêu cầu đó. Nếu bạn nhập khóa YouTube Data API của riêng mình, khóa chỉ được lưu trên thiết bị của bạn, trong bộ nhớ an toàn của hệ thống (Keychain / Keystore), và chỉ được gửi đến Google cùng mỗi yêu cầu — không bao giờ gửi cho chúng tôi. Khi không có khóa riêng, Ứng dụng dùng khóa của mình cho một lượt dùng thử ngắn mỗi ngày; thời lượng dùng thử đã dùng trong ngày được lưu cục bộ trên thiết bị của bạn.
+
+Khi sử dụng chế độ streamer, bạn đồng ý chịu ràng buộc bởi [Điều khoản dịch vụ của YouTube](https://www.youtube.com/t/terms). Cách Google xử lý dữ liệu được mô tả trong [Chính sách quyền riêng tư của Google](https://policies.google.com/privacy). Bạn có thể dừng quyền truy cập của Ứng dụng bất cứ lúc nào bằng cách tắt chế độ streamer; bạn có thể xóa khóa của mình bằng cách xóa nó trong Ứng dụng hoặc trong Google Cloud Console.
+
 ## Mục đích và cơ sở pháp lý
 
 | Mục đích | Cơ sở pháp lý (GDPR) |
@@ -45,6 +53,7 @@ Các mạng quảng cáo đóng vai trò là bên kiểm soát độc lập đ�
 | Phân tích việc sử dụng | Lợi ích hợp pháp của chúng tôi trong việc hiểu và cải thiện Ứng dụng (Điều 6(1)(f)) |
 | Đo lường các chiến dịch quảng cáo của chính chúng tôi (phân bổ Apple Ads) | Lợi ích hợp pháp của chúng tôi trong việc biết quảng cáo nào mang người dùng đến với Ứng dụng (Điều 6(1)(f)) |
 | Trả lời tin nhắn của bạn | Lợi ích hợp pháp của chúng tôi trong việc phản hồi bạn (Điều 6(1)(f)) |
+| Chế độ streamer (đọc trò chuyện của buổi phát YouTube của bạn) | Thực hiện hợp đồng với bạn — tính năng bạn bật (Điều 6(1)(b)); đối với người xem có tin nhắn được hiển thị, lợi ích hợp pháp của chúng tôi trong việc cung cấp tính năng đó (Điều 6(1)(f)) |
 
 ## Lựa chọn đồng ý của bạn
 
@@ -62,6 +71,7 @@ Một số dịch vụ nêu trên xử lý dữ liệu bên ngoài Khu vực Kin
 - **Dữ liệu phân tích** — được lưu theo cài đặt lưu giữ của Google cho Firebase Analytics.
 - **Dữ liệu do các mạng quảng cáo và RevenueCat thu thập** — được lưu theo chính sách quyền riêng tư của họ.
 - **Tin nhắn bạn gửi cho chúng tôi** — được lưu trong thời gian cần thiết để xử lý yêu cầu của bạn, sau đó bị xóa.
+- **Dữ liệu trò chuyện YouTube (chế độ streamer)** — chỉ trong bộ nhớ khi chế độ streamer đang chạy; không bao giờ được lưu.
 
 ## Quyền của bạn
 

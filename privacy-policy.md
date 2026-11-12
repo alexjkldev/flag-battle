@@ -1,6 +1,6 @@
 # Privacy Policy
 
-*Last updated: November 9, 2026*
+*Last updated: November 12, 2026*
 
 This Privacy Policy explains how personal data is processed when you use the Flag Battle mobile app ("the App").
 
@@ -34,6 +34,14 @@ The App uses the following services, which process data such as device identifie
 
 Ad networks act as independent controllers for the data they collect, or, where their terms provide so, as joint controllers with us (for example, Pangle under Art. 26 GDPR for certain processing). Their privacy policies linked above describe their processing in detail.
 
+## YouTube Streamer Mode
+
+Streamer mode (Duel, Premium) uses **YouTube API Services**. When you turn it on and enter a link to your YouTube live stream, the App reads that stream's public live chat directly from YouTube: viewers' display names, channel IDs, messages and Super Chat / Super Sticker amounts. This data is shown on screen during your stream (votes, the queue, fans, Super Chat messages) and is kept only in your device's memory while streamer mode is running. It is not saved, not sent to us and not shared with anyone; it is discarded when you leave streamer mode or close the App.
+
+Requests go directly from your device to Google's servers, so Google receives your IP address and the requests themselves. If you enter your own YouTube Data API key, it is stored only on your device, in the system's secure storage (Keychain / Keystore), and is sent only to Google with each request — never to us. Without your own key, the App uses its own key for a short daily trial; how much of today's trial is used is stored locally on your device.
+
+By using streamer mode you agree to be bound by the [YouTube Terms of Service](https://www.youtube.com/t/terms). How Google handles data is described in the [Google Privacy Policy](https://policies.google.com/privacy). You can stop the App's access at any time by turning streamer mode off; you can remove your own key by clearing it in the App or deleting it in your Google Cloud Console.
+
 ## Purposes and Legal Bases
 
 | Purpose | Legal basis (GDPR) |
@@ -45,6 +53,7 @@ Ad networks act as independent controllers for the data they collect, or, where 
 | Usage analytics | Our legitimate interest in understanding and improving the App (Art. 6(1)(f)) |
 | Measuring our own advertising campaigns (Apple Ads attribution) | Our legitimate interest in knowing which of our ads bring users to the App (Art. 6(1)(f)) |
 | Answering your messages | Our legitimate interest in responding to you (Art. 6(1)(f)) |
+| Streamer mode (reading your YouTube stream's chat) | Performance of a contract with you — the feature you turn on (Art. 6(1)(b)); for viewers whose chat messages are shown, our legitimate interest in providing that feature (Art. 6(1)(f)) |
 
 ## Your Consent Choices
 
@@ -62,6 +71,7 @@ Some of the services above process data outside the European Economic Area, in p
 - **Analytics data** — retained according to Google's retention settings for Firebase Analytics.
 - **Data collected by ad networks and RevenueCat** — retained according to their own privacy policies.
 - **Your messages to us** — kept as long as needed to handle your request, then deleted.
+- **YouTube chat data (streamer mode)** — kept only in memory while streamer mode is running; never stored.
 
 ## Your Rights
 

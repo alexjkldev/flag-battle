@@ -1,6 +1,6 @@
 # Polityka prywatności
 
-*9 listopada 2026 r.*
+*12 listopada 2026 r.*
 
 Niniejsza Polityka prywatności wyjaśnia, w jaki sposób przetwarzane są dane osobowe podczas korzystania z aplikacji mobilnej Flag Battle („Aplikacja").
 
@@ -34,6 +34,14 @@ Aplikacja korzysta z następujących usług, które przetwarzają dane takie jak
 
 Sieci reklamowe działają jako niezależni administratorzy zbieranych przez siebie danych lub, jeśli przewidują to ich warunki, jako współadministratorzy wraz z nami (np. Pangle w zakresie niektórych operacji przetwarzania zgodnie z art. 26 RODO). Ich polityki prywatności, do których linki podano powyżej, szczegółowo opisują to przetwarzanie.
 
+## Tryb streamera (YouTube)
+
+Tryb streamera (Pojedynek, Premium) korzysta z **usług API YouTube (YouTube API Services)**. Gdy go włączysz i podasz link do swojej transmisji na żywo w YouTube, Aplikacja odczytuje publiczny czat na żywo tej transmisji bezpośrednio z YouTube: wyświetlane nazwy widzów, identyfikatory kanałów, wiadomości oraz kwoty Super Chat / Super Sticker. Dane te są wyświetlane na ekranie podczas transmisji (głosy, kolejka, kibice, wiadomości Super Chat) i przechowywane wyłącznie w pamięci urządzenia, dopóki działa tryb streamera. Nie są zapisywane, przesyłane do nas ani nikomu udostępniane i są usuwane, gdy opuścisz tryb streamera lub zamkniesz Aplikację.
+
+Żądania trafiają bezpośrednio z Twojego urządzenia na serwery Google, więc Google otrzymuje Twój adres IP i same żądania. Jeśli podasz własny klucz YouTube Data API, jest on przechowywany wyłącznie na Twoim urządzeniu, w bezpiecznym magazynie systemu (Keychain / Keystore), i wysyłany tylko do Google z każdym żądaniem — nigdy do nas. Bez własnego klucza Aplikacja używa swojego klucza do krótkiego codziennego okresu próbnego; ile z dzisiejszej próby zostało wykorzystane, jest zapisywane lokalnie na urządzeniu.
+
+Korzystając z trybu streamera, zgadzasz się przestrzegać [Warunków korzystania z YouTube](https://www.youtube.com/t/terms). Sposób przetwarzania danych przez Google opisuje [Polityka prywatności Google](https://policies.google.com/privacy). W każdej chwili możesz zakończyć dostęp Aplikacji, wyłączając tryb streamera; własny klucz usuniesz, czyszcząc go w Aplikacji lub usuwając w Google Cloud Console.
+
 ## Cele i podstawy prawne
 
 | Cel | Podstawa prawna (RODO) |
@@ -45,6 +53,7 @@ Sieci reklamowe działają jako niezależni administratorzy zbieranych przez sie
 | Analityka korzystania | Nasz prawnie uzasadniony interes w zrozumieniu i ulepszaniu Aplikacji (art. 6 ust. 1 lit. f) |
 | Pomiar naszych własnych kampanii reklamowych (atrybucja Apple Ads) | Nasz prawnie uzasadniony interes w wiedzy, które nasze reklamy przyciągają użytkowników do Aplikacji (art. 6 ust. 1 lit. f) |
 | Odpowiadanie na Twoje wiadomości | Nasz prawnie uzasadniony interes w udzieleniu Ci odpowiedzi (art. 6 ust. 1 lit. f) |
+| Tryb streamera (odczyt czatu Twojej transmisji w YouTube) | Wykonanie umowy z Tobą — funkcja, którą włączasz (art. 6 ust. 1 lit. b); w przypadku widzów, których wiadomości są wyświetlane — nasz prawnie uzasadniony interes w udostępnianiu tej funkcji (art. 6 ust. 1 lit. f) |
 
 ## Twoje wybory dotyczące zgody
 
@@ -62,6 +71,7 @@ Niektóre z powyższych usług przetwarzają dane poza Europejskim Obszarem Gosp
 - **Dane analityczne** — przechowywane zgodnie z ustawieniami przechowywania Google dla Firebase Analytics.
 - **Dane zbierane przez sieci reklamowe i RevenueCat** — przechowywane zgodnie z ich własnymi politykami prywatności.
 - **Twoje wiadomości do nas** — przechowywane tak długo, jak jest to potrzebne do obsługi Twojego zapytania, a następnie usuwane.
+- **Dane czatu YouTube (tryb streamera)** — tylko w pamięci, dopóki działa tryb streamera; nigdy nie są zapisywane.
 
 ## Twoje prawa
 

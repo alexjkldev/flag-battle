@@ -1,6 +1,6 @@
 # Zásady ochrany osobných údajov
 
-*9. novembra 2026*
+*12. novembra 2026*
 
 Tieto Zásady ochrany osobných údajov vysvetľujú, ako sa spracúvajú osobné údaje pri používaní mobilnej aplikácie Flag Battle („Aplikácia").
 
@@ -34,6 +34,14 @@ Aplikácia využíva nasledujúce služby, ktoré spracúvajú údaje, ako sú i
 
 Reklamné siete vystupujú ako samostatní prevádzkovatelia údajov, ktoré zbierajú, alebo, ak to stanovujú ich podmienky, ako spoloční prevádzkovatelia s nami (napríklad Pangle pri niektorých spracovateľských operáciách podľa článku 26 GDPR). Ich zásady ochrany osobných údajov, na ktoré odkazujeme vyššie, opisujú toto spracúvanie podrobne.
 
+## Režim streamera (YouTube)
+
+Režim streamera (Duel, Premium) využíva **služby YouTube API (YouTube API Services)**. Keď ho zapnete a zadáte odkaz na svoj priamy prenos na YouTube, Aplikácia číta verejný živý chat tohto prenosu priamo z YouTube: zobrazované mená divákov, ID kanálov, správy a sumy Super Chat / Super Sticker. Tieto údaje sa počas prenosu zobrazujú na obrazovke (hlasy, poradie, fanúšikovia, správy Super Chat) a uchovávajú sa iba v pamäti vášho zariadenia, kým je režim streamera zapnutý. Neukladajú sa, neposielajú sa nám ani nikomu inému a zahodia sa, keď režim streamera opustíte alebo Aplikáciu zatvoríte.
+
+Požiadavky idú priamo z vášho zariadenia na servery Google, takže Google dostáva vašu IP adresu a samotné požiadavky. Ak zadáte vlastný kľúč YouTube Data API, uloží sa iba vo vašom zariadení v zabezpečenom úložisku systému (Keychain / Keystore) a posiela sa iba spoločnosti Google s každou požiadavkou — nikdy nám. Bez vlastného kľúča Aplikácia používa vlastný kľúč na krátku dennú skúšobnú dobu; koľko z dnešnej skúšky sa už využilo, sa ukladá lokálne vo vašom zariadení.
+
+Používaním režimu streamera súhlasíte so [Zmluvnými podmienkami YouTube](https://www.youtube.com/t/terms). Spôsob, akým Google spracúva údaje, opisujú [Pravidlá ochrany súkromia Google](https://policies.google.com/privacy). Prístup Aplikácie môžete kedykoľvek ukončiť vypnutím režimu streamera; vlastný kľúč odstránite jeho vymazaním v Aplikácii alebo v Google Cloud Console.
+
 ## Účely a právne základy
 
 | Účel | Právny základ (GDPR) |
@@ -45,6 +53,7 @@ Reklamné siete vystupujú ako samostatní prevádzkovatelia údajov, ktoré zbi
 | Analýza používania | Náš oprávnený záujem porozumieť Aplikácii a zlepšovať ju (čl. 6 ods. 1 písm. f)) |
 | Meranie našich vlastných reklamných kampaní (atribúcia Apple Ads) | Náš oprávnený záujem vedieť, ktoré naše reklamy privádzajú používateľov do Aplikácie (čl. 6 ods. 1 písm. f)) |
 | Odpovede na vaše správy | Náš oprávnený záujem odpovedať vám (čl. 6 ods. 1 písm. f)) |
+| Režim streamera (čítanie chatu vášho prenosu na YouTube) | Plnenie zmluvy s vami — funkcia, ktorú zapnete (čl. 6 ods. 1 písm. b)); pri divákoch, ktorých správy sa zobrazujú, náš oprávnený záujem na poskytovaní tejto funkcie (čl. 6 ods. 1 písm. f)) |
 
 ## Vaše možnosti súhlasu
 
@@ -62,6 +71,7 @@ Niektoré z uvedených služieb spracúvajú údaje mimo Európskeho hospodársk
 - **Analytické údaje** — uchovávajú sa podľa nastavení uchovávania Google pre Firebase Analytics.
 - **Údaje zbierané reklamnými sieťami a RevenueCat** — uchovávajú sa podľa ich vlastných zásad ochrany osobných údajov.
 - **Vaše správy nám** — uchovávajú sa, kým je to potrebné na vybavenie vašej žiadosti, potom sa vymažú.
+- **Údaje chatu YouTube (režim streamera)** — iba v pamäti, kým je režim streamera zapnutý; nikdy sa neukladajú.
 
 ## Vaše práva
 

@@ -1,6 +1,6 @@
 # Datenschutzrichtlinie
 
-*9. November 2026*
+*12. November 2026*
 
 Diese Datenschutzrichtlinie erläutert, wie personenbezogene Daten verarbeitet werden, wenn Sie die mobile App Flag Battle („die App") nutzen.
 
@@ -34,6 +34,14 @@ Die App verwendet die folgenden Dienste, die Daten wie Gerätekennungen (Werbe-I
 
 Werbenetzwerke handeln als eigenständige Verantwortliche für die von ihnen erhobenen Daten oder, soweit ihre Bedingungen dies vorsehen, als gemeinsam mit uns Verantwortliche (zum Beispiel Pangle für bestimmte Verarbeitungen gemäß Art. 26 DSGVO). Ihre Datenverarbeitung ist in den oben verlinkten Datenschutzerklärungen ausführlich beschrieben.
 
+## Streamer-Modus (YouTube)
+
+Der Streamer-Modus (Duell, Premium) nutzt **YouTube API Services**. Wenn Sie ihn einschalten und einen Link zu Ihrem YouTube-Livestream angeben, liest die App den öffentlichen Livechat dieses Streams direkt von YouTube: Anzeigenamen der Zuschauer, Kanal-IDs, Nachrichten sowie Super-Chat-/Super-Sticker-Beträge. Diese Daten werden während Ihres Streams auf dem Bildschirm angezeigt (Stimmen, Warteschlange, Fans, Super-Chat-Nachrichten) und nur im Arbeitsspeicher Ihres Geräts gehalten, solange der Streamer-Modus läuft. Sie werden nicht gespeichert, nicht an uns oder Dritte übermittelt und verworfen, wenn Sie den Streamer-Modus verlassen oder die App schließen.
+
+Die Anfragen gehen direkt von Ihrem Gerät an die Server von Google; Google erhält dabei Ihre IP-Adresse und die Anfragen selbst. Wenn Sie einen eigenen YouTube-Data-API-Schlüssel eingeben, wird er nur auf Ihrem Gerät im sicheren Speicher des Systems (Keychain / Keystore) gespeichert und nur mit jeder Anfrage an Google gesendet — niemals an uns. Ohne eigenen Schlüssel verwendet die App ihren eigenen Schlüssel für eine kurze tägliche Testphase; wie viel davon heute verbraucht ist, wird lokal auf Ihrem Gerät gespeichert.
+
+Mit der Nutzung des Streamer-Modus erklären Sie sich mit den [Nutzungsbedingungen von YouTube](https://www.youtube.com/t/terms) einverstanden. Wie Google Daten verarbeitet, beschreibt die [Datenschutzerklärung von Google](https://policies.google.com/privacy). Sie können den Zugriff der App jederzeit beenden, indem Sie den Streamer-Modus ausschalten; Ihren eigenen Schlüssel können Sie in der App löschen oder in Ihrer Google Cloud Console entfernen.
+
 ## Zwecke und Rechtsgrundlagen
 
 | Zweck | Rechtsgrundlage (DSGVO) |
@@ -45,6 +53,7 @@ Werbenetzwerke handeln als eigenständige Verantwortliche für die von ihnen erh
 | Nutzungsanalyse | Unser berechtigtes Interesse, die App zu verstehen und zu verbessern (Art. 6 Abs. 1 lit. f) |
 | Messung unserer eigenen Werbekampagnen (Apple-Ads-Zuordnung) | Unser berechtigtes Interesse, zu erfahren, welche unserer Anzeigen Nutzer zur App bringen (Art. 6 Abs. 1 lit. f) |
 | Beantwortung Ihrer Nachrichten | Unser berechtigtes Interesse, Ihnen zu antworten (Art. 6 Abs. 1 lit. f) |
+| Streamer-Modus (Lesen des Chats Ihres YouTube-Streams) | Vertragserfüllung — die Funktion, die Sie einschalten (Art. 6 Abs. 1 lit. b); für Zuschauer, deren Nachrichten angezeigt werden, unser berechtigtes Interesse an dieser Funktion (Art. 6 Abs. 1 lit. f) |
 
 ## Ihre Einwilligungsoptionen
 
@@ -62,6 +71,7 @@ Einige der oben genannten Dienste verarbeiten Daten außerhalb des Europäischen
 - **Analysedaten** — werden gemäß den Aufbewahrungseinstellungen von Google für Firebase Analytics gespeichert.
 - **Von Werbenetzwerken und RevenueCat erhobene Daten** — werden gemäß deren eigenen Datenschutzerklärungen gespeichert.
 - **Ihre Nachrichten an uns** — werden so lange gespeichert, wie es zur Bearbeitung Ihrer Anfrage erforderlich ist, und danach gelöscht.
+- **YouTube-Chatdaten (Streamer-Modus)** — nur im Arbeitsspeicher, solange der Streamer-Modus läuft; werden nie gespeichert.
 
 ## Ihre Rechte
 

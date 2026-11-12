@@ -1,6 +1,6 @@
 # Tietosuojakäytäntö
 
-*9. marraskuuta 2026*
+*12. marraskuuta 2026*
 
 Tämä tietosuojakäytäntö kertoo, miten henkilötietoja käsitellään, kun käytät Flag Battle -mobiilisovellusta ("Sovellus").
 
@@ -34,6 +34,14 @@ Sovellus käyttää seuraavia palveluja, jotka käsittelevät esimerkiksi laitet
 
 Mainosverkostot toimivat keräämiensä tietojen itsenäisinä rekisterinpitäjinä tai, jos niiden ehdoissa niin määrätään, yhteisrekisterinpitäjinä kanssamme (esimerkiksi Pangle tietyissä käsittelytoimissa GDPR:n 26 artiklan mukaisesti). Niiden tietojenkäsittely on kuvattu tarkemmin yllä linkitetyissä tietosuojakäytännöissä.
 
+## Striimaajatila (YouTube)
+
+Striimaajatila (Kaksintaistelu, Premium) käyttää **YouTube API Services** -palveluja. Kun otat sen käyttöön ja annat linkin YouTube-livelähetykseesi, Sovellus lukee lähetyksen julkista livechattia suoraan YouTubesta: katsojien näyttönimet, kanavatunnukset, viestit sekä Super Chat- / Super Sticker -summat. Tiedot näytetään ruudulla lähetyksen aikana (äänet, jono, fanit, Super Chat -viestit), ja niitä säilytetään vain laitteesi muistissa niin kauan kuin striimaajatila on käynnissä. Niitä ei tallenneta, lähetetä meille eikä jaeta kenellekään, ja ne hävitetään, kun poistut striimaajatilasta tai suljet Sovelluksen.
+
+Pyynnöt kulkevat suoraan laitteeltasi Googlen palvelimille, joten Google saa IP-osoitteesi ja itse pyynnöt. Jos annat oman YouTube Data API -avaimen, se tallennetaan vain laitteellesi järjestelmän suojattuun tallennustilaan (Keychain / Keystore), ja se lähetetään vain Googlelle jokaisen pyynnön mukana — ei koskaan meille. Ilman omaa avainta Sovellus käyttää omaa avaintaan lyhyeen päivittäiseen kokeiluun; tieto siitä, kuinka paljon tämän päivän kokeilusta on käytetty, tallennetaan paikallisesti laitteellesi.
+
+Käyttämällä striimaajatilaa hyväksyt [YouTuben käyttöehdot](https://www.youtube.com/t/terms). Googlen tietojenkäsittelyä kuvataan [Googlen tietosuojakäytännössä](https://policies.google.com/privacy). Voit lopettaa Sovelluksen pääsyn milloin tahansa poistamalla striimaajatilan käytöstä; oman avaimesi voit poistaa tyhjentämällä sen Sovelluksessa tai poistamalla sen Google Cloud Consolessa.
+
 ## Käsittelyn tarkoitukset ja oikeusperusteet
 
 | Tarkoitus | Oikeusperuste (GDPR) |
@@ -45,6 +53,7 @@ Mainosverkostot toimivat keräämiensä tietojen itsenäisinä rekisterinpitäji
 | Käyttöanalytiikka | Oikeutettu etumme ymmärtää ja kehittää Sovellusta (6 artiklan 1 kohdan f alakohta) |
 | Omien mainoskampanjoidemme mittaaminen (Apple Ads -attribuutio) | Oikeutettu etumme tietää, mitkä mainoksistamme tuovat käyttäjiä Sovellukseen (6 artiklan 1 kohdan f alakohta) |
 | Viesteihisi vastaaminen | Oikeutettu etumme vastata sinulle (6 artiklan 1 kohdan f alakohta) |
+| Striimaajatila (YouTube-lähetyksesi chatin lukeminen) | Sopimuksen täytäntöönpano kanssasi — toiminto, jonka otat käyttöön (6 artiklan 1 kohdan b alakohta); katsojien osalta, joiden viestit näytetään, oikeutettu etumme tarjota toiminto (6 artiklan 1 kohdan f alakohta) |
 
 ## Suostumusvalintasi
 
@@ -62,6 +71,7 @@ Osa edellä mainituista palveluista käsittelee tietoja Euroopan talousalueen ul
 - **Analytiikkatiedot** — säilytetään Firebase Analyticsin säilytysasetusten mukaisesti.
 - **Mainosverkostojen ja RevenueCatin keräämät tiedot** — säilytetään niiden omien tietosuojakäytäntöjen mukaisesti.
 - **Meille lähettämäsi viestit** — säilytetään niin kauan kuin pyyntösi käsittely vaatii, minkä jälkeen ne poistetaan.
+- **YouTube-chatin tiedot (striimaajatila)** — vain muistissa niin kauan kuin striimaajatila on käynnissä; niitä ei koskaan tallenneta.
 
 ## Oikeutesi
 

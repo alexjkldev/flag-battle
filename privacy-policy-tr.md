@@ -1,6 +1,6 @@
 # Gizlilik Politikası
 
-*9 Kasım 2026*
+*12 Kasım 2026*
 
 Bu Gizlilik Politikası, Flag Battle mobil uygulamasını ("Uygulama") kullandığınızda kişisel verilerin nasıl işlendiğini açıklar.
 
@@ -34,6 +34,14 @@ Uygulama, cihaz tanımlayıcıları (reklam kimliği, kurulum kimliği), IP adre
 
 Reklam ağları topladıkları veriler için bağımsız veri sorumlusu olarak veya şartlarında öngörüldüğü durumlarda bizimle birlikte ortak veri sorumlusu olarak hareket eder (örneğin Pangle, belirli işlemler için GDPR'nin 26. maddesi uyarınca). Yukarıda bağlantısı verilen gizlilik politikaları, bu işlemeyi ayrıntılı olarak açıklar.
 
+## Yayıncı modu (YouTube)
+
+Yayıncı modu (Düello, Premium) **YouTube API Hizmetleri**'ni kullanır. Modu açıp YouTube canlı yayınınızın bağlantısını girdiğinizde Uygulama, o yayının herkese açık canlı sohbetini doğrudan YouTube'dan okur: izleyicilerin görünen adları, kanal kimlikleri, mesajlar ve Super Chat / Super Sticker tutarları. Bu veriler yayın sırasında ekranda gösterilir (oylar, sıra, taraftarlar, Super Chat mesajları) ve yalnızca yayıncı modu çalıştığı sürece cihazınızın belleğinde tutulur. Kaydedilmez, bize gönderilmez, kimseyle paylaşılmaz ve yayıncı modundan çıktığınızda veya Uygulamayı kapattığınızda silinir.
+
+İstekler doğrudan cihazınızdan Google sunucularına gider; bu nedenle Google IP adresinizi ve isteklerin kendisini alır. Kendi YouTube Data API anahtarınızı girerseniz, anahtar yalnızca cihazınızda, sistemin güvenli deposunda (Keychain / Keystore) saklanır ve yalnızca her istekle birlikte Google'a gönderilir — asla bize gönderilmez. Kendi anahtarınız yoksa Uygulama kısa bir günlük deneme için kendi anahtarını kullanır; bugünkü denemenin ne kadarının kullanıldığı cihazınızda yerel olarak saklanır.
+
+Yayıncı modunu kullanarak [YouTube Hizmet Şartları](https://www.youtube.com/t/terms)'na bağlı kalmayı kabul edersiniz. Google'ın verileri nasıl işlediği [Google Gizlilik Politikası](https://policies.google.com/privacy)'nda açıklanmıştır. Yayıncı modunu kapatarak Uygulamanın erişimini istediğiniz zaman durdurabilirsiniz; kendi anahtarınızı Uygulamada temizleyerek veya Google Cloud Console'da silerek kaldırabilirsiniz.
+
 ## Amaçlar ve Hukuki Dayanaklar
 
 | Amaç | Hukuki dayanak (GDPR) |
@@ -45,6 +53,7 @@ Reklam ağları topladıkları veriler için bağımsız veri sorumlusu olarak v
 | Kullanım analizi | Uygulamayı anlamaya ve geliştirmeye yönelik meşru menfaatimiz (md. 6(1)(f)) |
 | Kendi reklam kampanyalarımızın ölçülmesi (Apple Ads ilişkilendirmesi) | Hangi reklamlarımızın Uygulamaya kullanıcı getirdiğini bilmeye yönelik meşru menfaatimiz (md. 6(1)(f)) |
 | Mesajlarınıza yanıt verme | Size yanıt vermeye yönelik meşru menfaatimiz (md. 6(1)(f)) |
+| Yayıncı modu (YouTube yayınınızın sohbetini okuma) | Sizinle yapılan sözleşmenin ifası — açtığınız özellik (md. 6(1)(b)); mesajları gösterilen izleyiciler için bu özelliği sunmaktaki meşru menfaatimiz (md. 6(1)(f)) |
 
 ## Onay Tercihleriniz
 
@@ -62,6 +71,7 @@ Yukarıdaki hizmetlerin bazıları verileri Avrupa Ekonomik Alanı dışında, �
 - **Analiz verileri** — Google'ın Firebase Analytics saklama ayarlarına göre saklanır.
 - **Reklam ağları ve RevenueCat tarafından toplanan veriler** — kendi gizlilik politikalarına göre saklanır.
 - **Bize gönderdiğiniz mesajlar** — talebinizi ele almak için gerektiği sürece saklanır, ardından silinir.
+- **YouTube sohbet verileri (yayıncı modu)** — yalnızca yayıncı modu çalışırken bellekte tutulur; hiçbir zaman kaydedilmez.
 
 ## Haklarınız
 

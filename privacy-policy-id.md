@@ -1,6 +1,6 @@
 # Kebijakan Privasi
 
-*9 November 2026*
+*12 November 2026*
 
 Kebijakan Privasi ini menjelaskan bagaimana data pribadi diproses saat Anda menggunakan aplikasi seluler Flag Battle ("Aplikasi").
 
@@ -34,6 +34,14 @@ Aplikasi menggunakan layanan berikut, yang memproses data seperti pengenal peran
 
 Jaringan iklan bertindak sebagai pengendali independen atas data yang mereka kumpulkan atau, jika ketentuan mereka mengaturnya, sebagai pengendali bersama dengan kami (misalnya Pangle untuk pemrosesan tertentu berdasarkan Pasal 26 GDPR). Kebijakan privasi mereka, yang ditautkan di atas, menjelaskan pemrosesan tersebut secara rinci.
 
+## Mode streamer (YouTube)
+
+Mode streamer (Duel, Premium) menggunakan **Layanan API YouTube**. Saat Anda mengaktifkannya dan memasukkan tautan siaran langsung YouTube Anda, Aplikasi membaca chat langsung publik siaran tersebut langsung dari YouTube: nama tampilan penonton, ID channel, pesan, serta jumlah Super Chat / Super Sticker. Data ini ditampilkan di layar selama siaran (suara, antrean, penggemar, pesan Super Chat) dan hanya disimpan di memori perangkat Anda selama mode streamer berjalan. Data tidak disimpan, tidak dikirim kepada kami, tidak dibagikan kepada siapa pun, dan dibuang saat Anda keluar dari mode streamer atau menutup Aplikasi.
+
+Permintaan dikirim langsung dari perangkat Anda ke server Google, sehingga Google menerima alamat IP Anda dan permintaan itu sendiri. Jika Anda memasukkan kunci YouTube Data API milik sendiri, kunci tersebut hanya disimpan di perangkat Anda, di penyimpanan aman sistem (Keychain / Keystore), dan hanya dikirim ke Google bersama setiap permintaan — tidak pernah kepada kami. Tanpa kunci sendiri, Aplikasi menggunakan kuncinya sendiri untuk uji coba harian singkat; berapa banyak uji coba hari ini yang sudah terpakai disimpan secara lokal di perangkat Anda.
+
+Dengan menggunakan mode streamer, Anda setuju untuk terikat pada [Persyaratan Layanan YouTube](https://www.youtube.com/t/terms). Cara Google menangani data dijelaskan dalam [Kebijakan Privasi Google](https://policies.google.com/privacy). Anda dapat menghentikan akses Aplikasi kapan saja dengan menonaktifkan mode streamer; kunci Anda sendiri dapat dihapus dengan mengosongkannya di Aplikasi atau menghapusnya di Google Cloud Console.
+
 ## Tujuan dan Dasar Hukum
 
 | Tujuan | Dasar hukum (GDPR) |
@@ -45,6 +53,7 @@ Jaringan iklan bertindak sebagai pengendali independen atas data yang mereka kum
 | Analitik penggunaan | Kepentingan sah kami untuk memahami dan meningkatkan Aplikasi (Pasal 6(1)(f)) |
 | Mengukur kampanye iklan kami sendiri (atribusi Apple Ads) | Kepentingan sah kami untuk mengetahui iklan mana yang membawa pengguna ke Aplikasi (Pasal 6(1)(f)) |
 | Membalas pesan Anda | Kepentingan sah kami untuk menanggapi Anda (Pasal 6(1)(f)) |
+| Mode streamer (membaca chat siaran YouTube Anda) | Pelaksanaan kontrak dengan Anda — fitur yang Anda aktifkan (Pasal 6(1)(b)); untuk penonton yang pesannya ditampilkan, kepentingan sah kami dalam menyediakan fitur tersebut (Pasal 6(1)(f)) |
 
 ## Pilihan Persetujuan Anda
 
@@ -62,6 +71,7 @@ Beberapa layanan di atas memproses data di luar Wilayah Ekonomi Eropa, khususnya
 - **Data analitik** — disimpan sesuai pengaturan penyimpanan Google untuk Firebase Analytics.
 - **Data yang dikumpulkan oleh jaringan iklan dan RevenueCat** — disimpan sesuai kebijakan privasi masing-masing.
 - **Pesan Anda kepada kami** — disimpan selama diperlukan untuk menangani permintaan Anda, lalu dihapus.
+- **Data chat YouTube (mode streamer)** — hanya di memori selama mode streamer berjalan; tidak pernah disimpan.
 
 ## Hak Anda
 

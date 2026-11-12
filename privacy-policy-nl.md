@@ -1,6 +1,6 @@
 # Privacybeleid
 
-*9 november 2026*
+*12 november 2026*
 
 Dit Privacybeleid legt uit hoe persoonsgegevens worden verwerkt wanneer u de mobiele app Flag Battle ("de App") gebruikt.
 
@@ -34,6 +34,14 @@ De App maakt gebruik van de volgende diensten, die gegevens verwerken zoals appa
 
 Advertentienetwerken treden op als zelfstandige verwerkingsverantwoordelijken voor de gegevens die zij verzamelen of, waar hun voorwaarden dat bepalen, als gezamenlijke verwerkingsverantwoordelijken met ons (bijvoorbeeld Pangle voor bepaalde verwerkingen op grond van art. 26 AVG). Hun privacybeleid, hierboven gelinkt, beschrijft hun verwerking in detail.
 
+## Streamermodus (YouTube)
+
+De streamermodus (Duel, Premium) gebruikt **YouTube API Services**. Wanneer je hem inschakelt en een link naar je YouTube-livestream invult, leest de App de openbare livechat van die stream rechtstreeks van YouTube: weergavenamen van kijkers, kanaal-ID's, berichten en Super Chat-/Super Sticker-bedragen. Deze gegevens worden tijdens je stream op het scherm getoond (stemmen, de wachtrij, fans, Super Chat-berichten) en alleen in het geheugen van je apparaat bewaard zolang de streamermodus actief is. Ze worden niet opgeslagen, niet naar ons gestuurd en met niemand gedeeld, en worden verwijderd wanneer je de streamermodus verlaat of de App sluit.
+
+Verzoeken gaan rechtstreeks van je apparaat naar de servers van Google, waardoor Google je IP-adres en de verzoeken zelf ontvangt. Als je een eigen YouTube Data API-sleutel invult, wordt die alleen op je apparaat bewaard, in de beveiligde opslag van het systeem (Keychain / Keystore), en alleen met elk verzoek naar Google gestuurd — nooit naar ons. Zonder eigen sleutel gebruikt de App haar eigen sleutel voor een korte dagelijkse proefperiode; hoeveel daarvan vandaag is gebruikt, wordt lokaal op je apparaat bewaard.
+
+Door de streamermodus te gebruiken ga je akkoord met de [Servicevoorwaarden van YouTube](https://www.youtube.com/t/terms). Hoe Google gegevens verwerkt, staat in het [Privacybeleid van Google](https://policies.google.com/privacy). Je kunt de toegang van de App op elk moment stoppen door de streamermodus uit te schakelen; je eigen sleutel verwijder je door hem in de App te wissen of in je Google Cloud Console te verwijderen.
+
 ## Doeleinden en rechtsgronden
 
 | Doel | Rechtsgrond (AVG) |
@@ -45,6 +53,7 @@ Advertentienetwerken treden op als zelfstandige verwerkingsverantwoordelijken vo
 | Gebruiksanalyse | Ons gerechtvaardigd belang bij het begrijpen en verbeteren van de App (art. 6, lid 1, onder f) |
 | Meten van onze eigen advertentiecampagnes (Apple Ads-attributie) | Ons gerechtvaardigd belang om te weten welke van onze advertenties gebruikers naar de App brengen (art. 6, lid 1, onder f) |
 | Beantwoorden van uw berichten | Ons gerechtvaardigd belang om u te antwoorden (art. 6, lid 1, onder f) |
+| Streamermodus (lezen van de chat van je YouTube-stream) | Uitvoering van een overeenkomst met jou — de functie die je inschakelt (art. 6, lid 1, onder b); voor kijkers van wie berichten worden getoond, ons gerechtvaardigd belang bij het aanbieden van die functie (art. 6, lid 1, onder f) |
 
 ## Uw toestemmingskeuzes
 
@@ -62,6 +71,7 @@ Sommige van de bovenstaande diensten verwerken gegevens buiten de Europese Econo
 - **Analysegegevens** — bewaard volgens de bewaarinstellingen van Google voor Firebase Analytics.
 - **Gegevens verzameld door advertentienetwerken en RevenueCat** — bewaard volgens hun eigen privacybeleid.
 - **Uw berichten aan ons** — bewaard zolang nodig is om uw verzoek af te handelen en daarna verwijderd.
+- **YouTube-chatgegevens (streamermodus)** — alleen in het geheugen zolang de streamermodus actief is; worden nooit opgeslagen.
 
 ## Uw rechten
 

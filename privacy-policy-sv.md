@@ -1,6 +1,6 @@
 # Integritetspolicy
 
-*9 november 2026*
+*12 november 2026*
 
 Denna integritetspolicy förklarar hur personuppgifter behandlas när du använder mobilappen Flag Battle ("Appen").
 
@@ -34,6 +34,14 @@ Appen använder följande tjänster, som behandlar uppgifter som enhetsidentifie
 
 Annonsnätverk agerar som självständigt personuppgiftsansvariga för de uppgifter de samlar in eller, där deras villkor föreskriver det, som gemensamt personuppgiftsansvariga med oss (till exempel Pangle för viss behandling enligt artikel 26 i GDPR). Deras integritetspolicyer, länkade ovan, beskriver deras behandling i detalj.
 
+## Streamerläge (YouTube)
+
+Streamerläget (Duell, Premium) använder **YouTube API Services**. När du slår på det och anger en länk till din YouTube-livesändning läser Appen den offentliga livechatten för sändningen direkt från YouTube: tittarnas visningsnamn, kanal-ID:n, meddelanden och belopp för Super Chat / Super Sticker. Uppgifterna visas på skärmen under sändningen (röster, kön, fans, Super Chat-meddelanden) och finns bara i enhetens minne medan streamerläget är igång. De sparas inte, skickas inte till oss och delas inte med någon, och de kastas när du lämnar streamerläget eller stänger Appen.
+
+Förfrågningarna går direkt från din enhet till Googles servrar, så Google tar emot din IP-adress och själva förfrågningarna. Om du anger en egen YouTube Data API-nyckel lagras den bara på din enhet, i systemets säkra lagring (Keychain / Keystore), och skickas bara till Google med varje förfrågan — aldrig till oss. Utan egen nyckel använder Appen sin egen nyckel för en kort daglig provperiod; hur mycket av dagens provperiod som använts lagras lokalt på din enhet.
+
+Genom att använda streamerläget godkänner du [YouTubes användarvillkor](https://www.youtube.com/t/terms). Hur Google hanterar uppgifter beskrivs i [Googles integritetspolicy](https://policies.google.com/privacy). Du kan när som helst stoppa Appens åtkomst genom att stänga av streamerläget; din egen nyckel tar du bort genom att rensa den i Appen eller radera den i din Google Cloud Console.
+
 ## Ändamål och rättslig grund
 
 | Ändamål | Rättslig grund (GDPR) |
@@ -45,6 +53,7 @@ Annonsnätverk agerar som självständigt personuppgiftsansvariga för de uppgif
 | Användningsanalys | Vårt berättigade intresse av att förstå och förbättra Appen (art. 6.1 f) |
 | Mätning av våra egna annonskampanjer (Apple Ads-attribution) | Vårt berättigade intresse av att veta vilka av våra annonser som ger Appen nya användare (art. 6.1 f) |
 | Svar på dina meddelanden | Vårt berättigade intresse av att svara dig (art. 6.1 f) |
+| Streamerläge (läsa chatten för din YouTube-sändning) | Fullgörande av avtal med dig — funktionen du slår på (art. 6.1 b); för tittare vars meddelanden visas, vårt berättigade intresse av att erbjuda funktionen (art. 6.1 f) |
 
 ## Dina samtyckesval
 
@@ -62,6 +71,7 @@ Vissa av tjänsterna ovan behandlar uppgifter utanför Europeiska ekonomiska sam
 - **Analysdata** — sparas enligt Googles lagringsinställningar för Firebase Analytics.
 - **Uppgifter som samlas in av annonsnätverk och RevenueCat** — sparas enligt deras egna integritetspolicyer.
 - **Dina meddelanden till oss** — sparas så länge det behövs för att hantera ditt ärende och raderas därefter.
+- **YouTube-chattdata (streamerläge)** — bara i minnet medan streamerläget är igång; sparas aldrig.
 
 ## Dina rättigheter
 

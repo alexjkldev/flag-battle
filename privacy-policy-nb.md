@@ -1,6 +1,6 @@
 # Personvernerklæring
 
-*9. november 2026*
+*12. november 2026*
 
 Denne personvernerklæringen forklarer hvordan personopplysninger behandles når du bruker mobilappen Flag Battle ("Appen").
 
@@ -34,6 +34,14 @@ Appen bruker følgende tjenester, som behandler data som enhetsidentifikatorer (
 
 Annonsenettverk opptrer som selvstendige behandlingsansvarlige for dataene de samler inn, eller, der vilkårene deres sier det, som felles behandlingsansvarlige med oss (for eksempel Pangle for visse behandlinger etter artikkel 26 i GDPR). Personvernerklæringene deres, lenket over, beskriver behandlingen i detalj.
 
+## Strømmermodus (YouTube)
+
+Strømmermodus (Duell, Premium) bruker **YouTube API Services**. Når du slår den på og oppgir en lenke til YouTube-direktesendingen din, leser Appen den offentlige direktechatten for sendingen direkte fra YouTube: seernes visningsnavn, kanal-ID-er, meldinger og beløp for Super Chat / Super Sticker. Dataene vises på skjermen under sendingen (stemmer, køen, fans, Super Chat-meldinger) og ligger bare i enhetens minne mens strømmermodus er i gang. De lagres ikke, sendes ikke til oss og deles ikke med noen, og de forkastes når du forlater strømmermodus eller lukker Appen.
+
+Forespørslene går direkte fra enheten din til Googles servere, så Google mottar IP-adressen din og selve forespørslene. Hvis du oppgir din egen YouTube Data API-nøkkel, lagres den bare på enheten din, i systemets sikre lagring (Keychain / Keystore), og sendes bare til Google med hver forespørsel — aldri til oss. Uten egen nøkkel bruker Appen sin egen nøkkel til en kort daglig prøveperiode; hvor mye av dagens prøveperiode som er brukt, lagres lokalt på enheten din.
+
+Ved å bruke strømmermodus godtar du [YouTubes vilkår for bruk](https://www.youtube.com/t/terms). Hvordan Google behandler data, er beskrevet i [Googles personvernregler](https://policies.google.com/privacy). Du kan når som helst stanse Appens tilgang ved å slå av strømmermodus; din egen nøkkel fjerner du ved å tømme den i Appen eller slette den i Google Cloud Console.
+
 ## Formål og rettslig grunnlag
 
 | Formål | Rettslig grunnlag (GDPR) |
@@ -45,6 +53,7 @@ Annonsenettverk opptrer som selvstendige behandlingsansvarlige for dataene de sa
 | Bruksanalyse | Vår berettigede interesse i å forstå og forbedre Appen (art. 6 nr. 1 bokstav f) |
 | Måling av våre egne annonsekampanjer (Apple Ads-attribusjon) | Vår berettigede interesse i å vite hvilke av annonsene våre som bringer brukere til Appen (art. 6 nr. 1 bokstav f) |
 | Svar på meldingene dine | Vår berettigede interesse i å svare deg (art. 6 nr. 1 bokstav f) |
+| Strømmermodus (lese chatten for YouTube-sendingen din) | Oppfyllelse av avtale med deg — funksjonen du slår på (art. 6 nr. 1 bokstav b); for seere hvis meldinger vises, vår berettigede interesse i å tilby funksjonen (art. 6 nr. 1 bokstav f) |
 
 ## Dine samtykkevalg
 
@@ -62,6 +71,7 @@ Noen av tjenestene over behandler data utenfor Det europeiske økonomiske samarb
 - **Analysedata** — lagres i samsvar med Googles lagringsinnstillinger for Firebase Analytics.
 - **Data som samles inn av annonsenettverk og RevenueCat** — lagres i samsvar med deres egne personvernerklæringer.
 - **Meldingene dine til oss** — lagres så lenge det trengs for å behandle henvendelsen, og slettes deretter.
+- **YouTube-chatdata (strømmermodus)** — bare i minnet mens strømmermodus er i gang; lagres aldri.
 
 ## Dine rettigheter
 

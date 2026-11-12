@@ -1,6 +1,6 @@
 # Política de privacidad
 
-*9 de noviembre de 2026*
+*12 de noviembre de 2026*
 
 Esta Política de privacidad explica cómo se tratan los datos personales cuando usas la aplicación móvil Flag Battle ("la App").
 
@@ -34,6 +34,14 @@ La App utiliza los siguientes servicios, que tratan datos como identificadores d
 
 Las redes publicitarias actúan como responsables independientes de los datos que recopilan o, cuando sus condiciones así lo establecen, como corresponsables con nosotros (por ejemplo, Pangle para determinados tratamientos conforme al art. 26 del RGPD). Sus políticas de privacidad, enlazadas arriba, describen su tratamiento en detalle.
 
+## Modo streamer (YouTube)
+
+El modo streamer (Duelo, Premium) utiliza los **Servicios de la API de YouTube**. Cuando lo activas e introduces el enlace de tu directo de YouTube, la App lee el chat en directo público de esa emisión directamente de YouTube: nombres visibles de los espectadores, ID de canal, mensajes e importes de Super Chat / Super Sticker. Estos datos se muestran en pantalla durante tu directo (votos, la cola, fans, mensajes de Super Chat) y solo se conservan en la memoria de tu dispositivo mientras el modo streamer está activo. No se guardan, no se nos envían ni se comparten con nadie, y se descartan al salir del modo streamer o cerrar la App.
+
+Las solicitudes van directamente de tu dispositivo a los servidores de Google, por lo que Google recibe tu dirección IP y las propias solicitudes. Si introduces tu propia clave de la YouTube Data API, se guarda solo en tu dispositivo, en el almacenamiento seguro del sistema (Keychain / Keystore), y solo se envía a Google con cada solicitud, nunca a nosotros. Sin clave propia, la App usa su propia clave para una breve prueba diaria; cuánto de la prueba de hoy se ha usado se guarda localmente en tu dispositivo.
+
+Al usar el modo streamer aceptas quedar vinculado por las [Condiciones de servicio de YouTube](https://www.youtube.com/t/terms). Cómo trata Google los datos se describe en la [Política de privacidad de Google](https://policies.google.com/privacy). Puedes detener el acceso de la App en cualquier momento desactivando el modo streamer; puedes eliminar tu propia clave borrándola en la App o en tu Google Cloud Console.
+
 ## Finalidades y bases jurídicas
 
 | Finalidad | Base jurídica (RGPD) |
@@ -45,6 +53,7 @@ Las redes publicitarias actúan como responsables independientes de los datos qu
 | Analítica de uso | Nuestro interés legítimo en comprender y mejorar la App (art. 6.1.f) |
 | Medición de nuestras propias campañas publicitarias (atribución de Apple Ads) | Nuestro interés legítimo en saber qué anuncios nuestros atraen usuarios a la App (art. 6.1.f) |
 | Responder a tus mensajes | Nuestro interés legítimo en responderte (art. 6.1.f) |
+| Modo streamer (lectura del chat de tu directo de YouTube) | Ejecución de un contrato contigo: la función que activas (art. 6(1)(b)); para los espectadores cuyos mensajes se muestran, nuestro interés legítimo en ofrecer esa función (art. 6(1)(f)) |
 
 ## Tus opciones de consentimiento
 
@@ -62,6 +71,7 @@ Algunos de los servicios anteriores tratan datos fuera del Espacio Económico Eu
 - **Datos de analítica** — se conservan según la configuración de conservación de Google para Firebase Analytics.
 - **Datos recopilados por las redes publicitarias y RevenueCat** — se conservan conforme a sus propias políticas de privacidad.
 - **Tus mensajes** — se conservan el tiempo necesario para gestionar tu solicitud y después se eliminan.
+- **Datos del chat de YouTube (modo streamer)**: solo en memoria mientras el modo streamer está activo; nunca se guardan.
 
 ## Tus derechos
 
