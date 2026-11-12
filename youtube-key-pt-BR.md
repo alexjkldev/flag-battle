@@ -29,7 +29,7 @@ No Flag Battle, abra **Configurações → Duelo → Modo streamer** e toque no 
 
 ## Bom saber
 
-- **É grátis.** A cota padrão é de 10.000 unidades por dia. Lendo o chat a cada 8 segundos, ela dá para cerca de 4,4 horas de live por dia (a cada 5 s ≈ 2,8 h, a cada 10 s ≈ 5,6 h); o intervalo é escolhido no app.
+- **É grátis.** A cota padrão é de 10.000 unidades por dia. No modo «Instantânea» o chat chega em tempo real e a cota dá para cerca de 6 horas de live por dia; «Economia» estica para cerca de 12 horas, com até 10 segundos de atraso. O modo é escolhido no app.
 - **A cota é zerada à meia-noite no horário do Pacífico.** Se acabar, o app mostra isso no bloco **PRÓXIMOS** e as lutas continuam com bandeiras aleatórias.
 - Use o projeto só para o Flag Battle, para que nada mais gaste a cota.
 - Para revogar a chave, exclua-a em [Credentials](https://console.cloud.google.com/apis/credentials).

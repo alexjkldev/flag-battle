@@ -29,7 +29,7 @@ Dans Flag Battle, ouvrez **Paramètres → Duel → Mode streamer** et touchez l
 
 ## Bon à savoir
 
-- **C'est gratuit.** Le quota standard est de 10 000 unités par jour. En lisant le chat toutes les 8 secondes, il suffit pour environ 4,4 heures de direct par jour (toutes les 5 s ≈ 2,8 h, toutes les 10 s ≈ 5,6 h) ; l'intervalle se règle dans l'app.
+- **C'est gratuit.** Le quota standard est de 10 000 unités par jour. En mode « Instantané », le chat arrive en temps réel et le quota suffit pour environ 6 heures de direct par jour ; « Économie » l'étire à environ 12 heures, avec jusqu'à 10 secondes de retard. Le mode se choisit dans l'app.
 - **Le quota est remis à zéro à minuit, heure du Pacifique.** S'il est épuisé, l'app l'indique dans le bloc **SUIVANT** et les combats continuent avec des drapeaux au hasard.
 - Utilisez ce projet uniquement pour Flag Battle, afin que rien d'autre ne consomme son quota.
 - Pour révoquer la clé, supprimez-la dans [Credentials](https://console.cloud.google.com/apis/credentials).

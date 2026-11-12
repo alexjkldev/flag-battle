@@ -29,7 +29,7 @@ Vo Flag Battle otvorte **Nastavenia → Súboj → Režim streamera** a ťuknite
 
 ## Dobré vedieť
 
-- **Je to zadarmo.** Štandardná kvóta je 10 000 jednotiek denne. Pri čítaní chatu každých 8 sekúnd vystačí približne na 4,4 hodiny vysielania denne (každých 5 s ≈ 2,8 h, každých 10 s ≈ 5,6 h); interval si vyberiete v aplikácii.
+- **Je to zadarmo.** Štandardná kvóta je 10 000 jednotiek denne. V režime „Okamžite“ prichádza chat v reálnom čase a kvóta vystačí približne na 6 hodín vysielania denne; režim „Úsporne“ ju natiahne približne na 12 hodín, s oneskorením do 10 sekúnd. Režim si vyberiete v aplikácii.
 - **Kvóta sa obnovuje o polnoci tichomorského času.** Keď sa minie, aplikácia to ukáže v bloku **ĎALEJ** a súboje pokračujú s náhodnými vlajkami.
 - Projekt používajte iba pre Flag Battle, aby kvótu nemíňalo nič iné.
 - Ak chcete kľúč zrušiť, odstráňte ho v [Credentials](https://console.cloud.google.com/apis/credentials).

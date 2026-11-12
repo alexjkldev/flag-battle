@@ -29,7 +29,7 @@ Na Flag Battle, abra **Definições → Duelo → Modo streamer** e toque no bot
 
 ## É bom saber
 
-- **É gratuito.** A quota padrão é de 10 000 unidades por dia. Lendo o chat a cada 8 segundos, chega para cerca de 4,4 horas de direto por dia (a cada 5 s ≈ 2,8 h, a cada 10 s ≈ 5,6 h); o intervalo escolhe-se na app.
+- **É gratuito.** A quota padrão é de 10 000 unidades por dia. No modo «Instantânea» o chat chega em tempo real e a quota chega para cerca de 6 horas de direto por dia; «Poupança» estica-a para cerca de 12 horas, com até 10 segundos de atraso. O modo escolhe-se na app.
 - **A quota é reposta à meia-noite, hora do Pacífico.** Se se esgotar, a app mostra-o no bloco **SEGUINTES** e os combates continuam com bandeiras aleatórias.
 - Use o projeto apenas para a Flag Battle, para que nada mais gaste a quota.
 - Para revogar a chave, elimine-a em [Credentials](https://console.cloud.google.com/apis/credentials).

@@ -29,7 +29,7 @@ In Flag Battle apri **Impostazioni → Duello → Modalità streamer** e tocca i
 
 ## Buono a sapersi
 
-- **È gratis.** La quota standard è di 10.000 unità al giorno. Leggendo la chat ogni 8 secondi basta per circa 4,4 ore di diretta al giorno (ogni 5 s ≈ 2,8 h, ogni 10 s ≈ 5,6 h); l'intervallo si sceglie nell'app.
+- **È gratis.** La quota standard è di 10.000 unità al giorno. In modalità «Istantanea» la chat arriva in tempo reale e la quota basta per circa 6 ore di diretta al giorno; «Risparmio» la allunga a circa 12 ore, con fino a 10 secondi di ritardo. La modalità si sceglie nell'app.
 - **La quota si azzera a mezzanotte, ora del Pacifico.** Se finisce, l'app lo mostra nel riquadro **PROSSIMI** e gli scontri continuano con bandiere casuali.
 - Usa il progetto solo per Flag Battle, così nient'altro consuma la sua quota.
 - Per revocare la chiave, eliminala in [Credentials](https://console.cloud.google.com/apis/credentials).

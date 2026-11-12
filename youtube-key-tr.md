@@ -29,7 +29,7 @@ Flag Battle'da **Ayarlar → Düello → Yayıncı modu**'nu açın ve YouTube A
 
 ## Bilmekte fayda var
 
-- **Ücretsizdir.** Standart kota günde 10.000 birimdir. Sohbet 8 saniyede bir okunursa günde yaklaşık 4,4 saatlik yayına yeter (5 sn'de bir ≈ 2,8 sa, 10 sn'de bir ≈ 5,6 sa); aralığı uygulamada seçebilirsiniz.
+- **Ücretsizdir.** Standart kota günde 10.000 birimdir. «Anında» modunda sohbet gerçek zamanlı gelir ve kota günde yaklaşık 6 saatlik yayına yeter; «Tasarruf» bunu en fazla 10 saniye gecikmeyle yaklaşık 12 saate çıkarır. Modu uygulamada seçersiniz.
 - **Kota Pasifik saatiyle gece yarısı sıfırlanır.** Biterse uygulama bunu **SIRADAKİ** bloğunda gösterir ve dövüşler rastgele bayraklarla sürer.
 - Kotayı başka bir şey tüketmesin diye projeyi yalnızca Flag Battle için kullanın.
 - Anahtarı iptal etmek için [Credentials](https://console.cloud.google.com/apis/credentials) sayfasında silin.

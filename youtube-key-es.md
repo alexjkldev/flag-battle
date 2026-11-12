@@ -29,7 +29,7 @@ En Flag Battle abre **Ajustes → Duelo → Modo streamer** y toca el botón de 
 
 ## Conviene saber
 
-- **Es gratis.** La cuota estándar es de 10.000 unidades al día. Leyendo el chat cada 8 segundos da para unas 4,4 horas de directo al día (cada 5 s ≈ 2,8 h, cada 10 s ≈ 5,6 h); el intervalo se elige en la app.
+- **Es gratis.** La cuota estándar es de 10.000 unidades al día. En el modo «Al instante» el chat llega en tiempo real y la cuota da para unas 6 horas de directo al día; «Ahorro» la estira a unas 12 horas, con hasta 10 segundos de retraso. El modo se elige en la app.
 - **La cuota se reinicia a medianoche, hora del Pacífico.** Si se agota, la app lo muestra en el bloque **SIGUIENTE** y los combates siguen con banderas al azar.
 - Usa el proyecto solo para Flag Battle, para que nada más gaste su cuota.
 - Para revocar la clave, bórrala en [Credentials](https://console.cloud.google.com/apis/credentials).

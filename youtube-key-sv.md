@@ -29,7 +29,7 @@ Klicka på **Save** och kopiera nyckeln (**Show key** → kopiera).
 
 ## Bra att veta
 
-- **Det är gratis.** Standardkvoten är 10 000 enheter per dag. Om chatten läses var 8:e sekund räcker den till ungefär 4,4 timmars streaming per dag (var 5:e s ≈ 2,8 h, var 10:e s ≈ 5,6 h); intervallet väljer du i appen.
+- **Det är gratis.** Standardkvoten är 10 000 enheter per dag. I läget ”Direkt” kommer chatten i realtid och kvoten räcker till ungefär 6 timmars streaming per dag; ”Sparläge” drar ut den till ungefär 12 timmar, med upp till 10 sekunders fördröjning. Läget väljer du i appen.
 - **Kvoten nollställs vid midnatt Stillahavstid.** Tar den slut visar appen det i blocket **NÄSTA**, och striderna fortsätter med slumpade flaggor.
 - Använd projektet bara till Flag Battle, så att inget annat förbrukar kvoten.
 - Vill du återkalla nyckeln tar du bort den under [Credentials](https://console.cloud.google.com/apis/credentials).

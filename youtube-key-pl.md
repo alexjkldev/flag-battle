@@ -29,7 +29,7 @@ W Flag Battle otwórz **Ustawienia → Pojedynek → Tryb streamera** i stuknij 
 
 ## Warto wiedzieć
 
-- **To nic nie kosztuje.** Standardowy limit to 10 000 jednostek dziennie. Przy odczycie czatu co 8 sekund wystarcza na około 4,4 godziny transmisji dziennie (co 5 s ≈ 2,8 h, co 10 s ≈ 5,6 h); odstęp wybierasz w aplikacji.
+- **To nic nie kosztuje.** Standardowy limit to 10 000 jednostek dziennie. W trybie „Natychmiast” czat dociera na bieżąco, a limit wystarcza na około 6 godzin transmisji dziennie; tryb „Oszczędnie” wydłuża go do około 12 godzin, z opóźnieniem do 10 sekund. Tryb wybierasz w aplikacji.
 - **Limit odnawia się o północy czasu pacyficznego.** Gdy się wyczerpie, aplikacja pokaże to w bloku **NASTĘPNI**, a walki potoczą się dalej z losowymi flagami.
 - Używaj projektu tylko do Flag Battle, aby nic innego nie zużywało limitu.
 - Aby unieważnić klucz, usuń go w [Credentials](https://console.cloud.google.com/apis/credentials).

@@ -29,7 +29,7 @@ Open in Flag Battle **Instellingen → Duel → Streamermodus** en tik op de pla
 
 ## Goed om te weten
 
-- **Het is gratis.** Het standaardquotum is 10.000 eenheden per dag. Als de chat elke 8 seconden wordt gelezen, is dat genoeg voor ongeveer 4,4 uur streamen per dag (elke 5 s ≈ 2,8 u, elke 10 s ≈ 5,6 u); het interval kies je in de app.
+- **Het is gratis.** Het standaardquotum is 10.000 eenheden per dag. In de modus ‘Direct’ komt de chat in realtime binnen en is het quotum genoeg voor ongeveer 6 uur streamen per dag; ‘Zuinig’ rekt het op tot ongeveer 12 uur, met tot 10 seconden vertraging. De modus kies je in de app.
 - **Het quotum wordt om middernacht Pacific Time gereset.** Is het op, dan toont de app dat in het blok **VOLGENDE** en gaan de gevechten door met willekeurige vlaggen.
 - Gebruik het project alleen voor Flag Battle, zodat niets anders het quotum opmaakt.
 - Om de sleutel in te trekken, verwijder je hem in [Credentials](https://console.cloud.google.com/apis/credentials).

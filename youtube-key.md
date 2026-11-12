@@ -29,7 +29,7 @@ In Flag Battle open **Settings → Duel → Streamer mode** and tap the paste bu
 
 ## Good to know
 
-- **It's free.** The standard quota is 10,000 units a day. Reading the chat every 8 seconds lasts about 4.4 hours of streaming a day (every 5 s ≈ 2.8 h, every 10 s ≈ 5.6 h); you can pick the interval in the app.
+- **It's free.** The standard quota is 10,000 units a day. In «Instant» mode the chat arrives in real time and the quota lasts about 6 hours of streaming a day; «Economy» stretches it to about 12 hours, with up to 10 seconds of delay. You pick the mode in the app.
 - **The quota resets at midnight Pacific Time.** If it runs out, the app shows it in the **NEXT** block and fights go on with random flags.
 - Use the project only for Flag Battle, so nothing else eats its quota.
 - To revoke the key, delete it in [Credentials](https://console.cloud.google.com/apis/credentials).

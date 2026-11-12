@@ -29,7 +29,7 @@ Trong Flag Battle, mở **Cài đặt → Đấu tay đôi → Chế độ strea
 
 ## Nên biết
 
-- **Miễn phí.** Hạn mức tiêu chuẩn là 10.000 đơn vị mỗi ngày. Nếu đọc trò chuyện mỗi 8 giây, hạn mức đủ cho khoảng 4,4 giờ phát mỗi ngày (mỗi 5 giây ≈ 2,8 giờ, mỗi 10 giây ≈ 5,6 giờ); bạn chọn khoảng thời gian trong ứng dụng.
+- **Miễn phí.** Hạn mức tiêu chuẩn là 10.000 đơn vị mỗi ngày. Ở chế độ «Tức thì», trò chuyện đến theo thời gian thực và hạn mức đủ cho khoảng 6 giờ phát mỗi ngày; «Tiết kiệm» kéo dài lên khoảng 12 giờ, với độ trễ tối đa 10 giây. Bạn chọn chế độ trong ứng dụng.
 - **Hạn mức được đặt lại lúc nửa đêm theo giờ Thái Bình Dương.** Nếu hết, ứng dụng sẽ hiển thị trong khối **TIẾP THEO** và các trận đấu tiếp tục với cờ ngẫu nhiên.
 - Chỉ dùng dự án này cho Flag Battle để không có gì khác tiêu tốn hạn mức.
 - Để thu hồi khóa, hãy xóa nó trong [Credentials](https://console.cloud.google.com/apis/credentials).

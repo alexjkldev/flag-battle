@@ -29,7 +29,7 @@ Avaa Flag Battlessa **Asetukset → Kaksintaistelu → Striimaajatila** ja napau
 
 ## Hyvä tietää
 
-- **Se on ilmaista.** Vakiokiintiö on 10 000 yksikköä päivässä. Kun chattia luetaan 8 sekunnin välein, se riittää noin 4,4 tunnin striimaukseen päivässä (5 s:n välein ≈ 2,8 h, 10 s:n välein ≈ 5,6 h); välin voit valita sovelluksessa.
+- **Se on ilmaista.** Vakiokiintiö on 10 000 yksikköä päivässä. Tilassa ”Heti” chat tulee reaaliajassa, ja kiintiö riittää noin 6 tunnin striimaukseen päivässä; ”Säästö” venyttää sen noin 12 tuntiin, enintään 10 sekunnin viiveellä. Tilan valitset sovelluksessa.
 - **Kiintiö nollautuu keskiyöllä Tyynenmeren aikaa.** Jos se loppuu, sovellus näyttää sen **SEURAAVAT**-lohkossa ja taistelut jatkuvat satunnaisilla lipuilla.
 - Käytä projektia vain Flag Battleen, jotta mikään muu ei kuluta sen kiintiötä.
 - Avaimen voit perua poistamalla sen kohdassa [Credentials](https://console.cloud.google.com/apis/credentials).

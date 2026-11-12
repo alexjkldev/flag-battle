@@ -29,7 +29,7 @@ Di Flag Battle buka **Pengaturan → Duel → Mode streamer** lalu ketuk tombol 
 
 ## Perlu diketahui
 
-- **Gratis.** Kuota standar adalah 10.000 unit per hari. Jika chat dibaca setiap 8 detik, kuota cukup untuk sekitar 4,4 jam siaran per hari (setiap 5 dtk ≈ 2,8 jam, setiap 10 dtk ≈ 5,6 jam); intervalnya dipilih di aplikasi.
+- **Gratis.** Kuota standar adalah 10.000 unit per hari. Dalam mode «Instan» chat masuk secara real time dan kuota cukup untuk sekitar 6 jam siaran per hari; «Hemat» memperpanjangnya hingga sekitar 12 jam, dengan jeda hingga 10 detik. Mode dipilih di aplikasi.
 - **Kuota direset tengah malam waktu Pasifik.** Jika habis, aplikasi menampilkannya di blok **BERIKUTNYA** dan pertarungan berlanjut dengan bendera acak.
 - Gunakan project ini hanya untuk Flag Battle agar kuotanya tidak terpakai hal lain.
 - Untuk mencabut kunci, hapus di [Credentials](https://console.cloud.google.com/apis/credentials).

@@ -29,7 +29,7 @@ Klicke auf **Save** und kopiere den Schlüssel (**Show key** → kopieren).
 
 ## Gut zu wissen
 
-- **Es ist kostenlos.** Das Standardkontingent beträgt 10.000 Einheiten pro Tag. Bei einer Chatabfrage alle 8 Sekunden reicht es für etwa 4,4 Stunden Stream pro Tag (alle 5 s ≈ 2,8 h, alle 10 s ≈ 5,6 h); das Intervall wählst du in der App.
+- **Es ist kostenlos.** Das Standardkontingent beträgt 10.000 Einheiten pro Tag. Im Modus „Sofort“ kommt der Chat in Echtzeit an, und das Kontingent reicht für etwa 6 Stunden Stream pro Tag; „Sparsam“ streckt es auf etwa 12 Stunden, mit bis zu 10 Sekunden Verzögerung. Den Modus wählst du in der App.
 - **Das Kontingent wird um Mitternacht pazifischer Zeit zurückgesetzt.** Ist es aufgebraucht, zeigt die App das im Block **NÄCHSTE**, und die Kämpfe laufen mit zufälligen Flaggen weiter.
 - Nutze das Projekt nur für Flag Battle, damit nichts anderes das Kontingent verbraucht.
 - Um den Schlüssel zu widerrufen, lösche ihn unter [Credentials](https://console.cloud.google.com/apis/credentials).
