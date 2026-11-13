@@ -8,24 +8,31 @@ Choďte na [console.cloud.google.com](https://console.cloud.google.com/) a prihl
 
 ## 2. Vytvorte projekt
 
-Hore na stránke kliknite na výber projektu (**Select a project**) a potom na **New project**. Názov môže byť ľubovoľný, napr. `flag-battle`. Kliknite na **Create** a skontrolujte, či je hore vybraný nový projekt.
+Hore na stránke kliknite na výber projektu (**Select a project**) a potom na **New project**. Názov môže byť ľubovoľný, napríklad `flag-battle`. Kliknite na **Create** a skontrolujte, že hore je vybraný nový projekt — všetko ďalej sa robí v ňom.
 
-## 3. Zapnite YouTube Data API
+## 3. Zapnite YouTube Data API v3 — pred vytvorením kľúča
 
-Otvorte [YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com) a kliknite na **Enable**.
+Otvorte [YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com) a kliknite na **Enable**. API je zapnuté, keď sa tlačidlo zmení na **Manage**. Bez tohto kroku kľúč nebude fungovať.
 
 ## 4. Vytvorte kľúč
 
-Otvorte [Credentials](https://console.cloud.google.com/apis/credentials) a kliknite na **Create credentials** → **API key**. Otvorte nový kľúč na úpravu:
+Otvorte [Credentials](https://console.cloud.google.com/apis/credentials) → **Create credentials** → **API key**. V zozname obmedzení API označte iba **YouTube Data API v3** a kliknite na **Create**. V okne **API key created** uvidíte svoj kľúč — skopírujte ho.
 
-- **API restrictions** → **Restrict key** → označte iba **YouTube Data API v3**. Uniknutý kľúč potom nepôjde použiť na nič iné.
-- **Application restrictions** môže zostať **None**.
-
-Kliknite na **Save** a skopírujte kľúč (**Show key** → kopírovať).
+Ak YouTube Data API v3 v zozname nie je, vráťte sa ku kroku 3. Obmedzenia aplikácií nechajte na **None**.
 
 ## 5. Vložte ho do aplikácie
 
-Vo Flag Battle otvorte **Nastavenia → Súboj → Režim streamera** a ťuknite na tlačidlo vloženia vedľa poľa kľúča YouTube API. Kľúč sa ukladá iba vo vašom telefóne, v zabezpečenom úložisku, a nikdy sa nezobrazuje na obrazovke.
+Vo Flag Battle: hlavná obrazovka → **Nastavenia** → režim **Súboj** → **Režim streamera** → **Zap.**. Ťuknite na tlačidlo vloženia vedľa **Tvoj kľúč YouTube API v3** — nie do poľa textu nápovedy pod ním. Kľúč je uložený iba vo vašom telefóne, v zabezpečenom úložisku, a nikdy sa nezobrazuje na obrazovke.
+
+## Ak je kľúč odmietnutý
+
+Dôvod uvidíte v bloku **ĎALEJ**:
+
+- **„YouTube Data API v3 je pre tento kľúč vypnuté“** — urobte krok 3 v tom istom projekte, kde je kľúč, a počkajte pár minút.
+- **„obmedzenia kľúča blokujú YouTube“** — otvorte kľúč v [Credentials](https://console.cloud.google.com/apis/credentials): v obmedzeniach API musí byť **YouTube Data API v3**, obmedzenia aplikácií na **None**.
+- **„kľúč YouTube je neplatný“** — kľúč sa neskopíroval celý: začína sa `AIza` a má 39 znakov.
+
+Potom sa vráťte do menu a spustite stream znova.
 
 ## Dobré vedieť
 

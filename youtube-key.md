@@ -8,24 +8,31 @@ Go to [console.cloud.google.com](https://console.cloud.google.com/) and sign in 
 
 ## 2. Create a project
 
-At the top of the page click the project picker (**Select a project**), then **New project**. Any name works, for example `flag-battle`. Click **Create** and make sure the new project is selected at the top.
+At the top of the page click the project picker (**Select a project**), then **New project**. Any name works, for example `flag-battle`. Click **Create**, then check that the new project is selected at the top — everything below happens in it.
 
-## 3. Turn on the YouTube Data API
+## 3. Turn on YouTube Data API v3 — before creating the key
 
-Open [YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com) and click **Enable**.
+Open [YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com) and click **Enable**. It's on when the button changes to **Manage**. Without this step the key won't work.
 
 ## 4. Create the key
 
-Open [Credentials](https://console.cloud.google.com/apis/credentials), click **Create credentials** → **API key**. Open the new key to edit it:
+Open [Credentials](https://console.cloud.google.com/apis/credentials) → **Create credentials** → **API key**. In the API restrictions list tick only **YouTube Data API v3**, then click **Create**. The **API key created** window shows your key — copy it.
 
-- **API restrictions** → **Restrict key** → tick only **YouTube Data API v3**. Then a leaked key can't be used for anything else.
-- **Application restrictions** can stay **None**.
-
-Click **Save**, then copy the key (**Show key** → copy).
+If YouTube Data API v3 isn't in the list, go back to step 3. Leave the application restrictions at **None**.
 
 ## 5. Paste it into the app
 
-In Flag Battle open **Settings → Duel → Streamer mode** and tap the paste button next to **Your YouTube API key**. The key is stored only on your phone, in its secure storage, and is never shown on screen.
+In Flag Battle: main screen → **Settings** → mode **Duel** → **Streamer mode** → **On**. Tap the paste button next to **Your YouTube API v3 key** — not into the hint text field below it. The key is stored only on your phone, in its secure storage, and is never shown on screen.
+
+## If the key is rejected
+
+The **NEXT** block shows why:
+
+- **«YouTube Data API v3 is off for this key»** — do step 3 in the same project the key belongs to, then wait a few minutes.
+- **«key restrictions block YouTube»** — open the key in [Credentials](https://console.cloud.google.com/apis/credentials): API restrictions must include **YouTube Data API v3**, application restrictions must be **None**.
+- **«YouTube key is invalid»** — the key was copied incompletely: it starts with `AIza` and is 39 characters long.
+
+After fixing it, go back to the menu and start the stream again.
 
 ## Good to know
 

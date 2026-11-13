@@ -8,24 +8,31 @@
 
 ## 2. 프로젝트 만들기
 
-페이지 상단의 프로젝트 선택(**Select a project**)을 클릭한 다음 **New project**를 클릭합니다. 이름은 아무거나 괜찮습니다(예: `flag-battle`). **Create**를 클릭하고 상단에서 새 프로젝트가 선택되어 있는지 확인합니다.
+페이지 상단의 프로젝트 선택(**Select a project**)을 클릭한 다음 **New project**를 누르세요. 이름은 아무거나 괜찮아요(예: `flag-battle`). **Create**를 누르고 상단에 새 프로젝트가 선택됐는지 확인하세요. 이후 작업은 모두 이 프로젝트에서 합니다.
 
-## 3. YouTube Data API 사용 설정
+## 3. YouTube Data API v3 사용 설정 — 키를 만들기 전에
 
-[YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com)를 열고 **Enable**을 클릭합니다.
+[YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com)를 열고 **Enable**을 누르세요. 버튼이 **Manage**로 바뀌면 켜진 거예요. 이 단계를 건너뛰면 키가 작동하지 않아요.
 
 ## 4. 키 만들기
 
-[Credentials](https://console.cloud.google.com/apis/credentials)를 열고 **Create credentials** → **API key**를 클릭합니다. 새 키를 열어 수정합니다.
+[Credentials](https://console.cloud.google.com/apis/credentials) → **Create credentials** → **API key**. API 제한 목록에서 **YouTube Data API v3**만 선택하고 **Create**를 누르세요. **API key created** 창에 키가 표시되면 복사하세요.
 
-- **API restrictions** → **Restrict key** → **YouTube Data API v3**만 선택합니다. 그러면 키가 유출되어도 다른 용도로는 쓸 수 없습니다.
-- **Application restrictions**는 **None**으로 두어도 됩니다.
+목록에 YouTube Data API v3가 없으면 3단계로 돌아가세요. 애플리케이션 제한은 **None**으로 두세요.
 
-**Save**를 클릭한 다음 키를 복사합니다(**Show key** → 복사).
+## 5. 앱에 붙여 넣기
 
-## 5. 앱에 붙여넣기
+Flag Battle에서: 메인 화면 → **설정** → 모드 **듀얼** → **스트리머 모드** → **켜기**. **내 YouTube API v3 키** 옆의 붙여 넣기 버튼을 누르세요(아래 힌트 문구 칸이 아니에요). 키는 휴대폰의 보안 저장소에만 저장되며 화면에 표시되지 않아요.
 
-Flag Battle에서 **설정 → 듀얼 → 스트리머 모드**를 열고 YouTube API 키 칸 옆의 붙여넣기 버튼을 탭합니다. 키는 휴대전화의 보안 저장소에만 저장되며 화면에는 절대 표시되지 않습니다.
+## 키가 거부되면
+
+이유는 **다음** 블록에 표시돼요:
+
+- **「이 키에 YouTube Data API v3가 꺼져 있어요」** — 키가 있는 같은 프로젝트에서 3단계를 하고 몇 분 기다리세요.
+- **「키 제한이 YouTube를 막고 있어요」** — [Credentials](https://console.cloud.google.com/apis/credentials)에서 키를 열고 API 제한에 **YouTube Data API v3**가 있는지, 애플리케이션 제한이 **None**인지 확인하세요.
+- **「YouTube 키가 올바르지 않아요」** — 키가 덜 복사됐어요. 키는 `AIza`로 시작하는 39자예요.
+
+고친 뒤 메뉴로 돌아가 방송을 다시 시작하세요.
 
 ## 알아두면 좋은 점
 

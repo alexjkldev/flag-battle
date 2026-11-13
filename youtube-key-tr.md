@@ -8,24 +8,31 @@ Yayıncı modu, canlı yayınınızın sohbetini YouTube Data API üzerinden oku
 
 ## 2. Proje oluşturun
 
-Sayfanın üstünde proje seçiciye (**Select a project**), ardından **New project**'e tıklayın. Herhangi bir ad olur, örneğin `flag-battle`. **Create**'e tıklayın ve üstte yeni projenin seçili olduğundan emin olun.
+Sayfanın üstünde proje seçiciye (**Select a project**), ardından **New project**'e tıklayın. Herhangi bir ad olur, örneğin `flag-battle`. **Create**'e tıklayın ve üstte yeni projenin seçili olduğunu kontrol edin — sonraki her şey onun içinde yapılır.
 
-## 3. YouTube Data API'yi etkinleştirin
+## 3. YouTube Data API v3'ü açın — anahtarı oluşturmadan önce
 
-[YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com) sayfasını açın ve **Enable**'a tıklayın.
+[YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com) sayfasını açın ve **Enable**'a tıklayın. Düğme **Manage** olduğunda açılmıştır. Bu adım olmadan anahtar çalışmaz.
 
 ## 4. Anahtarı oluşturun
 
-[Credentials](https://console.cloud.google.com/apis/credentials) sayfasını açın, **Create credentials** → **API key**'e tıklayın. Yeni anahtarı düzenlemek için açın:
+[Credentials](https://console.cloud.google.com/apis/credentials) → **Create credentials** → **API key**. API kısıtlamaları listesinde yalnızca **YouTube Data API v3**'ü işaretleyin ve **Create**'e tıklayın. **API key created** penceresinde anahtarınız görünür — kopyalayın.
 
-- **API restrictions** → **Restrict key** → yalnızca **YouTube Data API v3**'ü işaretleyin. Böylece sızan bir anahtar başka hiçbir şey için kullanılamaz.
-- **Application restrictions** **None** olarak kalabilir.
-
-**Save**'e tıklayın ve anahtarı kopyalayın (**Show key** → kopyala).
+Listede YouTube Data API v3 yoksa 3. adıma dönün. Uygulama kısıtlamalarını **None** bırakın.
 
 ## 5. Uygulamaya yapıştırın
 
-Flag Battle'da **Ayarlar → Düello → Yayıncı modu**'nu açın ve YouTube API anahtarı alanının yanındaki yapıştır düğmesine dokunun. Anahtar yalnızca telefonunuzda, güvenli depolama alanında saklanır ve ekranda asla gösterilmez.
+Flag Battle'da: ana ekran → **Ayarlar** → **Düello** modu → **Yayıncı modu** → **Açık**. **YouTube API v3 anahtarın** alanının yanındaki yapıştır düğmesine dokunun — altındaki ipucu metni alanına değil. Anahtar yalnızca telefonunuzda, güvenli depolamada saklanır ve ekranda asla gösterilmez.
+
+## Anahtar reddedilirse
+
+Nedeni **SIRADAKİ** bloğunda görünür:
+
+- **«bu anahtar için YouTube Data API v3 kapalı»** — anahtarın ait olduğu projede 3. adımı yapın ve birkaç dakika bekleyin.
+- **«anahtar kısıtlamaları YouTube’u engelliyor»** — anahtarı [Credentials](https://console.cloud.google.com/apis/credentials) içinde açın: API kısıtlamalarında **YouTube Data API v3** olmalı, uygulama kısıtlamaları **None** olmalı.
+- **«YouTube anahtarı geçersiz»** — anahtar eksik kopyalanmış: `AIza` ile başlar ve 39 karakterdir.
+
+Ardından menüye dönüp yayını yeniden başlatın.
 
 ## Bilmekte fayda var
 

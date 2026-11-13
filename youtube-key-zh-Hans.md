@@ -8,24 +8,31 @@
 
 ## 2. 创建项目
 
-点击页面顶部的项目选择器（**Select a project**），然后点击 **New project**。名称随意，例如 `flag-battle`。点击 **Create**，并确认顶部已选中新项目。
+在页面顶部点击项目选择器（**Select a project**），然后点 **New project**。名称随意，例如 `flag-battle`。点击 **Create**，并确认顶部已选中新项目——后面的操作都在这个项目里完成。
 
-## 3. 启用 YouTube Data API
+## 3. 启用 YouTube Data API v3——在创建密钥之前
 
-打开 [YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com)，点击 **Enable**。
+打开 [YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com)，点击 **Enable**。按钮变成 **Manage** 即表示已启用。跳过这一步，密钥将无法使用。
 
 ## 4. 创建密钥
 
-打开 [Credentials](https://console.cloud.google.com/apis/credentials)，点击 **Create credentials** → **API key**。打开新密钥进行编辑：
+打开 [Credentials](https://console.cloud.google.com/apis/credentials) → **Create credentials** → **API key**。在 API 限制列表中只勾选 **YouTube Data API v3**，然后点击 **Create**。**API key created** 窗口会显示你的密钥——复制它。
 
-- **API restrictions** → **Restrict key** → 只勾选 **YouTube Data API v3**。这样即使密钥泄露，也无法用于其他用途。
-- **Application restrictions** 可以保持 **None**。
+如果列表里没有 YouTube Data API v3，请回到第 3 步。应用限制保持 **None**。
 
-点击 **Save**，然后复制密钥（**Show key** → 复制）。
+## 5. 粘贴到应用
 
-## 5. 粘贴到应用中
+在 Flag Battle 中：主界面 → **设置** → 模式 **决斗** → **主播模式** → **开**。点击 **你的 YouTube API v3 密钥** 旁边的粘贴按钮——不是下方的提示文字输入框。密钥只保存在你手机的安全存储中，绝不会显示在屏幕上。
 
-在 Flag Battle 中打开 **设置 → 决斗 → 主播模式**，点按 YouTube API 密钥栏旁边的粘贴按钮。密钥只保存在你手机的安全存储中，绝不会显示在屏幕上。
+## 如果密钥被拒绝
+
+原因会显示在 **下一场** 区域：
+
+- **“此密钥未启用 YouTube Data API v3”**——在密钥所属的同一项目中完成第 3 步，然后等几分钟。
+- **“密钥限制阻止了 YouTube”**——在 [Credentials](https://console.cloud.google.com/apis/credentials) 中打开密钥：API 限制中必须有 **YouTube Data API v3**，应用限制应为 **None**。
+- **“YouTube 密钥无效”**——密钥没有复制完整：它以 `AIza` 开头，共 39 个字符。
+
+修正后回到菜单，重新开始直播。
 
 ## 须知
 

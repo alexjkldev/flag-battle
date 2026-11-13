@@ -8,24 +8,31 @@ Wejdź na [console.cloud.google.com](https://console.cloud.google.com/) i zalogu
 
 ## 2. Utwórz projekt
 
-U góry strony kliknij wybór projektu (**Select a project**), a potem **New project**. Nazwa może być dowolna, np. `flag-battle`. Kliknij **Create** i sprawdź, czy u góry wybrany jest nowy projekt.
+U góry strony kliknij wybór projektu (**Select a project**), a potem **New project**. Nazwa dowolna, np. `flag-battle`. Kliknij **Create** i sprawdź, czy u góry wybrany jest nowy projekt — wszystko dalej robisz w nim.
 
-## 3. Włącz YouTube Data API
+## 3. Włącz YouTube Data API v3 — przed utworzeniem klucza
 
-Otwórz [YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com) i kliknij **Enable**.
+Otwórz [YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com) i kliknij **Enable**. API jest włączone, gdy przycisk zmieni się na **Manage**. Bez tego kroku klucz nie zadziała.
 
 ## 4. Utwórz klucz
 
-Otwórz [Credentials](https://console.cloud.google.com/apis/credentials) i kliknij **Create credentials** → **API key**. Otwórz nowy klucz do edycji:
+Otwórz [Credentials](https://console.cloud.google.com/apis/credentials) → **Create credentials** → **API key**. Na liście ograniczeń API zaznacz tylko **YouTube Data API v3** i kliknij **Create**. W oknie **API key created** zobaczysz klucz — skopiuj go.
 
-- **API restrictions** → **Restrict key** → zaznacz tylko **YouTube Data API v3**. Wtedy wyciek klucza nie pozwoli użyć go do niczego innego.
-- **Application restrictions** może zostać **None**.
-
-Kliknij **Save** i skopiuj klucz (**Show key** → kopiuj).
+Jeśli na liście nie ma YouTube Data API v3, wróć do kroku 3. Ograniczenia aplikacji zostaw na **None**.
 
 ## 5. Wklej go w aplikacji
 
-W Flag Battle otwórz **Ustawienia → Pojedynek → Tryb streamera** i stuknij przycisk wklejania obok pola klucza API YouTube. Klucz jest przechowywany tylko na Twoim telefonie, w bezpiecznym magazynie, i nigdy nie pojawia się na ekranie.
+W Flag Battle: ekran główny → **Ustawienia** → tryb **Pojedynek** → **Tryb streamera** → **Wł.**. Stuknij przycisk wklejania obok pola **Twój klucz YouTube API v3** — nie w pole tekstu podpowiedzi poniżej. Klucz jest przechowywany tylko na Twoim telefonie, w bezpiecznym magazynie, i nigdy nie jest pokazywany na ekranie.
+
+## Jeśli klucz zostanie odrzucony
+
+Przyczynę widać w bloku **NASTĘPNI**:
+
+- **„YouTube Data API v3 jest wyłączone dla tego klucza”** — wykonaj krok 3 w tym samym projekcie, w którym jest klucz, i odczekaj kilka minut.
+- **„ograniczenia klucza blokują YouTube”** — otwórz klucz w [Credentials](https://console.cloud.google.com/apis/credentials): w ograniczeniach API musi być **YouTube Data API v3**, a ograniczenia aplikacji na **None**.
+- **„klucz YouTube jest nieprawidłowy”** — klucz skopiowano niecały: zaczyna się od `AIza` i ma 39 znaków.
+
+Potem wróć do menu i uruchom transmisję ponownie.
 
 ## Warto wiedzieć
 

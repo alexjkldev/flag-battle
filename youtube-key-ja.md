@@ -6,26 +6,33 @@
 
 [console.cloud.google.com](https://console.cloud.google.com/) を開き、任意の Google アカウントでログインします（チャンネルのアカウントでなくてもかまいません）。求められたら利用規約に同意してください。クレジットカードは不要です。
 
-## 2. プロジェクトを作成する
+## 2. プロジェクトを作成
 
-ページ上部のプロジェクト選択（**Select a project**）をクリックし、**New project** をクリックします。名前は何でもかまいません（例：`flag-battle`）。**Create** をクリックし、上部で新しいプロジェクトが選択されていることを確認します。
+ページ上部のプロジェクト選択（**Select a project**）をクリックし、**New project** を選びます。名前は何でも構いません（例：`flag-battle`）。**Create** をクリックし、上部で新しいプロジェクトが選択されていることを確認します。以降の作業はすべてこのプロジェクトで行います。
 
-## 3. YouTube Data API を有効にする
+## 3. YouTube Data API v3 を有効化 — キーを作る前に
 
-[YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com) を開き、**Enable** をクリックします。
+[YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com) を開き、**Enable** をクリックします。ボタンが **Manage** に変われば有効です。この手順がないとキーは動作しません。
 
-## 4. キーを作成する
+## 4. キーを作成
 
-[Credentials](https://console.cloud.google.com/apis/credentials) を開き、**Create credentials** → **API key** をクリックします。新しいキーを開いて編集します。
+[Credentials](https://console.cloud.google.com/apis/credentials) → **Create credentials** → **API key**。API の制限リストで **YouTube Data API v3** だけにチェックを入れ、**Create** をクリックします。**API key created** の画面にキーが表示されるのでコピーします。
 
-- **API restrictions** → **Restrict key** → **YouTube Data API v3** のみにチェックを入れます。これで、キーが漏れても他の用途には使えません。
-- **Application restrictions** は **None** のままでかまいません。
+リストに YouTube Data API v3 がない場合は、手順 3 に戻ってください。アプリケーションの制限は **None** のままにします。
 
-**Save** をクリックし、キーをコピーします（**Show key** → コピー）。
+## 5. アプリに貼り付け
 
-## 5. アプリに貼り付ける
+Flag Battle で：メイン画面 → **設定** → モード **デュエル** → **ストリーマーモード** → **オン**。**YouTube API v3 キー** の横の貼り付けボタンをタップします（その下のヒント文の欄ではありません）。キーはスマホの安全な保存領域にだけ保存され、画面に表示されることはありません。
 
-Flag Battle で **設定 → デュエル → ストリーマーモード** を開き、YouTube API キー欄の横にある貼り付けボタンをタップします。キーはお使いのスマートフォンの安全なストレージにのみ保存され、画面に表示されることはありません。
+## キーが拒否された場合
+
+理由は **次** ブロックに表示されます：
+
+- **「このキーで YouTube Data API v3 が無効です」** — キーと同じプロジェクトで手順 3 を行い、数分待ってください。
+- **「キーの制限で YouTube がブロックされています」** — [Credentials](https://console.cloud.google.com/apis/credentials) でキーを開き、API の制限に **YouTube Data API v3** があること、アプリケーションの制限が **None** であることを確認します。
+- **「YouTube キーが無効です」** — キーのコピーが途中で切れています。キーは `AIza` で始まる 39 文字です。
+
+修正したらメニューに戻り、配信をもう一度開始してください。
 
 ## 知っておくと便利なこと
 

@@ -8,24 +8,31 @@ Truy cập [console.cloud.google.com](https://console.cloud.google.com/) và đ�
 
 ## 2. Tạo dự án
 
-Ở đầu trang, nhấp vào bộ chọn dự án (**Select a project**), rồi **New project**. Đặt tên gì cũng được, ví dụ `flag-battle`. Nhấp **Create** và kiểm tra rằng dự án mới đã được chọn ở đầu trang.
+Ở đầu trang, nhấp vào bộ chọn dự án (**Select a project**), rồi **New project**. Tên nào cũng được, ví dụ `flag-battle`. Nhấp **Create** và kiểm tra dự án mới đã được chọn ở trên cùng — mọi bước sau đều làm trong đó.
 
-## 3. Bật YouTube Data API
+## 3. Bật YouTube Data API v3 — trước khi tạo khóa
 
-Mở [YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com) và nhấp **Enable**.
+Mở [YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com) và nhấp **Enable**. API đã bật khi nút đổi thành **Manage**. Không có bước này, khóa sẽ không hoạt động.
 
 ## 4. Tạo khóa
 
-Mở [Credentials](https://console.cloud.google.com/apis/credentials), nhấp **Create credentials** → **API key**. Mở khóa mới để chỉnh sửa:
+Mở [Credentials](https://console.cloud.google.com/apis/credentials) → **Create credentials** → **API key**. Trong danh sách giới hạn API, chỉ đánh dấu **YouTube Data API v3**, rồi nhấp **Create**. Cửa sổ **API key created** hiện khóa của bạn — hãy sao chép.
 
-- **API restrictions** → **Restrict key** → chỉ đánh dấu **YouTube Data API v3**. Khi đó, khóa bị lộ cũng không dùng được vào việc khác.
-- **Application restrictions** có thể để **None**.
-
-Nhấp **Save**, rồi sao chép khóa (**Show key** → sao chép).
+Nếu không thấy YouTube Data API v3 trong danh sách, quay lại bước 3. Để giới hạn ứng dụng ở **None**.
 
 ## 5. Dán vào ứng dụng
 
-Trong Flag Battle, mở **Cài đặt → Đấu tay đôi → Chế độ streamer** và chạm vào nút dán cạnh ô khóa API YouTube. Khóa chỉ được lưu trên điện thoại của bạn, trong bộ nhớ an toàn, và không bao giờ hiển thị trên màn hình.
+Trong Flag Battle: màn hình chính → **Cài đặt** → chế độ **Đấu tay đôi** → **Chế độ streamer** → **Bật**. Chạm nút dán cạnh **Khóa YouTube API v3 của bạn** — không phải ô văn bản gợi ý bên dưới. Khóa chỉ lưu trên điện thoại của bạn, trong bộ nhớ bảo mật, và không bao giờ hiện trên màn hình.
+
+## Nếu khóa bị từ chối
+
+Khối **TIẾP THEO** cho biết lý do:
+
+- **«YouTube Data API v3 chưa bật cho khóa này»** — làm bước 3 trong cùng dự án chứa khóa, rồi đợi vài phút.
+- **«giới hạn của khóa chặn YouTube»** — mở khóa trong [Credentials](https://console.cloud.google.com/apis/credentials): giới hạn API phải có **YouTube Data API v3**, giới hạn ứng dụng phải là **None**.
+- **«khóa YouTube không hợp lệ»** — khóa được sao chép chưa đủ: bắt đầu bằng `AIza` và dài 39 ký tự.
+
+Sau đó quay lại menu và bắt đầu phát lại.
 
 ## Nên biết
 

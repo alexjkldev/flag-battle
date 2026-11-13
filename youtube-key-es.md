@@ -8,24 +8,31 @@ Ve a [console.cloud.google.com](https://console.cloud.google.com/) e inicia sesi
 
 ## 2. Crea un proyecto
 
-Arriba, haz clic en el selector de proyectos (**Select a project**) y luego en **New project**. Cualquier nombre sirve, por ejemplo `flag-battle`. Pulsa **Create** y comprueba que arriba está seleccionado el proyecto nuevo.
+Arriba de la página pulsa el selector de proyectos (**Select a project**) y luego **New project**. Cualquier nombre sirve, por ejemplo `flag-battle`. Pulsa **Create** y comprueba que arriba está seleccionado el proyecto nuevo — todo lo demás se hace en él.
 
-## 3. Activa la YouTube Data API
+## 3. Activa YouTube Data API v3 — antes de crear la clave
 
-Abre [YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com) y pulsa **Enable**.
+Abre [YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com) y pulsa **Enable**. Está activada cuando el botón cambia a **Manage**. Sin este paso la clave no funcionará.
 
 ## 4. Crea la clave
 
-Abre [Credentials](https://console.cloud.google.com/apis/credentials) y pulsa **Create credentials** → **API key**. Abre la clave nueva para editarla:
+Abre [Credentials](https://console.cloud.google.com/apis/credentials) → **Create credentials** → **API key**. En la lista de restricciones de API marca solo **YouTube Data API v3** y pulsa **Create**. En la ventana **API key created** aparece tu clave — cópiala.
 
-- **API restrictions** → **Restrict key** → marca solo **YouTube Data API v3**. Así, si la clave se filtra, no servirá para nada más.
-- **Application restrictions** puede quedarse en **None**.
-
-Pulsa **Save** y copia la clave (**Show key** → copiar).
+Si YouTube Data API v3 no está en la lista, vuelve al paso 3. Deja las restricciones de aplicación en **None**.
 
 ## 5. Pégala en la app
 
-En Flag Battle abre **Ajustes → Duelo → Modo streamer** y toca el botón de pegar junto al campo de la clave de la API de YouTube. La clave se guarda solo en tu móvil, en su almacenamiento seguro, y nunca se muestra en pantalla.
+En Flag Battle: pantalla principal → **Ajustes** → modo **Duelo** → **Modo streamer** → **Sí**. Pulsa el botón de pegar junto a **Tu clave de la API v3 de YouTube** — no en el campo de texto de la pista de debajo. La clave se guarda solo en tu teléfono, en su almacenamiento seguro, y nunca se muestra en pantalla.
+
+## Si la clave es rechazada
+
+El bloque **SIGUIENTE** muestra el motivo:
+
+- **«YouTube Data API v3 está desactivada para esta clave»** — haz el paso 3 en el mismo proyecto de la clave y espera unos minutos.
+- **«las restricciones de la clave bloquean YouTube»** — abre la clave en [Credentials](https://console.cloud.google.com/apis/credentials): en las restricciones de API debe estar **YouTube Data API v3** y las de aplicación en **None**.
+- **«la clave de YouTube no es válida»** — la clave se copió incompleta: empieza por `AIza` y tiene 39 caracteres.
+
+Después vuelve al menú e inicia el directo de nuevo.
 
 ## Conviene saber
 

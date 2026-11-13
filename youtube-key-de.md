@@ -8,24 +8,31 @@ Der Streamer-Modus liest deinen Livechat über die YouTube Data API. Ohne Schlü
 
 ## 2. Projekt anlegen
 
-Klicke oben auf die Projektauswahl (**Select a project**) und dann auf **New project**. Der Name ist egal, z. B. `flag-battle`. Klicke auf **Create** und prüfe, dass oben das neue Projekt ausgewählt ist.
+Klicke oben auf die Projektauswahl (**Select a project**) und dann auf **New project**. Der Name ist egal, zum Beispiel `flag-battle`. Klicke auf **Create** und prüfe, dass oben das neue Projekt ausgewählt ist — alles Weitere passiert darin.
 
-## 3. YouTube Data API aktivieren
+## 3. YouTube Data API v3 einschalten — vor dem Schlüssel
 
-Öffne [YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com) und klicke auf **Enable**.
+Öffne [YouTube Data API v3](https://console.cloud.google.com/apis/library/youtube.googleapis.com) und klicke auf **Enable**. Die API ist an, wenn die Schaltfläche zu **Manage** wird. Ohne diesen Schritt funktioniert der Schlüssel nicht.
 
 ## 4. Schlüssel erstellen
 
-Öffne [Credentials](https://console.cloud.google.com/apis/credentials) und klicke auf **Create credentials** → **API key**. Öffne den neuen Schlüssel zum Bearbeiten:
+Öffne [Credentials](https://console.cloud.google.com/apis/credentials) → **Create credentials** → **API key**. Hake in der Liste der API-Einschränkungen nur **YouTube Data API v3** an und klicke auf **Create**. Im Fenster **API key created** steht dein Schlüssel — kopiere ihn.
 
-- **API restrictions** → **Restrict key** → nur **YouTube Data API v3** anhaken. Dann lässt sich ein geleakter Schlüssel für nichts anderes nutzen.
-- **Application restrictions** kann auf **None** bleiben.
-
-Klicke auf **Save** und kopiere den Schlüssel (**Show key** → kopieren).
+Fehlt YouTube Data API v3 in der Liste, geh zurück zu Schritt 3. Lass die Anwendungseinschränkungen auf **None**.
 
 ## 5. In die App einfügen
 
-Öffne in Flag Battle **Einstellungen → Duell → Streamer-Modus** und tippe auf die Einfügen-Schaltfläche neben dem Feld für den YouTube-API-Schlüssel. Der Schlüssel wird nur auf deinem Handy im sicheren Speicher abgelegt und nie auf dem Bildschirm angezeigt.
+In Flag Battle: Startbildschirm → **Einstellungen** → Modus **Duell** → **Streamer-Modus** → **An**. Tippe auf die Einfügen-Schaltfläche neben **Dein YouTube-API-v3-Schlüssel** — nicht ins Hinweistext-Feld darunter. Der Schlüssel wird nur auf deinem Handy im sicheren Speicher abgelegt und nie auf dem Bildschirm angezeigt.
+
+## Wenn der Schlüssel abgelehnt wird
+
+Der Grund steht im Block **NÄCHSTE**:
+
+- **„YouTube Data API v3 ist für diesen Schlüssel aus“** — mach Schritt 3 im selben Projekt, zu dem der Schlüssel gehört, und warte ein paar Minuten.
+- **„Schlüssel-Einschränkungen blockieren YouTube“** — öffne den Schlüssel in [Credentials](https://console.cloud.google.com/apis/credentials): Unter den API-Einschränkungen muss **YouTube Data API v3** stehen, die Anwendungseinschränkungen auf **None**.
+- **„YouTube-Schlüssel ungültig“** — der Schlüssel wurde unvollständig kopiert: Er beginnt mit `AIza` und ist 39 Zeichen lang.
+
+Danach zurück ins Menü und den Stream neu starten.
 
 ## Gut zu wissen
 
